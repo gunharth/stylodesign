@@ -9,16 +9,14 @@
     },
     "devDependencies": {
         "autoprefixer": "^10.2.4",
-        "cross-env": "^5.1",
         "laravel-mix": "^6.0.11",
-        "postcss-import": "^12.0.1",
-        "postcss-nested": "^4.2.1",
+        "postcss": "^8.2.6",
+        "postcss-import": "^14.0.0",
+        "postcss-nested": "^5.0.3",
         "postcss-preset-env": "^6.7.0",
-        "tailwindcss": "^2.0.3",
-        "vue-template-compiler": "^2.6.12"
+        "tailwindcss": "^2.0.3"
     },
     "dependencies": {
-        "alpinejs": "^1.9.2",
-        "postcss": "^8.2.6"
+        "alpinejs": "^2.8.0"
     }
 }

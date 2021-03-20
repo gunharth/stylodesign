@@ -13,6 +13,8 @@ fields:
       icon: color
       listable: hidden
       width: 33
+      validate:
+        - required
   -
     handle: hover_color
     field:

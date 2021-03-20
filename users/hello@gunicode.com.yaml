@@ -6,3 +6,6 @@ preferences:
   assets:
     assets:
       mode: table
+  collections:
+    projects:
+      after_save: continue_editing

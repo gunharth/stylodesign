@@ -1,0 +1,16 @@
+title: Section
+fields:
+  -
+    handle: slides
+    field:
+      collapse: false
+      sets:
+        slides:
+          display: Slides
+          fields:
+            -
+              import: slide
+      display: Slides
+      type: replicator
+      icon: replicator
+      listable: hidden

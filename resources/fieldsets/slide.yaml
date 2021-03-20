@@ -1,0 +1,80 @@
+title: Slide
+fields:
+  -
+    handle: type_color
+    field:
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - HEXA
+      display: 'Type Color'
+      type: color
+      icon: color
+      listable: hidden
+      width: 33
+  -
+    handle: hover_color
+    field:
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - HEXA
+      display: 'Hover Color'
+      type: color
+      icon: color
+      width: 33
+      listable: hidden
+  -
+    handle: background_color
+    field:
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - HEXA
+      display: 'Background Color'
+      type: color
+      icon: color
+      width: 33
+      listable: hidden
+  -
+    handle: image
+    field:
+      mode: grid
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      display: Image
+      type: assets
+      icon: assets
+      listable: hidden
+      width: 50
+  -
+    handle: video
+    field:
+      display: Video
+      type: video
+      icon: video
+      width: 50
+      listable: hidden
+  -
+    handle: bard
+    field:
+      always_show_set_button: false
+      buttons:
+        - removeformat
+        - anchor
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      display: Bard
+      type: bard
+      icon: bard
+      listable: hidden

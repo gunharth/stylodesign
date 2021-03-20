@@ -1,5 +1,8 @@
-{{ title }}
-
+<script>
+    let slideAnchors = [];
+</script>
 {{ sections }}
-    {{ partial:partials/section }}
+    {{ scope:section }}
+        {{ partial:partials/section }}
+    {{ /scope:section }}
 {{ /sections }}

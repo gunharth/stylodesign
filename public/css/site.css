@@ -1,0 +1,226 @@
+/* System Fonts as used by GitHub */
+body {
+  font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body,
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  /*text-decoration: underline;*/
+  color: #c5c5c5;
+}
+
+/* Style for our header texts
+	* --------------------------------------- */
+h1 {
+  font-size: 2em;
+  /*font-family: arial, helvetica;*/
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  /* h1 {
+  		font-size: 5em;
+  	} */
+}
+h1.hov:hover {
+  color: #c5c5c5;
+  cursor: pointer;
+}
+
+h2.hov:hover {
+  cursor: pointer;
+}
+
+header {
+  position: fixed;
+  height: 50px;
+  display: block;
+  width: 100%;
+  background: #333;
+  z-index: 9;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 20px 0 0 0;
+  opacity: 0.3;
+}
+
+/* Centered texts in each section
+	* --------------------------------------- */
+.section {
+  text-align: center;
+  overflow: hidden;
+}
+
+.section, .section .fp-slidesContainer .slide {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.section .fp-slidesContainer .slide div {
+  z-index: 4;
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-color: black;
+  background-position: center center;
+  background-size: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /*cover video background */
+  z-index: 3;
+}
+
+#video-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: #fff;
+  transition: all 0.3s ease-out;
+  transform: translate3d(100%, 0, 0);
+}
+
+#video-modal.transformed {
+  transform: translate3d(0, 0, 0);
+}
+
+.fp-slides.transformed {
+  transform: translate3d(-100%, 0, 0);
+}
+
+/* Layer with position absolute in order to have it over the video
+	* --------------------------------------- */
+.layer {
+  position: absolute;
+  z-index: 3;
+  left: 5%;
+  bottom: 5%;
+  /*
+  * Preventing flicker on some browsers
+  * See http://stackoverflow.com/a/36671466/1081396  or issue #183
+  */
+  transform: translate3d(0, 0, 0);
+}
+
+/*solves problem with overflowing video in Mac with Chrome */
+/* #section0 {
+			overflow: hidden;
+		} */
+/* Hiding video controls
+	* See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
+	* --------------------------------------- */
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+.fp-tableCell {
+  position: relative;
+}
+
+video {
+  width: 100%;
+}
+
+.fp-slidesNav {
+  left: auto !important;
+  right: 5%;
+}
+
+/* .fp-controlArrow{
+	width: 50%;
+	height: 100%;
+	top: 0;
+}
+.fp-controlArrow.fp-next {
+	border: 0;
+}
+
+.fp-controlArrow.fp-prev {
+	width: 50%;
+	border: 0;
+} */
+/* .fp-tableCell {
+			position: relative;
+			overflow: hidden;
+		} */
+/* #loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #000;
+} */
+/* #timer {
+	height: 5px;
+	width: 0px;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+	z-index: 9999;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#timer.transition {
+	width: 100%;
+	-webkit-transition: width 4s;
+    transition: width 4s;
+} */
+.nextSection {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  margin-left: -10px;
+  z-index: 5;
+  width: 20px;
+}
+
+.nextSection:hover {
+  cursor: pointer;
+}
+
+.nextSection img {
+  height: auto;
+  width: 20px;
+}
+
+/* @media only screen and (max-width: 1024px) and (min-device-pixel-ratio: 1.5)  { */
+/* @media only screen and (max-width: 1024px) {
+  .myVideo {
+    display: none;
+  }
+} */
+/* @media only screen and (min-width: 1024px)  {
+	.section {
+		background: none !important;
+	}
+} */
+.video-js .vjs-control-bar {
+  background-color: #000;
+}
+
+.vjs-loading-spinner {
+  display: none !important;
+}

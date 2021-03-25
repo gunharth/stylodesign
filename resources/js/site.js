@@ -16,7 +16,9 @@
 //   "section10",
 //   "footer",
 // ];
+
 $(function () {
+  slideAnchors.push("contact");
   $("#fullpage").fullpage({
     anchors: slideAnchors,
     //sectionsColor: ["#000000", "#000000", "#000000", "#000000"],
@@ -31,33 +33,33 @@ $(function () {
     onLeave(index, nextIndex, direction) {},
     afterLoad: function (anchorLink, index) {},
     afterSlideLoad: function (section, origin, destination, direction) {
-      $("#slide-" + section.anchor)
+      console.log(section.anchor)
+      let slideSectionAnchor = $("#slide-section-" + section.anchor);
+      slideSectionAnchor
         .find("h2")
-        .removeClass(origin.anchor);
-      $("#slide-" + section.anchor)
+        .removeClass('slide'+origin.index);
+      slideSectionAnchor
         .find(".fp-slidesNav ul li a span")
-        .removeClass(origin.anchor);
-      $("#slide-" + section.anchor)
+        .removeClass('slide'+origin.index);
+      slideSectionAnchor
         .find(".fp-controlArrow.fp-prev")
-        .removeClass(origin.anchor);
-      $("#slide-" + section.anchor)
+        .removeClass('slide'+origin.index);
+      slideSectionAnchor
         .find(".fp-controlArrow.fp-next")
-        .removeClass(origin.anchor);
+        .removeClass('slide'+origin.index);
 
-      $("#slide-" + section.anchor)
+      slideSectionAnchor
         .find("h2")
-        .addClass(destination.anchor);
-      $("#slide-" + section.anchor)
+        .addClass('slide'+destination.index);
+      slideSectionAnchor
         .find(".fp-slidesNav ul li a span")
-        .addClass(destination.anchor);
-      $("#slide-" + section.anchor)
+        .addClass('slide'+destination.index);
+      slideSectionAnchor
         .find(".fp-controlArrow.fp-prev")
-        .addClass(destination.anchor);
-      $("#slide-" + section.anchor)
+        .addClass('slide'+destination.index);
+      slideSectionAnchor
         .find(".fp-controlArrow.fp-next")
-        .addClass(destination.anchor);
-      //console.log(section)
-      //console.log(destination)
+        .addClass('slide'+destination.index);
     },
     afterRender: function () {
       $(".section").each(function (index) {

@@ -3,6 +3,9 @@
 </script>
 {{ sections }}
     {{ scope:section }}
+        <script>
+            slideAnchors.push("{{ section:slug }}")
+        </script>
         {{ partial:partials/section }}
     {{ /scope:section }}
 {{ /sections }}

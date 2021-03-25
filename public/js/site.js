@@ -24,6 +24,7 @@
 //   "footer",
 // ];
 $(function () {
+  slideAnchors.push("contact");
   $("#fullpage").fullpage({
     anchors: slideAnchors,
     //sectionsColor: ["#000000", "#000000", "#000000", "#000000"],
@@ -38,15 +39,16 @@ $(function () {
     onLeave: function onLeave(index, nextIndex, direction) {},
     afterLoad: function afterLoad(anchorLink, index) {},
     afterSlideLoad: function afterSlideLoad(section, origin, destination, direction) {
-      $("#slide-" + section.anchor).find("h2").removeClass(origin.anchor);
-      $("#slide-" + section.anchor).find(".fp-slidesNav ul li a span").removeClass(origin.anchor);
-      $("#slide-" + section.anchor).find(".fp-controlArrow.fp-prev").removeClass(origin.anchor);
-      $("#slide-" + section.anchor).find(".fp-controlArrow.fp-next").removeClass(origin.anchor);
-      $("#slide-" + section.anchor).find("h2").addClass(destination.anchor);
-      $("#slide-" + section.anchor).find(".fp-slidesNav ul li a span").addClass(destination.anchor);
-      $("#slide-" + section.anchor).find(".fp-controlArrow.fp-prev").addClass(destination.anchor);
-      $("#slide-" + section.anchor).find(".fp-controlArrow.fp-next").addClass(destination.anchor); //console.log(section)
-      //console.log(destination)
+      console.log(section.anchor);
+      var slideSectionAnchor = $("#slide-section-" + section.anchor);
+      slideSectionAnchor.find("h2").removeClass('slide' + origin.index);
+      slideSectionAnchor.find(".fp-slidesNav ul li a span").removeClass('slide' + origin.index);
+      slideSectionAnchor.find(".fp-controlArrow.fp-prev").removeClass('slide' + origin.index);
+      slideSectionAnchor.find(".fp-controlArrow.fp-next").removeClass('slide' + origin.index);
+      slideSectionAnchor.find("h2").addClass('slide' + destination.index);
+      slideSectionAnchor.find(".fp-slidesNav ul li a span").addClass('slide' + destination.index);
+      slideSectionAnchor.find(".fp-controlArrow.fp-prev").addClass('slide' + destination.index);
+      slideSectionAnchor.find(".fp-controlArrow.fp-next").addClass('slide' + destination.index);
     },
     afterRender: function afterRender() {
       $(".section").each(function (index) {

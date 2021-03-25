@@ -1,6 +1,27 @@
 title: Slide
 fields:
   -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: Title
+      type: text
+      icon: text
+      width: 50
+      listable: hidden
+  -
+    handle: slug
+    field:
+      generate: true
+      display: Slug
+      type: slug
+      icon: slug
+      width: 50
+      listable: hidden
+      validate:
+        - required
+  -
     handle: type_color
     field:
       theme: classic
@@ -26,8 +47,27 @@ fields:
       display: 'Hover Color'
       type: color
       icon: color
-      width: 33
+      width: 66
       listable: hidden
+  -
+    handle: slide_type
+    field:
+      options:
+        image: Image
+        color: Color
+        video: Video
+      default: image
+      multiple: false
+      clearable: false
+      searchable: false
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: 'Slide Type'
+      type: select
+      icon: select
+      listable: hidden
+      width: 25
   -
     handle: background_color
     field:
@@ -36,11 +76,13 @@ fields:
       default_color_mode: HEXA
       color_modes:
         - HEXA
-      display: 'Background Color'
+      display: Color
       type: color
       icon: color
-      width: 33
       listable: hidden
+      if:
+        slide_type: 'equals color'
+      width: 75
   -
     handle: image
     field:
@@ -52,15 +94,27 @@ fields:
       type: assets
       icon: assets
       listable: hidden
-      width: 50
+      if:
+        slide_type: 'equals image'
+      width: 75
   -
     handle: video
     field:
       display: Video
       type: video
       icon: video
-      width: 50
       listable: hidden
+      if:
+        slide_type: 'equals video'
+      width: 75
+  -
+    handle: text_slide
+    field:
+      display: 'Text Slide'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      width: 25
   -
     handle: bard
     field:
@@ -80,3 +134,6 @@ fields:
       type: bard
       icon: bard
       listable: hidden
+      if:
+        text_slide: 'equals true'
+      width: 75

@@ -1,6 +1,16 @@
 title: Section
 fields:
   -
+    handle: slug
+    field:
+      generate: true
+      display: Slug
+      type: slug
+      icon: slug
+      listable: hidden
+      validate:
+        - required
+  -
     handle: slides
     field:
       collapse: false

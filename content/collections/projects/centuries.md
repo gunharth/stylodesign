@@ -35,13 +35,40 @@ sections:
       -
         type_color: '#FFFFFF'
         hover_color: '#000000'
-        background_color: '#000000'
+        background_color: '#D53838'
         image: projects/centuries/C_02b.jpg
         type: slides
         enabled: true
         slug: slide2-slug
-        slide_type: image
-        text_slide: false
+        slide_type: color
+        text_slide: true
+        title: 'A test slide'
+        bard:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam delectus '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'http://google.com'
+                      target: _blank
+                      rel: null
+                text: veritatis
+              -
+                type: text
+                text: ' at velit laudantium, suscipit'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: ' animi, alias ullam a facilis ut modi, amet enim dicta qui aliquid unde sunt quos'
     type: section
     enabled: true
     slug: row2-slug
@@ -92,12 +119,20 @@ sections:
         hover_color: '#C2C2CD'
         slide_type: color
         background_color: '#9B3220'
-        text_slide: false
+        text_slide: true
         type: slides
         enabled: true
+        title: 'Orange Background'
+        bard:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'And some text'
     type: section
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1616708234
+updated_at: 1616748754
 id: 54de19da-2431-4f22-ac13-8f83be9614df
 ---

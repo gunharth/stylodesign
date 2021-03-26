@@ -11,7 +11,6 @@
                     --slide{{ index }}-bg-position: {{ image:focus_css }};
                 {{ /if }}
             {{ /if }}
-           /* --slide{{ index }}-bg-image: url('{{ image }}');*/
         }
 
         #slide-section-{{ section:slug }} .fp-slidesContainer .slide{{ index }} {
@@ -24,11 +23,10 @@
                     background-position: var(--slide{{ index }}-bg-position);
                 {{ /if }}
             {{ /if }}
-
             color: var(--slide{{ index }}-type-color);
         }
 
-        #slide-section-{{ section:slug }} h2.slide{{ index }} {
+        #slide-section-{{ section:slug }} .fp-slidesContainer .slide{{ index }} h2 {
             color: var(--slide{{ index }}-type-color);
         }
 
@@ -54,11 +52,19 @@
     {{ /slides }}
 </style>
 <div class="section" id="slide-section-{{ section:slug }}">
+    {{ if section:index == 0 }}
     <div class="layer">
-        <h2>{{ title }}</h2>
-    </div>
+        <h1>{{ title }} {{ parent }}</h1>
+        <div class="nextSection" onclick="$.fn.fullpage.moveSectionDown();">
+            <h2 style="display: block; font-size: 40px; margin: 0; margin-left: -4px">V</h2>
+        </div>
+</div>
+    {{ /if }}
     {{ slides }}
         <div class="slide slide{{ index }}" data-anchor="{{ slug }}">
+            <div class="layer">
+                <h2>{{ title }}</h2>
+            </div>
             {{ if slide_type == "video" }}
                 {{ if video | is_embeddable }}
                     <!-- Youtube and Vimeo -->
@@ -67,6 +73,9 @@
                     <!-- Other HTML5 video types -->
                     <video src="{{ video | embed_url }}"></video>
                 {{ /if }}
+            {{ /if }}
+            {{ if text_slide == true }}
+                {{ bard }}
             {{ /if }}
         </div>
     {{ /slides }}

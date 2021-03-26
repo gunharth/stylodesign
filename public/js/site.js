@@ -40,19 +40,23 @@ $(function () {
     afterLoad: function afterLoad(anchorLink, index) {},
     afterSlideLoad: function afterSlideLoad(section, origin, destination, direction) {
       console.log(section.anchor);
-      var slideSectionAnchor = $("#slide-section-" + section.anchor);
-      slideSectionAnchor.find("h2").removeClass('slide' + origin.index);
+      var slideSectionAnchor = $("#slide-section-" + section.anchor); // slideSectionAnchor
+      //   .find("h2")
+      //   .removeClass('slide'+origin.index);
+
       slideSectionAnchor.find(".fp-slidesNav ul li a span").removeClass('slide' + origin.index);
       slideSectionAnchor.find(".fp-controlArrow.fp-prev").removeClass('slide' + origin.index);
-      slideSectionAnchor.find(".fp-controlArrow.fp-next").removeClass('slide' + origin.index);
-      slideSectionAnchor.find("h2").addClass('slide' + destination.index);
+      slideSectionAnchor.find(".fp-controlArrow.fp-next").removeClass('slide' + origin.index); // slideSectionAnchor
+      //   .find("h2")
+      //   .addClass('slide'+destination.index);
+
       slideSectionAnchor.find(".fp-slidesNav ul li a span").addClass('slide' + destination.index);
       slideSectionAnchor.find(".fp-controlArrow.fp-prev").addClass('slide' + destination.index);
       slideSectionAnchor.find(".fp-controlArrow.fp-next").addClass('slide' + destination.index);
     },
     afterRender: function afterRender() {
       $(".section").each(function (index) {
-        $(this).find("h2").addClass("slide0");
+        //$(this).find("h2").addClass("slide0");
         $(this).find(".fp-slidesNav ul li a span").addClass("slide0");
         $(this).find(".fp-controlArrow.fp-prev").addClass("slide0");
         $(this).find(".fp-controlArrow.fp-next").addClass("slide0"); // console.log($(this))

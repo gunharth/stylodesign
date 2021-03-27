@@ -11,6 +11,16 @@ sections:
           validate:
             - required
       -
+        handle: main_project_image
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          display: 'Main Project image'
+          type: assets
+          icon: assets
+          listable: hidden
+      -
         handle: sections
         field:
           collapse: false

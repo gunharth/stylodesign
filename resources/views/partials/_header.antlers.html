@@ -1,1 +1,7 @@
-<header>Header</header>
+<header>Header
+<ul style="display: flex;">
+    {{ nav:collection:pages }}
+        <li><a href="{{ url }}">{{ title }}</a></li>
+    {{ /nav:collection:pages }}
+</ul>
+</header>

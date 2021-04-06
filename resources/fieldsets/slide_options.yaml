@@ -1,0 +1,118 @@
+title: 'Slide Options'
+fields:
+  -
+    handle: type_color
+    field:
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - HEXA
+      display: 'Type Color'
+      type: color
+      icon: color
+      listable: hidden
+      width: 33
+      validate:
+        - required
+  -
+    handle: hover_color
+    field:
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - HEXA
+      display: 'Hover Color'
+      type: color
+      icon: color
+      width: 66
+      listable: hidden
+  -
+    handle: slide_type
+    field:
+      options:
+        image: Image
+        color: Color
+        video: Video
+      default: image
+      multiple: false
+      clearable: false
+      searchable: false
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: 'Slide Type'
+      type: select
+      icon: select
+      listable: hidden
+      width: 25
+  -
+    handle: background_color
+    field:
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - HEXA
+      display: Color
+      type: color
+      icon: color
+      listable: hidden
+      if:
+        slide_type: 'equals color'
+      width: 75
+  -
+    handle: image
+    field:
+      mode: grid
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      display: Image
+      type: assets
+      icon: assets
+      listable: hidden
+      if:
+        slide_type: 'equals image'
+      width: 75
+  -
+    handle: video
+    field:
+      display: Video
+      type: video
+      icon: video
+      listable: hidden
+      if:
+        slide_type: 'equals video'
+      width: 75
+  -
+    handle: text_slide
+    field:
+      display: 'Text Slide'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      width: 25
+  -
+    handle: bard
+    field:
+      always_show_set_button: false
+      buttons:
+        - removeformat
+        - anchor
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      display: Bard
+      type: bard
+      icon: bard
+      listable: hidden
+      if:
+        text_slide: 'equals true'
+      width: 75

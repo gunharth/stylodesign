@@ -1,0 +1,34 @@
+title: Slides
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: title_for_display
+        field:
+          input_type: text
+          antlers: false
+          display: 'Title for display'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        import: slide_options
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required

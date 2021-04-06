@@ -4,3 +4,100 @@ Template: {{ template }} <br>
 Author: {{ author }} {{ name }} {{ /author }} <br>
 <hr>
 Content: {{ content }}
+
+<ul>
+    {{ related_slides }}
+    <li><a href="{{ url }}">{{ title }}</a></li>
+    {{ /related_slides }}
+</ul>
+
+
+<script>
+    let slideAnchors = [];
+</script>
+{{ related_slides }}
+<script>
+            slideAnchors.push("{{ slug }}")
+        </script>
+        <style>
+
+        #slide-section-{{ slug }} {
+            /* variables per slide */
+            --slide0-type-color: {{ type_color }};
+            --slide0-type-hover-color: {{ hover_color }};
+            --slide0-bg-color: {{ background_color }};
+            {{ if slide_type == "image" }}
+                --slide0-bg-image: url('{{ image }}');
+                {{ if image:focus_css != "" }}
+                    --slide0-bg-position: {{ image:focus_css }};
+                {{ /if }}
+            {{ /if }}
+
+        }
+
+        #slide-section-{{ slug }} .fp-slidesContainer .slide0 {
+            {{ if slide_type == "color" }}
+                background-color: var(--slide0-bg-color);
+            {{ /if }}
+            {{ if slide_type == "image" }}
+                background-image: var(--slide0-bg-image);
+                {{ if image:focus_css != "" }}
+                    background-position: var(--slide0-bg-position);
+                {{ /if }}
+            {{ /if }}
+            color: var(--slide0-type-color);
+        }
+
+        #slide-section-{{ slug }} .fp-slidesContainer .slide0 h2 {
+            color: var(--slide0-type-color);
+        }
+
+        #slide-section-{{ slug }} .slide0 a {
+            color: var(--slide0-type-color);
+        }
+
+        #slide-section-{{ slug }} .slide0 a:hover {
+            color: var(--slide0-type-hover-color);
+        }
+
+        #slide-section-{{ slug }} .fp-slidesNav ul li a span.slide0 {
+            background: var(--slide0-type-color);
+        }
+
+        #slide-section-{{ slug }} .fp-controlArrow.fp-next.slide0 {
+            border-color: transparent transparent transparent var(--slide0-type-color);
+        }
+
+        #slide-section-{{ slug }} .fp-controlArrow.fp-prev.slide0 {
+            border-color: transparent var(--slide0-type-color) transparent transparent;
+        }
+
+</style>
+        <div class="section" id="slide-section-{{ slug }}">
+            {{ if index == 0 }}
+            <div class="layer">
+                <h1>{{ title }} {{ parent }}</h1>
+                <div class="nextSection" onclick="$.fn.fullpage.moveSectionDown();">
+                    <h2 style="display: block; font-size: 40px; margin: 0; margin-left: -4px">V</h2>
+                </div>
+            </div>
+            {{ /if }}
+            <div class="slide slide0" data-anchor="{{ slug }}">
+                <div class="layer">
+                    <h2>{{ title_for_display }}</h2>
+                </div>
+                {{ if slide_type == "video" }}
+                    {{ if video | is_embeddable }}
+                    <!-- Youtube and Vimeo -->
+                    <iframe src="{{ video | embed_url }}"></iframe>
+                    {{ else }}
+                    <!-- Other HTML5 video types -->
+                    <video src="{{ video | embed_url }}"></video>
+                    {{ /if }}
+                {{ /if }}
+                {{ if text_slide == true }}
+                    {{ bard }}
+                {{ /if }}
+            </div>
+    </div>
+{{ /related_slides }}

@@ -10,16 +10,21 @@ sections:
           required: true
           validate:
             - required
-      -
-        handle: main_project_image
-        field:
-          mode: grid
-          restrict: false
-          allow_uploads: true
-          display: 'Main Project image'
-          type: assets
-          icon: assets
+          display: 'Title for slug'
           listable: hidden
+          input_type: text
+          antlers: false
+      -
+        handle: title_for_display
+        field:
+          input_type: text
+          antlers: false
+          display: 'Title for display'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        import: slide_options
       -
         handle: sections
         field:

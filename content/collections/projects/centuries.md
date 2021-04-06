@@ -12,7 +12,7 @@ sections:
         image: projects/centuries/C_01a.jpg
         title: 'Slide Title'
         slug: slide1-slug
-        slide_type: image
+        slide_type: video
         text_slide: false
         video: 'https://www.youtube.com/watch?v=8hly31xKli0'
     type: section
@@ -133,6 +133,21 @@ sections:
     type: section
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1616748754
+updated_at: 1617721595
+title_for_display: 'The Centuries Project'
+main_project_image: projects/centuries/C_03a.jpg
+type_color: '#252F9F'
+hover_color: '#DB6B17'
+slide_type: image
+background_color: '#66666D'
+text_slide: true
+image: projects/centuries/C_01a.jpg
+bard:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'yo this might come in handy'
 id: 54de19da-2431-4f22-ac13-8f83be9614df
 ---

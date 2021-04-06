@@ -1,3 +1,4 @@
+order: 1
 title: Pages
 sections:
   main:
@@ -22,6 +23,17 @@ sections:
           display: Template
           type: template
           icon: template
+          listable: hidden
+      -
+        handle: related_slides
+        field:
+          mode: default
+          collections:
+            - slides
+            - projects
+          display: 'Related Slides'
+          type: entries
+          icon: entries
           listable: hidden
   sidebar:
     display: Sidebar

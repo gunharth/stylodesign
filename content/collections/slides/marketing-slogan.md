@@ -7,6 +7,24 @@ slide_type: image
 image: projects/centuries/C_01a.jpg
 text_slide: false
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1617722166
+updated_at: 1617808177
+replicator:
+  -
+    title: Home
+    slug: first-slide-home
+    type_color: '#4953C9'
+    hover_color: '#BCBDCB'
+    slide_type: color
+    background_color: '#FFFFFF'
+    text_slide: true
+    bard:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Home slide'
+    type: slides
+    enabled: true
 id: d264fb9c-4b4f-4e38-9015-856b98b6d813
 ---

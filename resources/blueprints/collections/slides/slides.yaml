@@ -1,4 +1,4 @@
-title: Slides
+title: 'Content Slides'
 sections:
   main:
     display: Main
@@ -11,16 +11,19 @@ sections:
           validate:
             - required
       -
-        handle: title_for_display
+        handle: replicator
         field:
-          input_type: text
-          antlers: false
-          display: 'Title for display'
-          type: text
-          icon: text
+          collapse: false
+          sets:
+            slides:
+              display: Slides
+              fields:
+                -
+                  import: slide
+          display: Replicator
+          type: replicator
+          icon: replicator
           listable: hidden
-      -
-        import: slide_options
   sidebar:
     display: Sidebar
     fields:

@@ -1,0 +1,84 @@
+<style>
+    {{ replicator }}
+        #slide-section-{{ section:slug }} {
+            /* variables per slide */
+            --slide{{ index }}-type-color: {{ type_color }};
+            --slide{{ index }}-type-hover-color: {{ hover_color }};
+            --slide{{ index }}-bg-color: {{ background_color }};
+            {{ if slide_type == "image" }}
+                --slide{{ index }}-bg-image: url('{{ image }}');
+                {{ if image:focus_css != "" }}
+                    --slide{{ index }}-bg-position: {{ image:focus_css }};
+                {{ /if }}
+            {{ /if }}
+        }
+
+        #slide-section-{{ section:slug }} .fp-slidesContainer .slide{{ index }} {
+            {{ if slide_type == "color" }}
+                background-color: var(--slide{{ index }}-bg-color);
+            {{ /if }}
+            {{ if slide_type == "image" }}
+                background-image: var(--slide{{ index }}-bg-image);
+                {{ if image:focus_css != "" }}
+                    background-position: var(--slide{{ index }}-bg-position);
+                {{ /if }}
+            {{ /if }}
+            color: var(--slide{{ index }}-type-color);
+        }
+
+        #slide-section-{{ section:slug }} .fp-slidesContainer .slide{{ index }} h2 {
+            color: var(--slide{{ index }}-type-color);
+        }
+
+        #slide-section-{{ section:slug }} .slide{{ index }} a {
+            color: var(--slide{{ index }}-type-color);
+        }
+
+        #slide-section-{{ section:slug }} .slide{{ index }} a:hover {
+            color: var(--slide{{ index }}-type-hover-color);
+        }
+
+        #slide-section-{{ section:slug }} .fp-slidesNav ul li a span.slide{{ index }} {
+            background: var(--slide{{ index }}-type-color);
+        }
+
+        #slide-section-{{ section:slug }} .fp-controlArrow.fp-next.slide{{ index }} {
+            border-color: transparent transparent transparent var(--slide{{ index }}-type-color);
+        }
+
+        #slide-section-{{ section:slug }} .fp-controlArrow.fp-prev.slide{{ index }} {
+            border-color: transparent var(--slide{{ index }}-type-color) transparent transparent;
+        }
+    {{ /replicator }}
+</style>
+<div class="section" id="slide-section-{{ section:slug }}">
+    {{ if section:index == 0 }}
+        <div class="layer">
+            <h1>{{ title }} {{ parent }}</h1>
+            {{ if related_slides | count > 1 }}
+                <div class="nextSection" onclick="$.fn.fullpage.moveSectionDown();">
+                    <h2 style="display: block; font-size: 40px; margin: 0; margin-left: -4px">V</h2>
+                </div>
+            {{ /if }}
+        </div>
+    {{ /if }}
+    {{ replicator }}
+        <div class="slide slide{{ index }}" data-anchor="{{ slug }}">
+            <div class="layer">
+                <h2>{{ title }}</h2>
+            </div>
+            {{ if slide_type == "video" }}
+                {{ if video | is_embeddable }}
+                    <!-- Youtube and Vimeo -->
+                    <iframe src="{{ video | embed_url }}"></iframe>
+                {{ else }}
+                    <!-- Other HTML5 video types -->
+                    <video src="{{ video | embed_url }}"></video>
+                {{ /if }}
+            {{ /if }}
+            {{ if text_slide == true }}
+                {{ bard }}
+            {{ /if }}
+        </div>
+    {{ /replicator }}
+</div>

@@ -1,24 +1,17 @@
-Title: {{ title }} <br>
-Slug: {{ slug }} <br>
-Template: {{ template }} <br>
-Author: {{ author }} {{ name }} {{ /author }} <br>
-<hr>
-Content: {{ content }}
-
-<ul>
-    {{ related_slides }}
-    <li><a href="{{ url }}">{{ title }}</a></li>
-    {{ /related_slides }}
-</ul>
-
-
 <script>
     let slideAnchors = [];
 </script>
 {{ related_slides }}
-<script>
+    {{ scope:section }}
+        <script>
             slideAnchors.push("{{ slug }}")
         </script>
+
+        {{ if replicator }}
+            {{ partial:partials/slide }}
+        {{ else }}
+
+
         <style>
 
         #slide-section-{{ slug }} {
@@ -74,9 +67,9 @@ Content: {{ content }}
 
 </style>
         <div class="section" id="slide-section-{{ slug }}">
-            {{ if index == 0 }}
+            {{ if index == 0 && related_slides:count > 1 }}
             <div class="layer">
-                <h1>{{ title }} {{ parent }}</h1>
+                <h1>{{ title }} {{ count }} add</h1>
                 <div class="nextSection" onclick="$.fn.fullpage.moveSectionDown();">
                     <h2 style="display: block; font-size: 40px; margin: 0; margin-left: -4px">V</h2>
                 </div>
@@ -84,7 +77,7 @@ Content: {{ content }}
             {{ /if }}
             <div class="slide slide0" data-anchor="{{ slug }}">
                 <div class="layer">
-                    <h2>{{ title_for_display }}</h2>
+                    <h2>{{ title_for_display }} a</h2>
                 </div>
                 {{ if slide_type == "video" }}
                     {{ if video | is_embeddable }}
@@ -100,4 +93,6 @@ Content: {{ content }}
                 {{ /if }}
             </div>
     </div>
+    {{ /if }}
+    {{ /scope:section }}
 {{ /related_slides }}

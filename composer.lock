@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c9ed2823e21874f501168861dcfbb0d4",
+    "content-hash": "6111ed1e0dfbf987426557fd6ab00a8b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1489,16 +1489,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.36.0",
+            "version": "v8.36.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c07477098c3685fcf812920d2fa8fa3a77e1e0bf"
+                "reference": "0debd8ad6b5aa1f61ccc73910adf049af4ca0444"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c07477098c3685fcf812920d2fa8fa3a77e1e0bf",
-                "reference": "c07477098c3685fcf812920d2fa8fa3a77e1e0bf",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/0debd8ad6b5aa1f61ccc73910adf049af4ca0444",
+                "reference": "0debd8ad6b5aa1f61ccc73910adf049af4ca0444",
                 "shasum": ""
             },
             "require": {
@@ -1653,7 +1653,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-04-06T13:58:47+00:00"
+            "time": "2021-04-07T12:37:22+00:00"
         },
         {
             "name": "laravel/helpers",
@@ -3567,16 +3567,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.1.3",
+            "version": "v3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "e1095375508a1450fe6aa5b810e39a6d3cbd4de5"
+                "reference": "3e3983fd886278b7b0f1d8b3ead02e7a790199b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/e1095375508a1450fe6aa5b810e39a6d3cbd4de5",
-                "reference": "e1095375508a1450fe6aa5b810e39a6d3cbd4de5",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/3e3983fd886278b7b0f1d8b3ead02e7a790199b1",
+                "reference": "3e3983fd886278b7b0f1d8b3ead02e7a790199b1",
                 "shasum": ""
             },
             "require": {
@@ -3591,7 +3591,7 @@
                 "league/glide": "^1.1",
                 "michelf/php-smartypants": "^1.8",
                 "pixelfear/composer-dist-plugin": "^0.1.4",
-                "rebing/graphql-laravel": "^6.1",
+                "rebing/graphql-laravel": "^6.5",
                 "spatie/blink": "^1.1.2",
                 "statamic/stringy": "^3.1",
                 "symfony/http-foundation": "^4.3.3 || ^5.1.4",
@@ -3644,7 +3644,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.1.3"
+                "source": "https://github.com/statamic/cms/tree/v3.1.4"
             },
             "funding": [
                 {
@@ -3652,7 +3652,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-04-02T16:11:33+00:00"
+            "time": "2021-04-06T18:26:58+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -6747,16 +6747,16 @@
     "packages-dev": [
         {
             "name": "barryvdh/laravel-debugbar",
-            "version": "v3.5.2",
+            "version": "v3.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "cae0a8d1cb89b0f0522f65e60465e16d738e069b"
+                "reference": "6420113d90bb746423fa70b9940e9e7c26ebc121"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/cae0a8d1cb89b0f0522f65e60465e16d738e069b",
-                "reference": "cae0a8d1cb89b0f0522f65e60465e16d738e069b",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/6420113d90bb746423fa70b9940e9e7c26ebc121",
+                "reference": "6420113d90bb746423fa70b9940e9e7c26ebc121",
                 "shasum": ""
             },
             "require": {
@@ -6816,7 +6816,7 @@
             ],
             "support": {
                 "issues": "https://github.com/barryvdh/laravel-debugbar/issues",
-                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.5.2"
+                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.5.5"
             },
             "funding": [
                 {
@@ -6824,7 +6824,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-06T14:21:44+00:00"
+            "time": "2021-04-07T11:19:20+00:00"
         },
         {
             "name": "doctrine/instantiator",

@@ -99,6 +99,7 @@ fields:
     field:
       always_show_set_button: false
       buttons:
+        - h1
         - removeformat
         - anchor
       save_html: false
@@ -113,6 +114,8 @@ fields:
       type: bard
       icon: bard
       listable: hidden
+      width: 75
+      enable_input_rules: true
+      enable_paste_rules: true
       if:
         text_slide: 'equals true'
-      width: 75

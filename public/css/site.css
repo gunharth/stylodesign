@@ -48,6 +48,13 @@ header {
   z-index: 9;
   text-align: center;
   padding: 20px 0 0 0;
+  color: #fff;
+}
+header a {
+  color: #fff;
+}
+header a:hover {
+  color: #c5c5c5;
 }
 
 /* Centered texts in each section
@@ -57,7 +64,8 @@ header {
   overflow: hidden;
 }
 
-.section, .section .fp-slidesContainer .slide {
+.section,
+.section .fp-slidesContainer .slide {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

@@ -2,6 +2,7 @@
 body {
   font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #000;
+  background: #000;
 }
 
 body,
@@ -62,13 +63,6 @@ header {
   background-size: cover;
 }
 
-.section .fp-slidesContainer .slide div {
-  z-index: 4;
-  position: relative;
-  width: 60%;
-  margin: 0 auto;
-}
-
 .myVideo {
   position: absolute;
   right: 0;
@@ -110,18 +104,6 @@ header {
 
 /* Layer with position absolute in order to have it over the video
 	* --------------------------------------- */
-.layer {
-  position: absolute;
-  z-index: 3;
-  left: 5%;
-  bottom: 5%;
-  /*
-  * Preventing flicker on some browsers
-  * See http://stackoverflow.com/a/36671466/1081396  or issue #183
-  */
-  transform: translate3d(0, 0, 0);
-}
-
 /*solves problem with overflowing video in Mac with Chrome */
 /* #section0 {
 			overflow: hidden;

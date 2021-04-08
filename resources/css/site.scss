@@ -4,6 +4,7 @@ body {
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
     color: #000;
+    background: #000;
 }
 body,
 a {
@@ -65,10 +66,10 @@ header {
   background-size: cover;
 }
 .section .fp-slidesContainer .slide div {
-  z-index: 4;
-  position: relative;
-  width: 60%;
-  margin: 0 auto;
+  // z-index: 4;
+  // position: relative;
+  // width: 60%;
+  // margin: 0 auto;
 }
 
 .myVideo {
@@ -115,18 +116,18 @@ header {
 	* --------------------------------------- */
 
 .layer {
-  position: absolute;
-  z-index: 3;
-  left: 5%;
-  bottom: 5%;
+  // position: absolute;
+  // z-index: 3;
+  // left: 5%;
+  // bottom: 5%;
 
-  /*
-		* Preventing flicker on some browsers
-		* See http://stackoverflow.com/a/36671466/1081396  or issue #183
-		*/
-  -webkit-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+  // /*
+	// 	* Preventing flicker on some browsers
+	// 	* See http://stackoverflow.com/a/36671466/1081396  or issue #183
+	// 	*/
+  // -webkit-transform: translate3d(0, 0, 0);
+  // -ms-transform: translate3d(0, 0, 0);
+  // transform: translate3d(0, 0, 0);
 }
 
 /*solves problem with overflowing video in Mac with Chrome */

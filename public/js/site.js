@@ -23,6 +23,13 @@
 //   "section10",
 //   "footer",
 // ];
+// window.addEventListener(
+//     "wheel",
+//     (event) => {
+//         event.preventDefault();
+//     },
+//     { passive: false }
+// );
 $(function () {
   slideAnchors.push("contact");
   $("#fullpage").fullpage({

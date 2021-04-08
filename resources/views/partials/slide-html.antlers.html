@@ -1,0 +1,31 @@
+<div class="section" id="slide-section-{{ section:slug }}">
+    {{ if section:index == 0 }}
+        <div class="layer">
+            <h1>{{ title }} {{ parent }}</h1>
+            {{ if related_slides | count > 1 }}
+                <div class="nextSection" onclick="$.fn.fullpage.moveSectionDown();">
+                    <h2 style="display: block; font-size: 40px; margin: 0; margin-left: -4px">V</h2>
+                </div>
+            {{ /if }}
+        </div>
+    {{ /if }}
+    {{ slides }}
+        <div class="slide slide{{ index }}" data-anchor="{{ slug }}">
+            <div class="layer">
+                <h2>{{ title }}</h2>
+            </div>
+            {{ if slide_type == "video" }}
+                {{ if video | is_embeddable }}
+                    <!-- Youtube and Vimeo -->
+                    <iframe src="{{ video | embed_url }}"></iframe>
+                {{ else }}
+                    <!-- Other HTML5 video types -->
+                    <video src="{{ video | embed_url }}"></video>
+                {{ /if }}
+            {{ /if }}
+            {{ if text_slide == true }}
+                {{ bard }}
+            {{ /if }}
+        </div>
+    {{ /slides }}
+</div>

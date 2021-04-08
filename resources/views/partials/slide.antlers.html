@@ -1,6 +1,6 @@
 <style>
     {{ replicator }}
-        #slide-section-{{ section:slug }} {
+        :root {
             /* variables per slide */
             --slide{{ index }}-type-color: {{ type_color }};
             --slide{{ index }}-type-hover-color: {{ hover_color }};
@@ -11,6 +11,10 @@
                     --slide{{ index }}-bg-position: {{ image:focus_css }};
                 {{ /if }}
             {{ /if }}
+        }
+
+        header.slide-{{ section:slug }}-{{ index }} {
+            color: var(--slide{{ index }}-type-color);
         }
 
         #slide-section-{{ section:slug }} .fp-slidesContainer .slide{{ index }} {

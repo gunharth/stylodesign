@@ -1,16 +1,16 @@
 <script>
     let slideAnchors = [];
 </script>
+
 {{ related_slides }}
     {{ scope:section }}
         <script>
             slideAnchors.push("{{ slug }}")
         </script>
 
-        {{ if replicator }}
-            {{ partial:partials/slide }}
+        {{ if slides }}
+            {{ partial:partials/slide-css }}
         {{ else }}
-
 
         <style>
 
@@ -66,33 +66,49 @@
         }
 
 </style>
-        <div class="section" id="slide-section-{{ slug }}">
-            {{ if index == 0 && related_slides:count > 1 }}
-            <div class="layer">
-                <h1>{{ title }} {{ count }} add</h1>
-                <div class="nextSection" onclick="$.fn.fullpage.moveSectionDown();">
-                    <h2 style="display: block; font-size: 40px; margin: 0; margin-left: -4px">V</h2>
-                </div>
-            </div>
-            {{ /if }}
-            <div class="slide slide0" data-anchor="{{ slug }}">
-                <div class="layer">
-                    <h2>{{ title_for_display }} a</h2>
-                </div>
-                {{ if slide_type == "video" }}
-                    {{ if video | is_embeddable }}
-                    <!-- Youtube and Vimeo -->
-                    <iframe src="{{ video | embed_url }}"></iframe>
-                    {{ else }}
-                    <!-- Other HTML5 video types -->
-                    <video src="{{ video | embed_url }}"></video>
-                    {{ /if }}
-                {{ /if }}
-                {{ if text_slide == true }}
-                    {{ bard }}
-                {{ /if }}
-            </div>
-    </div>
+
     {{ /if }}
     {{ /scope:section }}
 {{ /related_slides }}
+
+{{ partial:partials/header }}
+<div id="fullpage">
+    {{ related_slides }}
+    {{ scope:section }}
+
+    {{ if slides }}
+    {{ partial:partials/slide-html }}
+    {{ else }}
+
+    <div class="section" id="slide-section-{{ slug }}">
+        {{ if index == 0 && related_slides:count > 1 }}
+        <div class="layer">
+            <h1>{{ title }} {{ count }} add</h1>
+            <div class="nextSection" onclick="$.fn.fullpage.moveSectionDown();">
+                <h2 style="display: block; font-size: 40px; margin: 0; margin-left: -4px">V</h2>
+            </div>
+        </div>
+        {{ /if }}
+        <div class="slide slide0" data-anchor="{{ slug }}">
+            <div class="layer">
+                <h2>{{ title_for_display }} a</h2>
+            </div>
+            {{ if slide_type == "video" }}
+            {{ if video | is_embeddable }}
+            <!-- Youtube and Vimeo -->
+            <iframe src="{{ video | embed_url }}"></iframe>
+            {{ else }}
+            <!-- Other HTML5 video types -->
+            <video src="{{ video | embed_url }}"></video>
+            {{ /if }}
+            {{ /if }}
+            {{ if text_slide == true }}
+            {{ bard }}
+            {{ /if }}
+        </div>
+    </div>
+    {{ /if }}
+    {{ /scope:section }}
+    {{ /related_slides }}
+    {{ partial:partials/footer }}
+</div>

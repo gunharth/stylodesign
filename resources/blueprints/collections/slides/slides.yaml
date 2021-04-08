@@ -11,16 +11,16 @@ sections:
           validate:
             - required
       -
-        handle: replicator
+        handle: slides
         field:
           collapse: false
           sets:
-            slides:
-              display: Slides
+            slide:
+              display: Slide
               fields:
                 -
                   import: slide
-          display: Replicator
+          display: Slides
           type: replicator
           icon: replicator
           listable: hidden

@@ -36,10 +36,11 @@ $(function () {
     controlArrows: true,
     loopHorizontal: true,
     lazyLoading: true,
-    onLeave: function onLeave(index, nextIndex, direction) {},
-    afterLoad: function afterLoad(anchorLink, index) {},
+    // onLeave(index, nextIndex, direction) {},
+    // afterLoad: function (anchorLink, index) {},
     afterSlideLoad: function afterSlideLoad(section, origin, destination, direction) {
-      console.log(section.anchor);
+      //console.log(section.anchor)
+      $("header").removeClass().addClass("slide-" + section.anchor + "-slide" + destination.index);
       var slideSectionAnchor = $("#slide-section-" + section.anchor); // slideSectionAnchor
       //   .find("h2")
       //   .removeClass('slide'+origin.index);

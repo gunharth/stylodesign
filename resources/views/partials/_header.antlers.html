@@ -1,7 +1,8 @@
-<header>Header
-<ul style="display: flex;">
-    {{ nav:collection:pages }}
-        <li><a href="{{ url }}">{{ title }}</a></li>
-    {{ /nav:collection:pages }}
-</ul>
+<header>
+    <a href="/">Stylo</a>
+    <ul style="display: flex; justify-content: space-evenly; list-style-type: none;">
+        {{ nav:collection:pages }}
+            <li><a href="{{ url }}">{{ title }}</a></li>
+        {{ /nav:collection:pages }}
+    </ul>
 </header>

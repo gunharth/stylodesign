@@ -10,7 +10,7 @@
     </script>
 
     {{ if slides }}
-        {{ partial:partials/slide-css }}
+        {{ partial:slide-css }}
     {{ else }}
 
         <style>
@@ -81,7 +81,7 @@
         {{ scope:section }}
 
         {{ if slides }}
-            {{ partial:partials/slide-html }}
+            {{ partial:slide-html }}
         {{ else }}
 
             <div class="section" id="slide-section-{{ slug }}">

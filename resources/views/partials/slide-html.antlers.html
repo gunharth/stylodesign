@@ -2,7 +2,7 @@
     {{ slides }}
         <div class="slide slide{{ index }}" data-anchor="{{ slug }}">
             <div class="layer">
-                <h2>{{ title }}</h2>
+                <h2>{{ title }} {{ section | length }}</h2>
             </div>
             {{ if slide_type == "video" }}
                 <div style="position: absolute; top:0; bottom:0; left:0; right:0; z-index:-1">
@@ -11,7 +11,10 @@
                     <iframe src="{{ video | embed_url }}"></iframe>
                 {{ else }}
                     <!-- Other HTML5 video types -->
-                    <video src="{{ video | embed_url }}"></video>
+                    <!-- <video src="{{ video | embed_url }}" playsinline autoplay muted loop></video> -->
+                    <video id="myVideo" loop muted data-autoplay>
+                        <source src="{{ video | embed_url }}" type="video/mp4">
+                    </video>
                 {{ /if }}
                 </div>
             {{ /if }}

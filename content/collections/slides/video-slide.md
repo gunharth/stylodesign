@@ -10,7 +10,15 @@ slides:
     text_slide: false
     type: slide
     enabled: true
+  -
+    slug: sec-slide
+    type_color: '#FFFFFF'
+    slide_type: color
+    background_color: '#0214D0'
+    text_slide: false
+    type: slide
+    enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1617908347
+updated_at: 1617910006
 id: cc08d4d2-1056-4e53-97c8-e3fdd21f4c41
 ---

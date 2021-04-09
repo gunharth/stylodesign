@@ -29,6 +29,11 @@ sections:
           type: template
           icon: template
           listable: hidden
+  seo:
+    display: SEO
+    fields:
+      -
+        import: seo
   sidebar:
     display: Sidebar
     fields:

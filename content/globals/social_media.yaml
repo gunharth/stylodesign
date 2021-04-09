@@ -1,0 +1,8 @@
+title: 'Social media'
+data:
+  social_media:
+    -
+      url: gunharth
+      prefix: 'https://www.github.com/'
+      type: github
+      enabled: true

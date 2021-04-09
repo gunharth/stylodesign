@@ -28,6 +28,11 @@ sections:
           type: replicator
           icon: replicator
           listable: hidden
+  seo:
+    display: SEO
+    fields:
+      -
+        import: seo
   sidebar:
     display: Sidebar
     fields:

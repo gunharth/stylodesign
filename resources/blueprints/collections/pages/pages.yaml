@@ -12,15 +12,7 @@ sections:
           validate:
             - required
       -
-        handle: template
-        field:
-          hide_partials: true
-          display: Template
-          type: template
-          icon: template
-          listable: hidden
-      -
-        handle: related_slides
+        handle: sections
         field:
           mode: default
           collections:
@@ -29,6 +21,14 @@ sections:
           display: 'Related Slides'
           type: entries
           icon: entries
+          listable: hidden
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: template
+          icon: template
           listable: hidden
   sidebar:
     display: Sidebar

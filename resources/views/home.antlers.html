@@ -2,7 +2,7 @@
     let slideAnchors = [];
 </script>
 
-{{ related_slides }}
+{{ sections }}
     {{ scope:section }}
 
     <script>
@@ -71,13 +71,13 @@
     {{ /if }}
 
     {{ /scope:section }}
-{{ /related_slides }}
+{{ /sections }}
 
 {{ partial:partials/header }}
 
 <div id="fullpage">
 
-    {{ related_slides }}
+    {{ sections }}
         {{ scope:section }}
 
         {{ if slides }}
@@ -85,7 +85,7 @@
         {{ else }}
 
             <div class="section" id="slide-section-{{ slug }}">
-                {{ if index == 0 && related_slides:count > 1 }}
+                {{ if index == 0 && sections:count > 1 }}
                 <div class="layer">
                     <h1>{{ title }} {{ count }} add</h1>
                     <div class="nextSection" onclick="$.fn.fullpage.moveSectionDown();">
@@ -115,7 +115,7 @@
         {{ /if }}
 
         {{ /scope:section }}
-    {{ /related_slides }}
+    {{ /sections }}
 
     {{ partial:partials/footer }}
 

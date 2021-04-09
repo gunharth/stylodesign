@@ -19,7 +19,7 @@ replicator:
     type: slides
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1617957597
+updated_at: 1617960099
 slides:
   -
     title: 'Stylo office'
@@ -48,6 +48,48 @@ slides:
             text: blah
     type: slide
     enabled: true
+    body_copy:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '1 Alfred Place'
+          -
+            type: hard_break
+          -
+            type: text
+            text: London
+          -
+            type: hard_break
+          -
+            type: text
+            text: 'WC1E /EB'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'tel:+44 20 33318 3038'
+                  target: null
+                  rel: null
+            text: '+44 20 33318 3038'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'mailto:info@stylodesign.co.uk'
+                  target: null
+                  rel: null
+            text: info@stylodesign.co.uk
   -
     title: dssf
     slug: asasdasd

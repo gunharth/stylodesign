@@ -17,7 +17,6 @@ sections:
           mode: default
           collections:
             - slides
-            - projects
           display: 'Related Slides'
           type: entries
           icon: entries

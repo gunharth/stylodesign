@@ -1,5 +1,5 @@
 title: Projects
-template: projects/show
+template: slides
 layout: layout
 revisions: false
 route: 'projects/{slug}'

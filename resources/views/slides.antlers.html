@@ -6,26 +6,26 @@
     {{ scope:section }}
 
     <script>
-        slideAnchors.push("{{ slug }}")
+        slideAnchors.push("{{ section:slug }}")
     </script>
 
-    {{ partial:slide-css }}
+    {{ partial:partials/slide-css }}
 
     {{ /scope:section }}
 {{ /sections }}
 
-{{ partial:header }}
+{{ partial:partials/header }}
 
 <div id="fullpage">
 
     {{ sections }}
         {{ scope:section }}
 
-        {{ partial:slide-html }}
+        {{ partial:partials/slide-html }}
 
         {{ /scope:section }}
     {{ /sections }}
 
-    {{ partial:footer }}
+    {{ partial:partials/footer }}
 
 </div>

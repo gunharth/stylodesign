@@ -3,7 +3,6 @@
         :root {
             /* css variables per slide */
             --section-{{ section:slug }}-slide{{ index }}-type-color: {{ type_color }};
-            --section-{{ section:slug }}-slide{{ index }}-type-hover-color: {{ hover_color }};
             --section-{{ section:slug }}-slide{{ index }}-bg-color: {{ background_color }};
             {{ if slide_type == "image" }}
                 --section-{{ section:slug }}-slide{{ index }}-bg-image: url('{{ image }}');
@@ -17,9 +16,6 @@
             color: var(--section-{{ section:slug }}-slide{{ index }}-type-color);
         }
         header.slide-{{ section:slug }}-slide{{ index }} a {
-            color: var(--section-{{ section:slug }}-slide{{ index }}-type-color);
-        }
-        header.slide-{{ section:slug }}-slide{{ index }} a:hover {
             color: var(--section-{{ section:slug }}-slide{{ index }}-type-color);
         }
 
@@ -42,10 +38,6 @@
 
         #slide-section-{{ section:slug }} .slide{{ index }} a {
             color: var(--section-{{ section:slug }}-slide{{ index }}-type-color);
-        }
-
-        #slide-section-{{ section:slug }} .slide{{ index }} a:hover {
-            color: var(--section-{{ section:slug }}-slide{{ index }}-type-hover-color);
         }
 
         #slide-section-{{ section:slug }} .fp-slidesNav ul li a span.slide{{ index }} {

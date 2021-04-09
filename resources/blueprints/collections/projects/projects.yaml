@@ -10,21 +10,10 @@ sections:
           required: true
           validate:
             - required
-          display: 'Title for slug'
+          display: Title
           listable: hidden
           input_type: text
           antlers: false
-      -
-        handle: title_for_display
-        field:
-          input_type: text
-          antlers: false
-          display: 'Title for display'
-          type: text
-          icon: text
-          listable: hidden
-      -
-        import: slide_options
       -
         handle: sections
         field:

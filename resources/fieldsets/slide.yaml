@@ -5,7 +5,7 @@ fields:
     field:
       input_type: text
       antlers: false
-      display: Title
+      display: 'Title (bottom left | optional)'
       type: text
       icon: text
       width: 50

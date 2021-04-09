@@ -31,7 +31,7 @@ $(function () {
     anchors: slideAnchors,
     //sectionsColor: ["#000000", "#000000", "#000000", "#000000"],
     navigation: false,
-    navigationPosition: "right",
+    navigationPosition: "left",
     navigationTooltips: [],
     slidesNavigation: true,
     slidesNavPosition: "bottom",
@@ -81,6 +81,9 @@ $(function () {
         $(this).find(".fp-controlArrow.fp-next").addClass("slide0");
         // console.log($(this))
       });
+      // setInterval(function () {
+      //     fullpage_api.moveSlideRight();
+      // }, 5000);
       // console.log('render')
     },
   });

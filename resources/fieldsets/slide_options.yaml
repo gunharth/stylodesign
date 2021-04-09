@@ -12,22 +12,9 @@ fields:
       type: color
       icon: color
       listable: hidden
-      width: 33
       validate:
         - required
-  -
-    handle: hover_color
-    field:
-      theme: classic
-      lock_opacity: false
-      default_color_mode: HEXA
-      color_modes:
-        - HEXA
-      display: 'Hover Color'
-      type: color
-      icon: color
-      width: 66
-      listable: hidden
+      width: 25
   -
     handle: slide_type
     field:
@@ -61,7 +48,7 @@ fields:
       listable: hidden
       if:
         slide_type: 'equals color'
-      width: 75
+      width: 50
   -
     handle: image
     field:
@@ -75,7 +62,7 @@ fields:
       listable: hidden
       if:
         slide_type: 'equals image'
-      width: 75
+      width: 50
   -
     handle: video
     field:
@@ -85,21 +72,14 @@ fields:
       listable: hidden
       if:
         slide_type: 'equals video'
-      width: 75
+      width: 50
   -
-    handle: text_slide
-    field:
-      display: 'Text Slide'
-      type: toggle
-      icon: toggle
-      listable: hidden
-      width: 25
-  -
-    handle: bard
+    handle: body_copy
     field:
       always_show_set_button: false
       buttons:
         - h1
+        - h2
         - removeformat
         - anchor
       save_html: false
@@ -108,14 +88,32 @@ fields:
       link_noreferrer: false
       target_blank: false
       reading_time: false
-      fullscreen: true
+      fullscreen: false
       allow_source: true
-      display: Bard
+      display: 'Body copy'
       type: bard
       icon: bard
       listable: hidden
-      width: 75
       enable_input_rules: true
       enable_paste_rules: true
-      if:
-        text_slide: 'equals true'
+  -
+    handle: credit
+    field:
+      always_show_set_button: false
+      buttons:
+        - removeformat
+        - anchor
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: false
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      display: Credit
+      type: bard
+      icon: bard
+      listable: hidden

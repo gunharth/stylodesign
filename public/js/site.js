@@ -36,7 +36,7 @@ $(function () {
     anchors: slideAnchors,
     //sectionsColor: ["#000000", "#000000", "#000000", "#000000"],
     navigation: false,
-    navigationPosition: "right",
+    navigationPosition: "left",
     navigationTooltips: [],
     slidesNavigation: true,
     slidesNavPosition: "bottom",
@@ -68,7 +68,10 @@ $(function () {
         $(this).find(".fp-slidesNav ul li a span").addClass("slide0");
         $(this).find(".fp-controlArrow.fp-prev").addClass("slide0");
         $(this).find(".fp-controlArrow.fp-next").addClass("slide0"); // console.log($(this))
-      }); // console.log('render')
+      }); // setInterval(function () {
+      //     fullpage_api.moveSlideRight();
+      // }, 5000);
+      // console.log('render')
     }
   });
 });

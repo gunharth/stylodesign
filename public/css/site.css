@@ -18,28 +18,6 @@ a:hover {
 
 /* Style for our header texts
 	* --------------------------------------- */
-h1 {
-  font-size: 2em;
-  /*font-family: arial, helvetica;*/
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
-
-@media screen and (min-width: 768px) {
-  /* h1 {
-  		font-size: 5em;
-  	} */
-}
-h1.hov:hover {
-  color: #c5c5c5;
-  cursor: pointer;
-}
-
-h2.hov:hover {
-  cursor: pointer;
-}
-
 header {
   position: fixed;
   height: 50px;
@@ -71,69 +49,44 @@ header a:hover {
   background-size: cover;
 }
 
-.myVideo {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-size: 100% 100%;
-  background-color: black;
-  background-position: center center;
-  background-size: contain;
-  -o-object-fit: cover;
-     object-fit: cover;
-  /*cover video background */
-  z-index: 3;
-}
-
-#video-modal {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  background: #fff;
-  transition: all 0.3s ease-out;
-  transform: translate3d(100%, 0, 0);
-}
-
-#video-modal.transformed {
-  transform: translate3d(0, 0, 0);
-}
-
 .fp-slides.transformed {
   transform: translate3d(-100%, 0, 0);
-}
-
-/* Layer with position absolute in order to have it over the video
-	* --------------------------------------- */
-/*solves problem with overflowing video in Mac with Chrome */
-/* #section0 {
-			overflow: hidden;
-		} */
-/* Hiding video controls
-	* See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
-	* --------------------------------------- */
-video::-webkit-media-controls {
-  display: none !important;
 }
 
 .fp-tableCell {
   position: relative;
 }
+.fp-tableCell .slide-credit {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  opacity: 50%;
+}
+.fp-tableCell .slide-content {
+  width: 70vw;
+  margin: 0 auto;
+  font-size: 2em;
+}
+.fp-tableCell .slide-content a {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+.fp-tableCell .slide-content h1 a, .fp-tableCell .slide-content h2 a {
+  opacity: 1;
+  text-decoration: none;
+}
+.fp-tableCell .slide-title {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
 
 video {
   position: absolute;
+  min-height: 100%;
   left: 50%;
-  /* % of surrounding element */
   top: 50%;
   transform: translate(-50%, -50%);
-  /* % of current element */
 }
 
 .fp-slidesNav {
@@ -198,25 +151,6 @@ video {
 .nextSection img {
   height: auto;
   width: 20px;
-}
-
-/* @media only screen and (max-width: 1024px) and (min-device-pixel-ratio: 1.5)  { */
-/* @media only screen and (max-width: 1024px) {
-  .myVideo {
-    display: none;
-  }
-} */
-/* @media only screen and (min-width: 1024px)  {
-	.section {
-		background: none !important;
-	}
-} */
-.video-js .vjs-control-bar {
-  background-color: #000;
-}
-
-.vjs-loading-spinner {
-  display: none !important;
 }
 
 footer {

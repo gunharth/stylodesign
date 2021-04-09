@@ -10,11 +10,18 @@ sections:
         hover_color: '#000000'
         background_color: '#000000'
         image: projects/centuries/C_01a.jpg
-        title: 'Slide Title'
         slug: slide1-slug
-        slide_type: video
+        slide_type: image
         text_slide: false
-        video: 'https://www.youtube.com/watch?v=8hly31xKli0'
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 1
+            content:
+              -
+                type: text
+                text: Centuries
     type: section
     enabled: true
     slug: row1-slug
@@ -28,7 +35,7 @@ sections:
         hover_color: '#000000'
         background_color: '#000000'
         image: projects/centuries/C_02a.jpg
-        title: 'Some other title'
+        title: 'Slide title'
         slug: slide1-slug
         slide_type: image
         text_slide: false
@@ -42,14 +49,13 @@ sections:
         slug: slide2-slug
         slide_type: color
         text_slide: true
-        title: 'A test slide'
         bard:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam delectus '
+                text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam delectus'
               -
                 type: text
                 marks:
@@ -62,13 +68,20 @@ sections:
                 text: veritatis
               -
                 type: text
-                text: ' at velit laudantium, suscipit'
+                text: 'at velit laudantium, suscipit'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: ' animi, alias ullam a facilis ut modi, amet enim dicta qui aliquid unde sunt quos'
+                text: 'animi, alias ullam a facilis ut modi, amet enim dicta qui aliquid unde sunt quos'
+        body_copy:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum quia ea ipsum, impedit nesciunt quibusdam vel enim tempora odio. Animi ex sapiente quidem. Exercitationem eligendi repudiandae explicabo deleniti, architecto in?'
     type: section
     enabled: true
     slug: row2-slug
@@ -133,7 +146,7 @@ sections:
     type: section
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1617721595
+updated_at: 1617957344
 title_for_display: 'The Centuries Project'
 main_project_image: projects/centuries/C_03a.jpg
 type_color: '#252F9F'

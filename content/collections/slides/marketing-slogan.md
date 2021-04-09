@@ -1,5 +1,5 @@
 ---
-title: 'marketing slogan'
+title: 'Simple ideas ...'
 title_for_display: 'Simple Ideas. Beautifully realised.'
 type_color: '#FFFFFF'
 hover_color: '#C5C6CF'
@@ -7,7 +7,7 @@ slide_type: image
 image: projects/centuries/C_01a.jpg
 text_slide: false
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1617898760
+updated_at: 1617956000
 replicator:
   -
     title: Home
@@ -28,14 +28,23 @@ replicator:
     enabled: true
 slides:
   -
-    title: 'Simple Ideas. Beautifully realised.'
     slug: simple-ideas
-    type_color: '#000000'
+    type_color: '#FFFFFF'
     hover_color: '#FFFFFF'
-    slide_type: color
+    slide_type: image
     background_color: '#FFFFFF'
     text_slide: false
     type: slide
     enabled: true
+    image: projects/centuries/C_01a.jpg
+    body_copy:
+      -
+        type: heading
+        attrs:
+          level: 1
+        content:
+          -
+            type: text
+            text: 'Simple Ideas. Beautifully realised.'
 id: d264fb9c-4b4f-4e38-9015-856b98b6d813
 ---

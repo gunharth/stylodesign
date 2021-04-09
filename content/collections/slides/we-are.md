@@ -13,7 +13,7 @@ bard:
         type: text
         text: 'We are a small, highly flexible design and digital agency with offices in and . Established for over 20 years, the focus of our work is the creation of considered, crafted brand identities and beautiful bespoke content managed websites.'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1617888930
+updated_at: 1617955300
 section_slug: 'what slug is this'
 section_slides:
   -
@@ -78,21 +78,80 @@ replicator:
     enabled: true
 slides:
   -
-    title: 'first slide title'
+    title: 'Slide title optional'
     slug: first-slide-title
-    type_color: '#202DC3'
+    type_color: '#FFFFFF'
     hover_color: '#D3D5E3'
     slide_type: image
     image: contact_1.jpg
-    text_slide: false
+    text_slide: true
     type: slide
     enabled: true
+    bard:
+      -
+        type: heading
+        attrs:
+          level: 1
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: '#'
+                  target: null
+                  rel: null
+            text: 'We are'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum quia ea ipsum, impedit nesciunt quibusdam vel enim tempora odio. Animi ex sapiente quidem. Exercitationem eligendi'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://google.com'
+                  target: null
+                  rel: null
+            text: repudiandae
+          -
+            type: text
+            text: 'explicabo deleniti, architecto in?'
+    body_copy:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Some text in body copy'
+    credit:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'credit goes to ... and a '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: '#'
+                  target: null
+                  rel: null
+            text: link
   -
     title: 'second slide title'
     slug: second-slide-title
     type_color: '#FFFFFF'
     hover_color: '#232EB0'
-    slide_type: color
+    slide_type: video
     background_color: '#C82727'
     text_slide: true
     bard:
@@ -101,7 +160,7 @@ slides:
         content:
           -
             type: text
-            text: 'Some massive good text with a '
+            text: 'Some massive good text with a'
           -
             type: text
             marks:
@@ -114,5 +173,22 @@ slides:
             text: sdfsdf
     type: slide
     enabled: true
+    credit:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Credits go to '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'http://stylo.dom'
+                  target: null
+                  rel: null
+            text: stylo
 id: 65b5d41a-00e3-489f-9831-48a32dc47fb6
 ---

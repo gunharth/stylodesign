@@ -19,7 +19,7 @@ replicator:
     type: slides
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1617898585
+updated_at: 1617957597
 slides:
   -
     title: 'Stylo office'
@@ -48,5 +48,13 @@ slides:
             text: blah
     type: slide
     enabled: true
+  -
+    title: dssf
+    slug: asasdasd
+    type_color: '#2737E2'
+    slide_type: color
+    background_color: '#FFFFFF'
+    type: slide
+    enabled: false
 id: 99a1c679-e619-4c31-a46d-a1c5308ebc7d
 ---

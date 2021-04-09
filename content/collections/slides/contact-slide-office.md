@@ -19,7 +19,7 @@ replicator:
     type: slides
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1617960099
+updated_at: 1617960235
 slides:
   -
     title: 'Stylo office'

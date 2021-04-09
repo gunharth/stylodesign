@@ -7,23 +7,23 @@
             slideAnchors.push("{{ section:slug }}")
         </script>
 
-        {{ partial:partials/slide-css }}
+        {{ partial:slide-css }}
 
     {{ /scope:section }}
 {{ /sections }}
 
-{{ partial:partials/header }}
+{{ partial:header }}
 
 <div id="fullpage">
 
     {{ sections }}
         {{ scope:section }}
 
-        {{ partial:partials/slide-html }}
+        {{ partial:slide-html }}
 
         {{ /scope:section }}
     {{ /sections }}
 
-    {{ partial:partials/footer }}
+    {{ partial:footer }}
 
 </div>

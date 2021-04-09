@@ -1,11 +1,13 @@
 <div class="section" id="slide-section-{{ section:slug }}">
     {{ slides }}
         <div class="slide slide{{ index }}" data-anchor="{{ slug }}">
+
             {{ if credit }}
                 <div class="slide-credit">
                     {{ credit }}
                 </div>
             {{ /if }}
+
             {{ if slide_type == "video" }}
                 <div style="position: absolute; top:0; bottom:0; left:0; right:0; z-index:-1">
                 {{ if video | is_embeddable }}
@@ -20,11 +22,12 @@
                 {{ /if }}
                 </div>
             {{ /if }}
-            <div class="slide-content">
-                {{ body_copy }}
-            </div>
 
-            {{ if section:index == 0 }}
+                <div class="slide-content">
+                    {{ body_copy }}
+                </div>
+
+            {{ if section:index == 0 && sections | count > 1 }}
                 <div class="layer">
                     <div class="nextSection" onclick="$.fn.fullpage.moveSectionDown();">
                         <h2 style="display: block; font-size: 40px; margin: 0; margin-left: -4px">V</h2>

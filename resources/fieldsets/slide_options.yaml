@@ -96,6 +96,8 @@ fields:
       listable: hidden
       enable_input_rules: true
       enable_paste_rules: true
+      link_collections:
+        - projects
   -
     handle: credit
     field:

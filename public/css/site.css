@@ -33,6 +33,20 @@ header a:hover {
   color: #c5c5c5;
 }
 
+/*Stylo Logo*/
+.logo svg {
+  fill: #fff;
+  width: 5rem;
+  height: auto;
+}
+
+/* Navigation */
+/* .nav-logo svg {
+  fill: #fff;
+  width: 5rem;
+  height: auto;
+}
+ */
 /* Centered texts in each section
 	* --------------------------------------- */
 .section {

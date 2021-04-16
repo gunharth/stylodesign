@@ -7,7 +7,7 @@ body {
 
 body,
 a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -16,8 +16,6 @@ a:hover {
   color: #c5c5c5;
 }
 
-/* Style for our header texts
-	* --------------------------------------- */
 header {
   position: fixed;
   height: 50px;
@@ -154,5 +152,12 @@ video {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
   color: #fff;
+  text-align: left;
+}
+footer address {
+  font-style: normal;
 }

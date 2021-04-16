@@ -19,41 +19,99 @@ a:hover {
   /*text-decoration: underline;*/
   color: #c5c5c5;
 }
+p {
+  font-size: 1.5em;
+}
 
 header {
   position: fixed;
-  height: 50px;
+  height: 0; //50px;
   display: block;
   width: 100%;
   z-index: 9;
   text-align: center;
-  padding: 20px 0 0 0;
+  padding: 0;
   color: #fff;
 
   a {
-    color: #fff;
+    color: #000;
   }
 
   a:hover {
     color: #c5c5c5
   }
+  .logo{
+    top: 69px;
+  }
+
+  /* Navigation */
+  .nav-button{
+    z-index: 10;
+    position: absolute;
+    top: 75px;
+    left: 70px;
+    margin-top: -6px;
+    width: 50px;
+    height: 20px;
+    div{
+      position: absolute;
+      height: 4px;
+      background-color: #000; 
+    }
+    .nav-button-topline{
+      width: 100%;
+      top: 0;
+    }
+    
+    .nav-button-bottomline{
+      bottom: 0;
+      width: 50%;
+      /* display: none; */
+    }
+    
+  }
+  .navigation{
+    display: none;
+    position:absolute; 
+    top: 0; 
+    padding-top: 10em; 
+    width: 75vw; 
+    background: #ff3a3b;
+    z-index:0;
+    ul{
+      list-style-type: none;
+      text-align: left;
+      margin: 0;
+      padding: 10% 0 10% 70px;
+      li{
+        font-size: 3.5em;
+        line-height: 1.3em;
+        font-weight: bold;
+      }
+    }
+  
+  }
+
+  /* Stylo Logo */
+
+      .logo svg {
+      fill: #000;
+      width: 8rem;
+      height: auto;
+    }
+    
+  
+  
+
+  
+
+  
 }
 
-/*Stylo Logo*/
 
-.logo svg {
-  fill: #fff;
-  width: 5rem;
-  height: auto;
-}
 
-/* Navigation */
-/* .nav-logo svg {
-  fill: #fff;
-  width: 5rem;
-  height: auto;
-}
- */
+
+
 /* Centered texts in each section
 	* --------------------------------------- */
 
@@ -187,15 +245,47 @@ video {
   width: 20px;
 }
 
+/* css-arrows */
+
+.up-arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 17px solid white;
+}
+
 footer {
+  .up-arrow{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: $spacing;
   color: #fff;
   text-align: left;
+  >div {
+    width: 25%;
+  }
+  >div:last-child{
+    text-align: right;
+    position: relative;
+  }
 
   address {
     font-style: normal;
+  }
+
+  .footer-logo{
+    
+  
+    svg {
+      fill: #fff;
+      width: 14rem;
+      height: auto;
+    }
   }
 }
 

@@ -183,3 +183,14 @@ footer {
     font-style: normal;
   }
 }
+
+#client {
+  main {
+    padding-top: 10em;
+  }
+  #footer-outer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+  }
+}

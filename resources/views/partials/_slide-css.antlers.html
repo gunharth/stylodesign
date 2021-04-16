@@ -18,6 +18,9 @@
         header.slide-{{ section:slug }}-slide{{ index }} a {
             color: var(--section-{{ section:slug }}-slide{{ index }}-type-color);
         }
+        header.slide-{{ section:slug }}-slide{{ index }} .logo svg {
+            fill: var(--section-{{ section:slug }}-slide{{ index }}-type-color);
+        }
 
         #slide-section-{{ section:slug }} .fp-slidesContainer .slide{{ index }} {
             {{ if slide_type == "color" }}

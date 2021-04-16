@@ -126,12 +126,55 @@ sections:
                     listable: hidden
                     prepend: 'https://www.github.com/'
                     display: URL
-                    validate: required
+                    validate:
+                      - required
+                    antlers: false
                 -
                   handle: prefix
                   field:
                     type: hidden
                     default: 'https://www.github.com/'
+            pinterest:
+              display: Pinterest
+              fields:
+                -
+                  handle: url
+                  field:
+                    input_type: text
+                    prepend: 'https://www.pinterest.com/'
+                    antlers: false
+                    display: URL
+                    type: text
+                    icon: text
+                    listable: hidden
+                    validate:
+                      - required
+                -
+                  handle: prefix
+                  field:
+                    type: hidden
+                    default: 'https://www.pinterest.com/'
+            behance:
+              display: Behance
+              fields:
+                -
+                  handle: url
+                  field:
+                    input_type: text
+                    prepend: 'https://www.behance.net/'
+                    antlers: false
+                    display: URL
+                    type: text
+                    icon: text
+                    listable: hidden
+                    validate:
+                      - required
+                -
+                  handle: prefix
+                  field:
+                    type: hidden
+                    default: 'https://www.behance.net/'
           type: replicator
           listable: hidden
           display: 'Social media'
+          collapse: false

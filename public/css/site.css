@@ -1,15 +1,15 @@
 @font-face {
   font-family: "New Rail Alphabet Light";
-  src: url(/fonts/NewRailAlphabet-LightWEB.eot?bf519be66774e2c6e5cc48d6ac213a1a);
+  src: url("../fonts/NewRailAlphabet-LightWEB.eot");
   /* IE9 Compat Modes */
-  src: url(/fonts/NewRailAlphabet-LightWEB.eot?bf519be66774e2c6e5cc48d6ac213a1a) format("embedded-opentype"), url(/fonts/NewRailAlphabet-LightWEB.woff2?3c0b1d7348147660e1b1cf095524d163) format("woff2"), url(/fonts/NewRailAlphabet-LightWEB.woff?5eb3fa51af7a1533752df2672800e178) format("woff");
+  src: url("../fonts/NewRailAlphabet-LightWEB.eot?#iefix") format("embedded-opentype"), url("../fonts/NewRailAlphabet-LightWEB.woff2") format("woff2"), url("../fonts/NewRailAlphabet-LightWEB.woff") format("woff");
   /* Pretty Modern Browsers */
 }
 @font-face {
   font-family: "New Rail Alphabet Bold";
-  src: url(/fonts/NewRailAlphabet-BoldWEB.eot?58d0bdec0d0f86436b631793afb75068);
+  src: url("../fonts/NewRailAlphabet-BoldWEB.eot");
   /* IE9 Compat Modes */
-  src: url(/fonts/NewRailAlphabet-BoldWEB.eot?58d0bdec0d0f86436b631793afb75068) format("embedded-opentype"), url(/fonts/NewRailAlphabet-BoldWEB.woff2?33a6760b6af241fc62a32836fdf66281) format("woff2"), url(/fonts/NewRailAlphabet-BoldWEB.woff?63877e9eeac1ae6fd82b22befe138c2b) format("woff");
+  src: url("../fonts/NewRailAlphabet-BoldWEB.eot?#iefix") format("embedded-opentype"), url("../fonts/NewRailAlphabet-BoldWEB.woff2") format("woff2"), url("../fonts/NewRailAlphabet-BoldWEB.woff") format("woff");
   /* Pretty Modern Browsers */
 }
 /* System Fonts as used by GitHub */

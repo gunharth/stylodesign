@@ -19,6 +19,13 @@
 {{ partial:partials/header }}
 <main>
     <h1>{{ title }}</h1>
+    <section>
+        {{ replicator }}
+            <article>
+                {{ title }}
+            </article>
+        {{ /replicator }}
+    </section>
 </main>
 
 {{ partial:partials/footer-client }}

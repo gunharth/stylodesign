@@ -165,6 +165,12 @@ footer address {
 #client main {
   padding-top: 10em;
 }
+#client section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1em 1em;
+}
 #client #footer-outer {
   position: fixed;
   bottom: 0;

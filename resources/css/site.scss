@@ -188,6 +188,12 @@ footer {
   main {
     padding-top: 10em;
   }
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1em 1em;
+  }
   #footer-outer {
     position: fixed;
     bottom: 0;

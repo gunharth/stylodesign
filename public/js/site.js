@@ -47,7 +47,14 @@ $(function () {
     // afterLoad: function (anchorLink, index) {},
     afterSlideLoad: function afterSlideLoad(section, origin, destination, direction) {
       //console.log(section.anchor)
+      var headerActive = false;
+
+      if ($("header").hasClass('active')) {
+        headerActive = true;
+      }
+
       $("header").removeClass().addClass("slide-" + section.anchor + "-slide" + destination.index);
+      if (headerActive) $('header').addClass('active');
       var slideSectionAnchor = $("#slide-section-" + section.anchor); // slideSectionAnchor
       //   .find("h2")
       //   .removeClass('slide'+origin.index);

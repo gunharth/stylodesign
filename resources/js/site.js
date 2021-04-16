@@ -42,9 +42,14 @@ $(function () {
     // afterLoad: function (anchorLink, index) {},
     afterSlideLoad: function (section, origin, destination, direction) {
       //console.log(section.anchor)
+      let headerActive = false;
+      if( $("header").hasClass('active') ) {
+        headerActive = true;
+      }
       $("header")
           .removeClass()
           .addClass("slide-" + section.anchor + "-slide" + destination.index);
+      if(headerActive) $('header').addClass('active')
 
       let slideSectionAnchor = $("#slide-section-" + section.anchor);
       // slideSectionAnchor

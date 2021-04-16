@@ -1,10 +1,39 @@
 $spacing: 5%;
 
+@font-face {
+    font-family: 'New Rail Alphabet Light';
+    src: url('../fonts/NewRailAlphabet-LightWEB.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/NewRailAlphabet-LightWEB.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/NewRailAlphabet-LightWEB.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/NewRailAlphabet-LightWEB.woff') format('woff');
+    /* Pretty Modern Browsers */
+}
+
+@font-face {
+    font-family: 'New Rail Alphabet Bold';
+    src: url('../fonts/NewRailAlphabet-BoldWEB.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/NewRailAlphabet-BoldWEB.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/NewRailAlphabet-BoldWEB.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/NewRailAlphabet-BoldWEB.woff') format('woff');
+    /* Pretty Modern Browsers */
+}
+
+
 /* System Fonts as used by GitHub */
 body {
-  font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: 'New Rail Alphabet Light', Arial, serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    text-rendering: optimizelegibility;
+  // font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  //   Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  //   "Segoe UI Symbol";
   color: #000;
   background: #000;
 }
@@ -290,18 +319,18 @@ footer {
 }
 
 #client {
-  main {
-    padding-top: 10em;
-  }
-  section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 1em 1em;
-  }
-  #footer-outer {
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-  }
+  // main {
+  //   padding-top: 10em;
+  // }
+  // section {
+  //   display: grid;
+  //   grid-template-columns: 1fr 1fr 1fr 1fr;
+  //   grid-template-rows: 1fr 1fr 1fr;
+  //   gap: 1em 1em;
+  // }
+  // #footer-outer {
+  //   position: fixed;
+  //   bottom: 0;
+  //   width: 100vw;
+  // }
 }

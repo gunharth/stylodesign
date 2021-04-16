@@ -1,20 +1,53 @@
 <style>
     body {
-        background-color: aliceblue;
-        color: #000
+        background-color: {{ background_color }};
+        color: {{ text_color }};
     }
     a {
-        color: #000
+        color: {{ text_color }};
+    }
+    a:hover {
+        opacity: 50%;
+        color: {{ text_color }};
     }
     header {
-        color: #000;
+        color: {{ text_color }};
     }
     header a {
-        color: #000;
+        color: {{ text_color }};
     }
     footer {
-        color: #000;
+        color: {{ text_color }};
     }
+
+    article img {
+        width: 100%;
+        height: auto;
+    }
+    article a { display: block; }
+    article a:hover img {
+        opacity: 50%;
+    }
+
+    main {
+    padding-top: 10em;
+            padding: 0 5%;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em 1em;
+  }
+  @media (min-width: 600px) {
+    section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+  #footer-outer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+  }
 </style>
 {{ partial:partials/header }}
 <main>
@@ -22,7 +55,13 @@
     <section>
         {{ replicator }}
             <article>
-                {{ title }}
+                <a href="{{ url }}" target="_blank">
+                {{ assets }}
+                    <img src="{{ url }}" alt="{{ alt }}" />
+                {{ /assets }}
+                {{ title }} <br>
+                {{ date format="d.m.y" }}
+                </a>
             </article>
         {{ /replicator }}
     </section>

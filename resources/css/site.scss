@@ -45,8 +45,9 @@ a {
 }
 
 a:hover {
-  /*text-decoration: underline;*/
-  color: #c5c5c5;
+  text-decoration: underline;
+  //opacity: 0.5;
+  //color: #c5c5c5;
 }
 p {
   font-size: 1.5em;
@@ -72,6 +73,11 @@ header {
   .logo{
     top: 69px;
   }
+  .logo svg {
+      fill: #fff;
+      width: 8rem;
+      height: auto;
+    }
 
   /* Navigation */
   .nav-button{
@@ -85,26 +91,26 @@ header {
     div{
       position: absolute;
       height: 4px;
-      background-color: #000; 
+      background-color: #fff;
     }
     .nav-button-topline{
       width: 100%;
       top: 0;
     }
-    
+
     .nav-button-bottomline{
       bottom: 0;
       width: 50%;
       /* display: none; */
     }
-    
+
   }
   .navigation{
     display: none;
-    position:absolute; 
-    top: 0; 
-    padding-top: 10em; 
-    width: 75vw; 
+    position:absolute;
+    top: 0;
+    padding-top: 10em;
+    width: 75vw;
     background: #ff3a3b;
     z-index:0;
     ul{
@@ -118,23 +124,22 @@ header {
         font-weight: bold;
       }
     }
-  
+
   }
 
-  /* Stylo Logo */
-
-      .logo svg {
+  &.active {
+    .logo svg {
       fill: #000;
-      width: 8rem;
-      height: auto;
     }
-    
-  
-  
+    .nav-button{
 
-  
+    div{
+      background-color: #000;
+    }
 
-  
+  }
+
+  }
 }
 
 
@@ -308,8 +313,8 @@ footer {
   }
 
   .footer-logo{
-    
-  
+
+
     svg {
       fill: #fff;
       width: 14rem;

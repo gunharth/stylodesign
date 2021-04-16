@@ -21,6 +21,21 @@
         header.slide-{{ section:slug }}-slide{{ index }} .logo svg {
             fill: var(--section-{{ section:slug }}-slide{{ index }}-type-color);
         }
+        header.slide-{{ section:slug }}-slide{{ index }} .nav-button div{
+            background-color: var(--section-{{ section:slug }}-slide{{ index }}-type-color);
+        }
+        header.slide-{{ section:slug }}-slide{{ index }}.active .navigation {
+            background: var(--section-{{ section:slug }}-slide{{ index }}-type-color);
+        }
+        header.slide-{{ section:slug }}-slide{{ index }}.active a {
+            color: var(--section-{{ section:slug }}-slide{{ index }}-bg-color);
+        }
+        header.slide-{{ section:slug }}-slide{{ index }}.active .logo svg {
+            fill: var(--section-{{ section:slug }}-slide{{ index }}-bg-color);
+        }
+        header.slide-{{ section:slug }}-slide{{ index }}.active .nav-button div{
+            background-color: var(--section-{{ section:slug }}-slide{{ index }}-bg-color);
+        }
 
         #slide-section-{{ section:slug }} .fp-slidesContainer .slide{{ index }} {
             {{ if slide_type == "color" }}

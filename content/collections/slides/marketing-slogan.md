@@ -8,7 +8,7 @@ slide_type: image
 image: projects/centuries/C_01a.jpg
 text_slide: false
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1618583219
+updated_at: 1618755210
 replicator:
   -
     title: Home
@@ -30,14 +30,14 @@ replicator:
 slides:
   -
     slug: simple-ideas
-    type_color: '#FFFFFF'
+    type_color: '#FF3730'
     hover_color: '#FFFFFF'
     slide_type: image
     background_color: '#000000'
     text_slide: false
     type: slide
     enabled: true
-    image: projects/centuries/C_01a.jpg
+    image: TB_04d.jpg
     body_copy:
       -
         type: heading
@@ -47,4 +47,21 @@ slides:
           -
             type: text
             text: 'Simple Ideas. Beautifully realised.'
+  -
+    title: Test
+    slug: about
+    type_color: '#19646D'
+    slide_type: color
+    background_color: '#BEE1DC'
+    type: slide
+    enabled: true
+    body_copy:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'As a team we have a diverse, high-level skill set drawn from complimentary disciplines including graphic design and branding, user experience development, database-driven website programming, bespoke software development and digital marketing.'
 ---

@@ -11,7 +11,7 @@ slides:
       -
         type: heading
         attrs:
-          level: 2
+          level: 1
         content:
           -
             type: text
@@ -27,5 +27,5 @@ slides:
     enabled: true
     background_color: '#292A31'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1618570173
+updated_at: 1618829579
 ---

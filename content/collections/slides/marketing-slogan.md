@@ -8,7 +8,7 @@ slide_type: image
 image: projects/centuries/C_01a.jpg
 text_slide: false
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1618755210
+updated_at: 1618834146
 replicator:
   -
     title: Home
@@ -30,7 +30,7 @@ replicator:
 slides:
   -
     slug: simple-ideas
-    type_color: '#FF3730'
+    type_color: '#0061FF'
     hover_color: '#FFFFFF'
     slide_type: image
     background_color: '#000000'

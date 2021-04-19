@@ -11,7 +11,9 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/site.js', 'public/js')
-mix.sass('resources/css/site.scss', 'public/css')
+mix.sass("resources/css/site.scss", "public/css").options({
+    processCssUrls: false,
+});
 
 // mix.postCss('resources/css/tailwind.css', 'public/css', [
 //     require('postcss-import'),

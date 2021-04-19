@@ -1,4 +1,5 @@
 ---
+id: 54de19da-2431-4f22-ac13-8f83be9614df
 title: Centuries
 sections:
   -
@@ -131,7 +132,7 @@ sections:
         type_color: '#2933A7'
         hover_color: '#C2C2CD'
         slide_type: color
-        background_color: '#9B3220'
+        background_color: '#C5C5D1'
         text_slide: true
         type: slides
         enabled: true
@@ -146,7 +147,7 @@ sections:
     type: section
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1617957344
+updated_at: 1618668759
 title_for_display: 'The Centuries Project'
 main_project_image: projects/centuries/C_03a.jpg
 type_color: '#252F9F'
@@ -162,5 +163,9 @@ bard:
       -
         type: text
         text: 'yo this might come in handy'
-id: 54de19da-2431-4f22-ac13-8f83be9614df
+seo_noindex: false
+seo_nofollow: false
+seo_canonical_type: entry
+sitemap_change_frequency: weekly
+sitemap_priority: 0.5
 ---

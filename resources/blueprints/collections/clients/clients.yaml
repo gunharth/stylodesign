@@ -1,0 +1,63 @@
+title: Clients
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: text_color
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - HEXA
+          display: 'Text Color'
+          type: color
+          icon: color
+          width: 50
+          listable: hidden
+      -
+        handle: background_color
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - HEXA
+          display: 'Background Color'
+          type: color
+          icon: color
+          width: 50
+          listable: hidden
+      -
+        handle: replicator
+        field:
+          collapse: false
+          sets:
+            entries:
+              display: Entries
+              fields:
+                -
+                  import: client_box
+          display: Replicator
+          type: replicator
+          icon: replicator
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required

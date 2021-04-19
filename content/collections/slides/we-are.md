@@ -1,4 +1,5 @@
 ---
+id: 65b5d41a-00e3-489f-9831-48a32dc47fb6
 title: 'We are'
 type_color: '#000000'
 hover_color: '#B9B9BB'
@@ -13,7 +14,7 @@ bard:
         type: text
         text: 'We are a small, highly flexible design and digital agency with offices in and . Established for over 20 years, the focus of our work is the creation of considered, crafted brand identities and beautiful bespoke content managed websites.'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1617955300
+updated_at: 1618586060
 section_slug: 'what slug is this'
 section_slides:
   -
@@ -80,10 +81,10 @@ slides:
   -
     title: 'Slide title optional'
     slug: first-slide-title
-    type_color: '#FFFFFF'
+    type_color: '#B0916B'
     hover_color: '#D3D5E3'
     slide_type: image
-    image: contact_1.jpg
+    image: about_1.jpg
     text_slide: true
     type: slide
     enabled: true
@@ -124,11 +125,13 @@ slides:
             text: 'explicabo deleniti, architecto in?'
     body_copy:
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 2
         content:
           -
             type: text
-            text: 'Some text in body copy'
+            text: 'As a team we have a diverse, high-level skill set drawn from complimentary disciplines including graphic design and branding, user experience development, database-driven website programming, bespoke software development and digital marketing.'
     credit:
       -
         type: paragraph
@@ -190,5 +193,4 @@ slides:
                   target: null
                   rel: null
             text: stylo
-id: 65b5d41a-00e3-489f-9831-48a32dc47fb6
 ---

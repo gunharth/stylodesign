@@ -1,15 +1,25 @@
 ---
+id: cc08d4d2-1056-4e53-97c8-e3fdd21f4c41
 title: 'Video Slide'
 slides:
   -
     title: 'Video Slide'
     slug: video-slug
-    type_color: '#FFFFFF'
+    type_color: '#5139FF'
     slide_type: video
     video: 'https://10fa647554aae04a7608-17d1aefddd02dabd7cf74d746b03e9c7.ssl.cf3.rackcdn.com/MNM%202050%20-%202.mp4'
     text_slide: false
     type: slide
     enabled: true
+    body_copy:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'We’re a small and highly flexible design and digital agency based in central London with more than 35 years combined experience across the highest-level of design and digital work.'
   -
     slug: sec-slide
     type_color: '#FFFFFF'
@@ -19,6 +29,5 @@ slides:
     type: slide
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1617910006
-id: cc08d4d2-1056-4e53-97c8-e3fdd21f4c41
+updated_at: 1618585801
 ---

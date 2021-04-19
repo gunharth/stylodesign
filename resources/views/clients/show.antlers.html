@@ -1,0 +1,70 @@
+<style>
+    body {
+        background-color: {{ background_color }};
+        color: {{ text_color }};
+    }
+    a {
+        color: {{ text_color }};
+    }
+    a:hover {
+        opacity: 50%;
+        color: {{ text_color }};
+    }
+    header {
+        color: {{ text_color }};
+    }
+    header a {
+        color: {{ text_color }};
+    }
+    footer {
+        color: {{ text_color }};
+    }
+
+    article img {
+        width: 100%;
+        height: auto;
+    }
+    article a { display: block; }
+    article a:hover img {
+        opacity: 50%;
+    }
+
+    main {
+    padding-top: 10em;
+            padding: 0 5%;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em 1em;
+  }
+  @media (min-width: 600px) {
+    section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+  #footer-outer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+  }
+</style>
+{{ partial:partials/header }}
+<main>
+    <h1>{{ title }}</h1>
+    <section>
+        {{ replicator }}
+            <article>
+                <a href="{{ url }}" target="_blank">
+                {{ assets }}
+                    <img src="{{ url }}" alt="{{ alt }}" />
+                {{ /assets }}
+                {{ title }} <br>
+                {{ date format="d.m.y" }}
+                </a>
+            </article>
+        {{ /replicator }}
+    </section>
+</main>
+
+{{ partial:partials/footer-client }}

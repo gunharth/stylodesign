@@ -1,0 +1,30 @@
+<div id="footer-outer">
+    <footer>
+        <div>
+            <p>
+                <address>
+                    1 Alfred Place <br>
+                    London <br>
+                    WC1E 7EB
+                </address>
+                <a href="tel:+442033183038" rel="noopener">+44 (0)20 3318 3038</a> <br>
+                <a href="mailto:info@stylodesign.co.uk" rel="noopener" target="_blank">info@stylodesign.co.uk</a>
+            </p>
+        </div>
+        <div>
+            <p>
+                {{ if social_media:social_media }}
+                    {{ social_media:social_media }}
+                        <a href="{{ prefix }}{{ url }}" rel="noopener" aria-label="{{ type | title }}" target="_blank">{{ type | title }}</a> <br>
+                    {{ /social_media:social_media }}
+                {{ /if }}
+            </p>
+        </div>
+        <div>
+            <p>Design & Digital</p>
+        </div>
+        <div>
+            <p><a href="{{ config:app:url }}">© {{ config:app:name }}</a></p>
+        </div>
+    </footer>
+</div>

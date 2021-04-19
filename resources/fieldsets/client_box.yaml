@@ -1,0 +1,46 @@
+title: 'Client Box'
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: Title
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: assets
+    field:
+      mode: grid
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      display: Image
+      type: assets
+      icon: assets
+      listable: hidden
+  -
+    handle: url
+    field:
+      input_type: text
+      antlers: false
+      display: URL
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: date
+    field:
+      mode: single
+      time_enabled: false
+      time_required: false
+      earliest_date: '1900-01-01'
+      full_width: false
+      inline: false
+      columns: 1
+      rows: 1
+      display: Date
+      type: date
+      icon: date
+      listable: hidden

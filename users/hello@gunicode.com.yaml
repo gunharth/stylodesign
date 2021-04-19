@@ -2,3 +2,10 @@ name: Admin
 super: true
 id: 2d06efa7-b339-4b01-be90-009f00ed13d0
 password_hash: $2y$10$SOsnjGny97iYBnz7zDUiduPTK.BzBHenv9nmxYdAGPeL.uBetNmdW
+preferences:
+  assets:
+    assets:
+      mode: table
+  collections:
+    projects:
+      after_save: continue_editing

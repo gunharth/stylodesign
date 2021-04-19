@@ -1,0 +1,31 @@
+<script>
+    let slideAnchors = [];
+</script>
+
+{{ sections }}
+    {{ scope:section }}
+
+    <script>
+        slideAnchors.push("{{ section:slug }}")
+    </script>
+
+    {{ partial:partials/slide-css }}
+
+    {{ /scope:section }}
+{{ /sections }}
+
+{{ partial:partials/header }}
+
+<div id="fullpage">
+
+    {{ sections }}
+        {{ scope:section }}
+
+        {{ partial:partials/slide-html }}
+
+        {{ /scope:section }}
+    {{ /sections }}
+
+    {{ partial:partials/footer }}
+
+</div>

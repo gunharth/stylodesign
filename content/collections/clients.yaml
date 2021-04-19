@@ -1,0 +1,9 @@
+title: Clients
+template: clients/show
+layout: client
+revisions: false
+route: 'clients/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

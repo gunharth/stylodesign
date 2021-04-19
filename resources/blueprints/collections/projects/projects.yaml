@@ -1,0 +1,55 @@
+title: Projects
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          display: Title
+          listable: hidden
+          input_type: text
+          antlers: false
+      -
+        handle: sections
+        field:
+          collapse: false
+          sets:
+            section:
+              display: Section
+              fields:
+                -
+                  import: section
+          display: Sections
+          type: replicator
+          icon: replicator
+          listable: hidden
+  seo:
+    display: SEO
+    fields:
+      -
+        import: seo
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - projects
+          max_items: 1
+          listable: false
+          localizable: true

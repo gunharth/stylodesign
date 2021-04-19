@@ -1,0 +1,18 @@
+title: 'Social media'
+data:
+  social_media:
+    -
+      url: stylodesign
+      type: pinterest
+      enabled: true
+      prefix: 'https://www.pinterest.com/'
+    -
+      url: stylo_design
+      prefix: 'https://www.twitter.com/'
+      type: twitter
+      enabled: true
+    -
+      url: fsdfdsf
+      prefix: 'https://www.behance.net/'
+      type: behance
+      enabled: true

@@ -1,0 +1,25 @@
+title: Slide
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Title (bottom left | optional)'
+      type: text
+      icon: text
+      width: 50
+      listable: hidden
+  -
+    handle: slug
+    field:
+      generate: true
+      display: Slug
+      type: slug
+      icon: slug
+      width: 50
+      listable: hidden
+      validate:
+        - required
+  -
+    import: slide_options

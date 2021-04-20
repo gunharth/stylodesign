@@ -20,7 +20,7 @@ replicator:
     type: slides
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1618586226
+updated_at: 1618841637
 slides:
   -
     title: 'Stylo office'
@@ -91,6 +91,7 @@ slides:
                   target: null
                   rel: null
             text: info@stylodesign.co.uk
+    background_color: '#01431C'
   -
     title: dssf
     slug: asasdasd

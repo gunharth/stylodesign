@@ -33,6 +33,7 @@
 $(function () {
   slideAnchors.push("contact");
   $("#fullpage").fullpage({
+    licenseKey: "7E32D915-39324E04-A334765F-3520E7C2",
     anchors: slideAnchors,
     //sectionsColor: ["#000000", "#000000", "#000000", "#000000"],
     navigation: false,
@@ -49,25 +50,25 @@ $(function () {
       //console.log(section.anchor)
       var headerActive = false;
 
-      if ($("header").hasClass('active')) {
+      if ($("header").hasClass("active")) {
         headerActive = true;
       }
 
       $("header").removeClass().addClass("slide-" + section.anchor + "-slide" + destination.index);
-      if (headerActive) $('header').addClass('active');
+      if (headerActive) $("header").addClass("active");
       var slideSectionAnchor = $("#slide-section-" + section.anchor); // slideSectionAnchor
       //   .find("h2")
       //   .removeClass('slide'+origin.index);
 
-      slideSectionAnchor.find(".fp-slidesNav ul li a span").removeClass('slide' + origin.index);
-      slideSectionAnchor.find(".fp-controlArrow.fp-prev").removeClass('slide' + origin.index);
-      slideSectionAnchor.find(".fp-controlArrow.fp-next").removeClass('slide' + origin.index); // slideSectionAnchor
+      slideSectionAnchor.find(".fp-slidesNav ul li a span").removeClass("slide" + origin.index);
+      slideSectionAnchor.find(".fp-controlArrow.fp-prev").removeClass("slide" + origin.index);
+      slideSectionAnchor.find(".fp-controlArrow.fp-next").removeClass("slide" + origin.index); // slideSectionAnchor
       //   .find("h2")
       //   .addClass('slide'+destination.index);
 
-      slideSectionAnchor.find(".fp-slidesNav ul li a span").addClass('slide' + destination.index);
-      slideSectionAnchor.find(".fp-controlArrow.fp-prev").addClass('slide' + destination.index);
-      slideSectionAnchor.find(".fp-controlArrow.fp-next").addClass('slide' + destination.index);
+      slideSectionAnchor.find(".fp-slidesNav ul li a span").addClass("slide" + destination.index);
+      slideSectionAnchor.find(".fp-controlArrow.fp-prev").addClass("slide" + destination.index);
+      slideSectionAnchor.find(".fp-controlArrow.fp-next").addClass("slide" + destination.index);
     },
     afterRender: function afterRender() {
       $(".section").each(function (index) {

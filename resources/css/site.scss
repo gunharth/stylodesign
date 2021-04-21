@@ -1,4 +1,5 @@
 $spacing: 5%;
+$hover-opacity: 0.5;
 
 @font-face {
     font-family: 'New Rail Alphabet Light';
@@ -31,11 +32,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: none;
     text-rendering: optimizelegibility;
-  // font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  //   Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  //   "Segoe UI Symbol";
-  color: #000;
-  background: #000;
+    color: #000;
+    background: #000;
 }
 
 body,
@@ -46,8 +44,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  opacity: 50%;
-  //color: #c5c5c5;
+  opacity: $hover-opacity;
 }
 p {
   font-size: 1.5em;
@@ -106,7 +103,6 @@ header {
     .nav-button-bottomline {
       bottom: 0;
       width: 50%;
-      /* display: none; */
     }
 
   }
@@ -147,10 +143,6 @@ header {
   }
 }
 
-
-
-
-
 /* Centered texts in each section
 	* --------------------------------------- */
 
@@ -178,7 +170,7 @@ header {
     position: absolute;
     top: 10%;
     right: 5%;
-    opacity: 50%;
+    opacity: $hover-opacity;
   }
 
   .slide-content {
@@ -187,7 +179,7 @@ header {
     font-size: 2em;
 
     a {
-      opacity: 0.5;
+      opacity: $hover-opacity;
       text-decoration: underline;
     }
 
@@ -212,13 +204,14 @@ video {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-// video::-webkit-media-controls {
-//   display: none !important;
-// }
 
 .fp-slidesNav {
   left: auto !important;
   right: 5%;
+}
+
+.fp-controlArrow:hover {
+	opacity: $hover-opacity;
 }
 
 /* .fp-controlArrow{
@@ -248,22 +241,6 @@ video {
     height: 100%;
     z-index: 9999;
     background: #000;
-} */
-
-/* #timer {
-	height: 5px;
-	width: 0px;
-	position: fixed;
-	bottom: 0;
-	background-color: #fff;
-	z-index: 9999;
-	left: 50%;
-	transform: translateX(-50%);
-}
-#timer.transition {
-	width: 100%;
-	-webkit-transition: width 4s;
-    transition: width 4s;
 } */
 
 .nextSection {
@@ -329,18 +306,5 @@ footer {
 }
 
 #client {
-  // main {
-  //   padding-top: 10em;
-  // }
-  // section {
-  //   display: grid;
-  //   grid-template-columns: 1fr 1fr 1fr 1fr;
-  //   grid-template-rows: 1fr 1fr 1fr;
-  //   gap: 1em 1em;
-  // }
-  // #footer-outer {
-  //   position: fixed;
-  //   bottom: 0;
-  //   width: 100vw;
-  // }
+
 }

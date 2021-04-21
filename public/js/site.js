@@ -102,6 +102,21 @@ $(function () {
       $nav.slideToggle(function () {});
     }
   });
+  $(".up-arrow").on("click", function (e) {
+    e.preventDefault();
+
+    if ($('.section').length > 0) {
+      var sec = $(".section:eq(0)").data('anchor');
+      var url = new URL(location.href); //(location.href);
+
+      url.hash = sec;
+      location.href = url;
+    } else {
+      $("html, body").animate({
+        scrollTop: 0
+      }, "slow");
+    }
+  });
 });
 
 /***/ }),

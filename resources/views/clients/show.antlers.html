@@ -11,14 +11,32 @@
         color: {{ text_color }};
     }
     header {
+        top: 0;
         color: {{ text_color }};
     }
     header a {
         color: {{ text_color }};
     }
-    footer {
-        color: {{ text_color }};
+
+    header .logo svg {
+        fill: {{ text_color }};
     }
+    header .nav-button div{
+        background-color: {{ text_color }};
+    }
+    header.active .navigation {
+        background: {{ text_color }};
+    }
+    header.active a {
+        color: {{ background_color }};
+    }
+    header.active .logo svg {
+        fill: {{ background_color }};
+    }
+    header.active .nav-button div {
+        background-color: {{ background_color }};
+    }
+
 
     article img {
         width: 100%;
@@ -31,7 +49,7 @@
 
     main {
     padding-top: 10em;
-            padding: 0 5%;
+            padding: 10em 5%;
   }
   section {
     display: grid;
@@ -44,10 +62,15 @@
     }
 }
   #footer-outer {
-    position: fixed;
-    bottom: 0;
     width: 100vw;
   }
+
+  footer {
+        color: {{ text_color }};
+    }
+    footer .footer-logo svg {
+        fill: {{ text_color }}
+    }
 </style>
 {{ partial:partials/header }}
 <main>

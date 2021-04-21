@@ -80,7 +80,7 @@ header {
     }
 
   /* Navigation */
-  .nav-button{
+  .nav-button {
     z-index: 10;
     position: absolute;
     top: 75px;
@@ -88,24 +88,29 @@ header {
     margin-top: -6px;
     width: 50px;
     height: 20px;
-    div{
+    a {
+      display: block;
+      position: relative;
+      height: 100%
+    }
+    div {
       position: absolute;
       height: 4px;
       background-color: #fff;
     }
-    .nav-button-topline{
+    .nav-button-topline {
       width: 100%;
       top: 0;
     }
 
-    .nav-button-bottomline{
+    .nav-button-bottomline {
       bottom: 0;
       width: 50%;
       /* display: none; */
     }
 
   }
-  .navigation{
+  .navigation {
     display: none;
     position:absolute;
     top: 0;

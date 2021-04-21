@@ -71,6 +71,11 @@ header .nav-button {
   width: 50px;
   height: 20px;
 }
+header .nav-button a {
+  display: block;
+  position: relative;
+  height: 100%;
+}
 header .nav-button div {
   position: absolute;
   height: 4px;

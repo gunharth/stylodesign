@@ -2,38 +2,38 @@ $spacing: 5%;
 $hover-opacity: 0.5;
 
 @font-face {
-    font-family: 'New Rail Alphabet Light';
-    src: url('../fonts/NewRailAlphabet-LightWEB.eot');
-    /* IE9 Compat Modes */
-    src: url('../fonts/NewRailAlphabet-LightWEB.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/NewRailAlphabet-LightWEB.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/NewRailAlphabet-LightWEB.woff') format('woff');
-    /* Pretty Modern Browsers */
+  font-family: 'New Rail Alphabet Light';
+  src: url('../fonts/NewRailAlphabet-LightWEB.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/NewRailAlphabet-LightWEB.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/NewRailAlphabet-LightWEB.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/NewRailAlphabet-LightWEB.woff') format('woff');
+  /* Pretty Modern Browsers */
 }
 
 @font-face {
-    font-family: 'New Rail Alphabet Bold';
-    src: url('../fonts/NewRailAlphabet-BoldWEB.eot');
-    /* IE9 Compat Modes */
-    src: url('../fonts/NewRailAlphabet-BoldWEB.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../fonts/NewRailAlphabet-BoldWEB.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../fonts/NewRailAlphabet-BoldWEB.woff') format('woff');
-    /* Pretty Modern Browsers */
+  font-family: 'New Rail Alphabet Bold';
+  src: url('../fonts/NewRailAlphabet-BoldWEB.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/NewRailAlphabet-BoldWEB.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/NewRailAlphabet-BoldWEB.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/NewRailAlphabet-BoldWEB.woff') format('woff');
+  /* Pretty Modern Browsers */
 }
 
 
 /* System Fonts as used by GitHub */
 body {
   font-family: 'New Rail Alphabet Light', Arial, serif;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: none;
-    text-rendering: optimizelegibility;
-    color: #000;
-    background: #000;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+  text-rendering: optimizelegibility;
+  color: #000;
+  background: #000;
 }
 
 body,
@@ -46,9 +46,29 @@ a:hover {
   text-decoration: underline;
   opacity: $hover-opacity;
 }
+
 p {
   font-size: 1.5em;
 }
+
+#loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: #000;
+  opacity: 0;
+  transition: all 0.5s ease-out;
+  pointer-events: none;
+
+  &.is-active {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
 
 header {
   position: fixed;
@@ -67,14 +87,16 @@ header {
   a:hover {
     color: #c5c5c5
   }
-  .logo{
+
+  .logo {
     top: 69px;
   }
+
   .logo svg {
-      fill: #fff;
-      width: 8rem;
-      height: auto;
-    }
+    fill: #fff;
+    width: 8rem;
+    height: auto;
+  }
 
   /* Navigation */
   .nav-button {
@@ -85,16 +107,19 @@ header {
     margin-top: -6px;
     width: 50px;
     height: 20px;
+
     a {
       display: block;
       position: relative;
       height: 100%
     }
+
     div {
       position: absolute;
       height: 4px;
       background-color: #fff;
     }
+
     .nav-button-topline {
       width: 100%;
       top: 0;
@@ -106,20 +131,23 @@ header {
     }
 
   }
+
   .navigation {
     display: none;
-    position:absolute;
+    position: absolute;
     top: 0;
     padding-top: 10em;
     width: 75vw;
     background: #ff3a3b;
-    z-index:0;
-    ul{
+    z-index: 0;
+
+    ul {
       list-style-type: none;
       text-align: left;
       margin: 0;
       padding: 10% 0 10% 70px;
-      li{
+
+      li {
         font-size: 3.5em;
         line-height: 1.3em;
         font-weight: bold;
@@ -132,13 +160,14 @@ header {
     .logo svg {
       fill: #000;
     }
-    .nav-button{
 
-    div{
-      background-color: #000;
+    .nav-button {
+
+      div {
+        background-color: #000;
+      }
+
     }
-
-  }
 
   }
 }
@@ -183,7 +212,8 @@ header {
       text-decoration: underline;
     }
 
-    h1 a, h2 a {
+    h1 a,
+    h2 a {
       opacity: 1;
       text-decoration: none;
     }
@@ -211,7 +241,7 @@ video {
 }
 
 .fp-controlArrow:hover {
-	opacity: $hover-opacity;
+  opacity: $hover-opacity;
 }
 
 /* .fp-controlArrow{
@@ -272,20 +302,23 @@ video {
 }
 
 footer {
-  .up-arrow{
+  .up-arrow {
     position: absolute;
     right: 0;
     bottom: 0;
   }
+
   display: flex;
   /* justify-content: space-between; */
   padding: $spacing;
   color: #fff;
   text-align: left;
+
   >div {
     width: 25%;
   }
-  >div:last-child{
+
+  >div:last-child {
     text-align: right;
     position: relative;
   }
@@ -294,7 +327,7 @@ footer {
     font-style: normal;
   }
 
-  .footer-logo{
+  .footer-logo {
 
 
     svg {
@@ -305,6 +338,4 @@ footer {
   }
 }
 
-#client {
-
-}
+#client {}

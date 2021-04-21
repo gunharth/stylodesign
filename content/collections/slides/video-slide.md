@@ -20,6 +20,7 @@ slides:
           -
             type: text
             text: 'We’re a small and highly flexible design and digital agency based in central London with more than 35 years combined experience across the highest-level of design and digital work.'
+    background_color: '#000000'
   -
     slug: sec-slide
     type_color: '#FFFFFF'
@@ -29,5 +30,5 @@ slides:
     type: slide
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1618585801
+updated_at: 1618835797
 ---

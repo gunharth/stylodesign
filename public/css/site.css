@@ -35,8 +35,16 @@ a:hover {
   opacity: 0.5;
 }
 
+h1, h2, h3 {
+  font-weight: normal;
+}
+
 p {
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
 }
 
 #loader {
@@ -74,19 +82,23 @@ header a:hover {
   color: #c5c5c5;
 }
 header .logo {
-  top: 69px;
+  top: 3.5vw;
+  left: 50%;
+  position: absolute;
+  z-index: 1;
 }
 header .logo svg {
   fill: #fff;
   width: 8rem;
   height: auto;
+  margin-left: -4rem;
 }
 header .nav-button {
   z-index: 10;
   position: absolute;
-  top: 75px;
-  left: 70px;
-  margin-top: -6px;
+  top: 3.5vw;
+  left: 3.5vw;
+  /* margin-top: -6px; */
   width: 50px;
   height: 20px;
 }
@@ -126,7 +138,7 @@ header .navigation ul {
 header .navigation ul li {
   font-size: 3.5em;
   line-height: 1.3em;
-  font-weight: bold;
+  font-weight: normal;
 }
 header.active .logo svg {
   fill: #000;
@@ -153,13 +165,21 @@ header.active .nav-button div {
   transform: translate3d(-100%, 0, 0);
 }
 
+.fp-controlArrow.fp-prev {
+  left: 3.5vw;
+}
+
+.fp-controlArrow.fp-next {
+  right: 3.5vw;
+}
+
 .fp-tableCell {
   position: relative;
 }
 .fp-tableCell .slide-credit {
   position: absolute;
-  top: 10%;
-  right: 5%;
+  top: 3.5vw;
+  right: 3.5vw;
   opacity: 0.5;
 }
 .fp-tableCell .slide-content {
@@ -178,8 +198,8 @@ header.active .nav-button div {
 }
 .fp-tableCell .slide-title {
   position: absolute;
-  bottom: 5%;
-  left: 5%;
+  bottom: 2.5vw;
+  left: 3.5vw;
 }
 
 video {
@@ -192,7 +212,16 @@ video {
 
 .fp-slidesNav {
   left: auto !important;
-  right: 5%;
+  right: 3.5vw;
+}
+
+.fp-slidesNav.fp-bottom {
+  bottom: 2.5vw;
+}
+
+#fp-nav ul li, .fp-slidesNav ul li {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .fp-controlArrow:hover {
@@ -227,8 +256,8 @@ video {
 } */
 .nextSection {
   position: absolute;
-  bottom: 5%;
-  right: 5%;
+  bottom: 2.5vw;
+  right: 3.5vw;
   margin-left: -10px;
   z-index: 5;
   width: 20px;
@@ -254,10 +283,10 @@ video {
 
 footer {
   /* justify-content: space-between; */
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 1em;
-  padding-top: 1em;
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
+  padding-top: 2.5vw;
+  margin-bottom: 2.5vw;
   color: #fff;
   text-align: left;
   display: grid;
@@ -268,6 +297,9 @@ footer .up-arrow {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+footer p {
+  line-height: 1.4em;
 }
 footer > div {
   /* width: 25%; */

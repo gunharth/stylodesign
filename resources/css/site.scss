@@ -1,5 +1,8 @@
 $spacing: 5%;
 $hover-opacity: 0.5;
+$page-side-margin: 3.5vw;
+$page-top-margin: 3.5vw;
+$page-bottom-margin: 2.5vw;
 
 @font-face {
   font-family: 'New Rail Alphabet Light';
@@ -49,9 +52,15 @@ a:hover {
   opacity: $hover-opacity;
 }
 
-p {
-  font-size: 1.5em;
+h1, h2, h3 {
+  font-weight: normal;
 }
+p {
+  /* font-size: 1.5em; */
+  
+  margin-block-start: 0;
+  margin-block-end: 0;
+} 
 
 #loader {
   position: fixed;
@@ -91,22 +100,27 @@ header {
   }
 
   .logo {
-    top: 69px;
+    top: $page-top-margin;
+    left: 50%;
+    position: absolute; 
+    z-index: 1;
+    
   }
 
   .logo svg {
     fill: #fff;
     width: 8rem;
     height: auto;
+    margin-left: -4rem;
   }
 
   /* Navigation */
   .nav-button {
     z-index: 10;
     position: absolute;
-    top: 75px;
-    left: 70px;
-    margin-top: -6px;
+    top: $page-top-margin;
+    left: $page-side-margin;
+    /* margin-top: -6px; */
     width: 50px;
     height: 20px;
 
@@ -152,7 +166,7 @@ header {
       li {
         font-size: 3.5em;
         line-height: 1.3em;
-        font-weight: bold;
+        font-weight: normal;
       }
     }
 
@@ -193,14 +207,20 @@ header {
 .fp-slides.transformed {
   transform: translate3d(-100%, 0, 0);
 }
+.fp-controlArrow.fp-prev {
+  left: $page-side-margin;
+}
+.fp-controlArrow.fp-next {
+  right: $page-side-margin;
+}
 
 .fp-tableCell {
   position: relative;
 
   .slide-credit {
     position: absolute;
-    top: 10%;
-    right: 5%;
+    top: $page-top-margin;
+    right: $page-side-margin;
     opacity: $hover-opacity;
   }
 
@@ -224,9 +244,11 @@ header {
 
   .slide-title {
     position: absolute;
-    bottom: 5%;
-    left: 5%;
+    bottom: $page-bottom-margin;
+    left: $page-side-margin;
   }
+
+
 }
 
 video {
@@ -239,7 +261,16 @@ video {
 
 .fp-slidesNav {
   left: auto !important;
-  right: 5%;
+  right: $page-side-margin;
+}
+
+.fp-slidesNav.fp-bottom {
+  bottom: $page-bottom-margin;
+}
+
+#fp-nav ul li, .fp-slidesNav ul li {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .fp-controlArrow:hover {
@@ -277,8 +308,8 @@ video {
 
 .nextSection {
   position: absolute;
-  bottom: 5%;
-  right: 5%;
+  bottom: $page-bottom-margin;
+  right: $page-side-margin;
   margin-left: -10px;
   z-index: 5;
   width: 20px;
@@ -310,12 +341,15 @@ footer {
     bottom: 0;
   }
 
+  p{
+    line-height: 1.4em;
+  }
   
   /* justify-content: space-between; */
-  padding-left: $spacing;
-  padding-right: $spacing;
-  padding-bottom: 1em;
-  padding-top: 1em;
+  padding-left: $page-side-margin;
+  padding-right: $page-side-margin;
+  padding-top: $page-bottom-margin;
+  margin-bottom: $page-bottom-margin;
   color: #fff;
   text-align: left;
   display: grid;

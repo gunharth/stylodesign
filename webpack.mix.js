@@ -14,6 +14,7 @@ mix.js('resources/js/site.js', 'public/js')
 mix.sass("resources/css/site.scss", "public/css").options({
     processCssUrls: false,
 });
+mix.copy('resources/favicons', 'public/favicons')
 
 // mix.postCss('resources/css/tailwind.css', 'public/css', [
 //     require('postcss-import'),

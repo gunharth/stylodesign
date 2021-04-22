@@ -43,6 +43,7 @@ return [
         public_path('css') => 'css',
         public_path('js') => 'js',
         public_path('fonts') => 'fonts',
+        public_path('favicons') => 'favicons',
     ],
 
     'symlinks' => [

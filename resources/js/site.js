@@ -34,7 +34,7 @@ $(function () {
             slidesNavigation: true,
             slidesNavPosition: "bottom",
             controlArrows: true,
-            loopHorizontal: true,
+            loopHorizontal: false,
             lazyLoading: true,
             onLeave(index, nextIndex, direction) {
                 closeNav();

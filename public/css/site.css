@@ -171,6 +171,7 @@ header.active .nav-button div {
 
 .fp-controlArrow {
   display: none;
+  margin-top: -25px;
 }
 
 .fp-controlArrow.fp-prev {
@@ -188,21 +189,27 @@ header.active .nav-button div {
 }
 
 .fp-controlArrow.fp-prev span {
-  left: 8vw;
+  /* left: $mobile-page-side-margin; */
   width: 0;
   height: 0;
+  top: 14px;
+  left: 0;
   border-top: 10px solid transparent;
   border-right: 17px solid white;
   border-bottom: 10px solid transparent;
+  position: absolute;
 }
 
 .fp-controlArrow.fp-next span {
-  right: 8vw;
+  /* right: $mobile-page-side-margin; */
   width: 0;
   height: 0;
+  top: 14px;
+  right: 0;
   border-top: 10px solid transparent;
   border-left: 17px solid white;
   border-bottom: 10px solid transparent;
+  position: absolute;
 }
 
 .fp-tableCell {
@@ -252,9 +259,8 @@ video {
   bottom: 3.5vw;
 }
 
-#fp-nav ul li, .fp-slidesNav ul li {
-  margin-bottom: 0;
-  margin-top: 0;
+#fp-nav ul li:last-child, .fp-slidesNav ul li:last-child {
+  margin-right: 3px;
 }
 
 .fp-controlArrow:hover {
@@ -301,7 +307,7 @@ video {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 17px solid white;
-  bottom: 30px;
+  bottom: 2.5em;
   left: 0;
   position: absolute;
 }

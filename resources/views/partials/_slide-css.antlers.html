@@ -62,14 +62,14 @@
             background: var(--section-{{ section:slug }}-slide{{ index }}-type-color);
         }
 
-        #slide-section-{{ section:slug }} .fp-controlArrow.fp-next.slide{{ index }} {
+        #slide-section-{{ section:slug }} .fp-controlArrow.fp-next.slide{{ index }} span {
             border-color: transparent transparent transparent var(--section-{{ section:slug }}-slide{{ index }}-type-color);
         }
 
-        #slide-section-{{ section:slug }} .fp-controlArrow.fp-prev.slide{{ index }} {
+        #slide-section-{{ section:slug }} .fp-controlArrow.fp-prev.slide{{ index }} span {
             border-color: transparent var(--section-{{ section:slug }}-slide{{ index }}-type-color) transparent transparent;
         }
-        #slide-section-{{ section:slug }} .nextSection.down-arrow {
+        #slide-section-{{ section:slug }} .slide{{ index }} .nextSection .down-arrow {
             border-top-color: var(--section-{{ section:slug }}-slide{{ index }}-type-color);
         }
     {{ /slides }}

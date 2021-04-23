@@ -175,10 +175,20 @@ header.active .nav-button div {
 
 .fp-controlArrow.fp-prev {
   left: 8vw;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 17px solid white;
+  border-bottom: 10px solid transparent;
 }
 
 .fp-controlArrow.fp-next {
   right: 8vw;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 17px solid white;
+  border-bottom: 10px solid transparent;
 }
 
 .fp-tableCell {

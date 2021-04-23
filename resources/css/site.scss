@@ -225,9 +225,19 @@ header {
 }
 .fp-controlArrow.fp-prev {
   left: $mobile-page-side-margin;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 17px solid white;
+  border-bottom: 10px solid transparent;
 }
 .fp-controlArrow.fp-next {
   right: $mobile-page-side-margin;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 17px solid white;
+  border-bottom: 10px solid transparent;
 }
 
 .fp-tableCell {

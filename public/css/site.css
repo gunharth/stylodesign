@@ -461,6 +461,7 @@ footer .footer-logo svg {
   }
   footer .footer-logo {
     display: initial;
+    padding-top: 0.2em;
   }
   footer > div:last-child {
     text-align: right;

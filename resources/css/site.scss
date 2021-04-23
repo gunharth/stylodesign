@@ -540,6 +540,8 @@ header{
     column-gap: $desktop-page-side-margin;
     .footer-logo{
       display: initial;
+      padding-top: 0.2em;
+
     }
     >div:last-child {
       text-align: right;

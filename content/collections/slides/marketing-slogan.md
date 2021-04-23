@@ -1,6 +1,6 @@
 ---
 id: d264fb9c-4b4f-4e38-9015-856b98b6d813
-title: 'Simple ideas ...'
+title: 'Home 1a'
 title_for_display: 'Simple Ideas. Beautifully realised.'
 type_color: '#FFFFFF'
 hover_color: '#C5C6CF'
@@ -8,7 +8,7 @@ slide_type: image
 image: projects/centuries/C_01a.jpg
 text_slide: false
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1618834467
+updated_at: 1619176533
 replicator:
   -
     title: Home
@@ -30,14 +30,14 @@ replicator:
 slides:
   -
     slug: simple-ideas
-    type_color: '#E10320'
+    type_color: '#DCDDE0'
     hover_color: '#FFFFFF'
     slide_type: image
     background_color: '#000000'
     text_slide: false
     type: slide
     enabled: true
-    image: TB_04d.jpg
+    image: projects/tanner-bates/TB_04d.jpg
     body_copy:
       -
         type: heading
@@ -48,7 +48,7 @@ slides:
             type: text
             text: 'Simple Ideas. Beautifully realised.'
   -
-    title: Test
+    title: 'Home 1b'
     slug: about
     type_color: '#19646D'
     slide_type: color

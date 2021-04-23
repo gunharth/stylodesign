@@ -14,7 +14,7 @@ bard:
         type: text
         text: 'We are a small, highly flexible design and digital agency with offices in and . Established for over 20 years, the focus of our work is the creation of considered, crafted brand identities and beautiful bespoke content managed websites.'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1618586060
+updated_at: 1619177001
 section_slug: 'what slug is this'
 section_slides:
   -
@@ -84,7 +84,7 @@ slides:
     type_color: '#B0916B'
     hover_color: '#D3D5E3'
     slide_type: image
-    image: about_1.jpg
+    image: about/about_1.jpg
     text_slide: true
     type: slide
     enabled: true
@@ -149,6 +149,7 @@ slides:
                   target: null
                   rel: null
             text: link
+    background_color: '#594327'
   -
     title: 'second slide title'
     slug: second-slide-title

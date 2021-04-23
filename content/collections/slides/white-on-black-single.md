@@ -3,11 +3,11 @@ id: c4ce53ac-7de5-4fca-837d-2fbe86bb4af3
 title: 'White on Black single'
 slides:
   -
-    title: 'White on Black changed to image'
+    title: 'Price & Myers'
     slug: white-on-black-single
     type_color: '#FF3730'
     hover_color: '#A4A4A7'
-    slide_type: image
+    slide_type: video
     background_color: '#000000'
     text_slide: true
     bard:
@@ -19,7 +19,6 @@ slides:
             text: 'White text over black'
     type: slide
     enabled: true
-    image: about_1-1618586470.jpg
     body_copy:
       -
         type: heading
@@ -43,6 +42,7 @@ slides:
                   target: null
                   rel: null
             text: 'Test Credit with link'
+    video: 'https://4895768e49742e17e04d-05f151dc8b8cbd1daca39f1f4d7296ca.ssl.cf3.rackcdn.com/1560743454.mp4'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1618586565
+updated_at: 1619176183
 ---

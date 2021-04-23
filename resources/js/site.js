@@ -1,7 +1,11 @@
 
 $(function () {
 
-    if( $('.section').length > 0) {
+    setTimeout(() => {
+        $('#loader').removeClass("is-active");
+    }, 500);
+
+    if ($(".section").length > 0) {
         slideAnchors.push("contact");
         $("#fullpage").fullpage({
             licenseKey: "7E32D915-39324E04-A334765F-3520E7C2",
@@ -60,7 +64,9 @@ $(function () {
             afterRender: function () {
                 $(".section").each(function (index) {
                     //$(this).find("h2").addClass("slide0");
-                    $(this).find(".fp-slidesNav ul li a span").addClass("slide0");
+                    $(this)
+                        .find(".fp-slidesNav ul li a span")
+                        .addClass("slide0");
                     $(this).find(".fp-controlArrow.fp-prev").addClass("slide0");
                     $(this).find(".fp-controlArrow.fp-next").addClass("slide0");
                     if (index == 0) {
@@ -78,25 +84,25 @@ $(function () {
         });
     }
 
-    $('.nav-button').on('click', function(e) {
-        e.preventDefault()
-        $nav = $('.navigation')
-        if($nav.is(':visible')){
-        $nav.slideToggle(function () {
+    $(".nav-button").on("click", function (e) {
+        e.preventDefault();
+        $nav = $(".navigation");
+        if ($nav.is(":visible")) {
+            $nav.slideToggle(function () {
+                $("header").toggleClass("active");
+                $(".nav-button-bottomline").toggle();
+            });
+        } else {
             $("header").toggleClass("active");
             $(".nav-button-bottomline").toggle();
-        });
-        } else {
-        $("header").toggleClass("active");
-        $(".nav-button-bottomline").toggle();
-        $nav.slideToggle(function () {});
+            $nav.slideToggle(function () {});
         }
-    })
+    });
 
     $(".up-arrow").on("click", function (e) {
-        e.preventDefault()
-        if( $('.section').length > 0) {
-            let sec = $(".section:eq(0)").data('anchor');
+        e.preventDefault();
+        if ($(".section").length > 0) {
+            let sec = $(".section:eq(0)").data("anchor");
             const url = new URL(location.href); //(location.href);
             url.hash = sec;
             location.href = url;
@@ -104,5 +110,4 @@ $(function () {
             $("html, body").animate({ scrollTop: 0 }, "slow");
         }
     });
-
 });

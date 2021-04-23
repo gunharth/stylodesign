@@ -240,6 +240,7 @@ header {
   border-bottom: 10px solid transparent;
 }
 
+
 .fp-tableCell {
   position: relative;
 
@@ -340,6 +341,16 @@ video {
   margin-left: -10px;
   z-index: 5;
   width: 20px;
+  .down-arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 17px solid white;
+    bottom: 30px;
+    left: 0;
+    position: absolute;
+  }
 }
 
 .nextSection:hover {

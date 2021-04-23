@@ -281,6 +281,16 @@ video {
   z-index: 5;
   width: 20px;
 }
+.nextSection .down-arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 17px solid white;
+  bottom: 30px;
+  left: 0;
+  position: absolute;
+}
 
 .nextSection:hover {
   cursor: pointer;

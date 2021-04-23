@@ -170,8 +170,10 @@ header.active .nav-button div {
 }
 
 .fp-controlArrow {
-  display: none;
   margin-top: -25px;
+}
+.fp-controlArrow span {
+  display: none;
 }
 
 .fp-controlArrow.fp-prev {
@@ -463,12 +465,15 @@ footer .footer-logo svg {
   footer > div:last-child {
     text-align: right;
   }
+  footer > div:last-child p {
+    line-height: 1.4em;
+  }
   footer .up-arrow {
     right: 3.5vw;
     bottom: 2.5vw;
   }
 
-  .fp-controlArrow {
+  .fp-controlArrow span {
     display: initial;
   }
 }

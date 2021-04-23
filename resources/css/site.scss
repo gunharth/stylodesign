@@ -221,9 +221,13 @@ header {
 }
 
 .fp-controlArrow{
-  display: none;
+  
   margin-top: -25px;
+  span{
+    display: none;
+  }
 }
+
 .fp-controlArrow.fp-prev {
   left: $mobile-page-side-margin;
   width: 50px;
@@ -539,6 +543,9 @@ header{
     }
     >div:last-child {
       text-align: right;
+      p{
+        line-height: 1.4em;
+      }
     }
     .up-arrow {
       right: $desktop-page-side-margin;
@@ -547,7 +554,10 @@ header{
   }
 
   .fp-controlArrow{
-    display: initial;
+    span{
+      display: initial;
+    }
+    
   }
 
 

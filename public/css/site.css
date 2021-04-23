@@ -1,3 +1,5 @@
+/* $spacing: 5%; */
+/* $desktop-spacing: 5%; */
 @font-face {
   font-family: "New Rail Alphabet Light";
   src: url("../fonts/NewRailAlphabet-LightWEB.eot");
@@ -29,14 +31,14 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.23em;
+  text-decoration: none;
   opacity: 0.5;
 }
 
 h1, h2, h3 {
   font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.3rem;
 }
 
 p {
@@ -82,22 +84,22 @@ header a:hover {
   color: #c5c5c5;
 }
 header .logo {
-  top: 3.5vw;
+  top: 9vw;
   left: 50%;
   position: absolute;
   z-index: 1;
 }
 header .logo svg {
   fill: #fff;
-  width: 8rem;
+  width: 120px;
   height: auto;
-  margin-left: -4rem;
+  margin-left: -60px;
 }
 header .nav-button {
   z-index: 10;
   position: absolute;
-  top: 3.5vw;
-  left: 3.5vw;
+  top: 9vw;
+  left: 8vw;
   /* margin-top: -6px; */
   width: 50px;
   height: 20px;
@@ -124,8 +126,8 @@ header .navigation {
   display: none;
   position: absolute;
   top: 0;
-  padding-top: 10em;
-  width: 75vw;
+  padding-top: 100px;
+  width: 100vw;
   background: #ff3a3b;
   z-index: 0;
 }
@@ -133,11 +135,13 @@ header .navigation ul {
   list-style-type: none;
   text-align: left;
   margin: 0;
-  padding: 10% 0 10% 70px;
+  padding-left: 8vw;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
 }
 header .navigation ul li {
-  font-size: 3.5em;
-  line-height: 1.3em;
+  font-size: 2rem;
+  line-height: 2.3rem;
   font-weight: normal;
 }
 header.active .logo svg {
@@ -165,27 +169,32 @@ header.active .nav-button div {
   transform: translate3d(-100%, 0, 0);
 }
 
+.fp-controlArrow {
+  display: none;
+}
+
 .fp-controlArrow.fp-prev {
-  left: 3.5vw;
+  left: 8vw;
 }
 
 .fp-controlArrow.fp-next {
-  right: 3.5vw;
+  right: 8vw;
 }
 
 .fp-tableCell {
   position: relative;
 }
 .fp-tableCell .slide-credit {
+  display: none;
   position: absolute;
-  top: 3.5vw;
-  right: 3.5vw;
+  top: 9vw;
+  right: 8vw;
   opacity: 0.5;
 }
 .fp-tableCell .slide-content {
-  width: 70vw;
+  width: 84vw;
   margin: 0 auto;
-  font-size: 2em;
+  font-size: 2rem;
 }
 .fp-tableCell .slide-content a {
   opacity: 0.5;
@@ -198,8 +207,8 @@ header.active .nav-button div {
 }
 .fp-tableCell .slide-title {
   position: absolute;
-  bottom: 2.5vw;
-  left: 3.5vw;
+  bottom: 3.5vw;
+  left: 8vw;
 }
 
 video {
@@ -212,11 +221,11 @@ video {
 
 .fp-slidesNav {
   left: auto !important;
-  right: 3.5vw;
+  right: 8vw;
 }
 
 .fp-slidesNav.fp-bottom {
-  bottom: 2.5vw;
+  bottom: 3.5vw;
 }
 
 #fp-nav ul li, .fp-slidesNav ul li {
@@ -256,8 +265,8 @@ video {
 } */
 .nextSection {
   position: absolute;
-  bottom: 2.5vw;
-  right: 3.5vw;
+  bottom: 3.5vw;
+  right: 8vw;
   margin-left: -10px;
   z-index: 5;
   width: 20px;
@@ -283,20 +292,23 @@ video {
 
 footer {
   /* justify-content: space-between; */
-  padding-left: 3.5vw;
-  padding-right: 3.5vw;
-  padding-top: 2.5vw;
-  margin-bottom: 2.5vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-top: 10vw;
+  margin-bottom: 7vw;
   color: #fff;
   text-align: left;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 5%;
+  grid-template-columns: 1fr 1fr;
+  /* gap: $spacing; */
+  row-gap: 9vw;
+  -moz-column-gap: 8vw;
+       column-gap: 8vw;
 }
 footer .up-arrow {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 8vw;
+  bottom: 7vw;
 }
 footer p {
   line-height: 1.4em;
@@ -305,14 +317,118 @@ footer > div {
   /* width: 25%; */
 }
 footer > div:last-child {
-  text-align: right;
-  position: relative;
+  text-align: left;
+  /* position: relative; */
+}
+footer > div:last-child p {
+  line-height: 0.5em;
 }
 footer address {
   font-style: normal;
 }
+footer .footer-logo {
+  display: none;
+}
 footer .footer-logo svg {
   fill: #fff;
-  width: 14rem;
+  max-width: 224px;
   height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  h1, h2, h3 {
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.23em;
+  }
+
+  header .nav-button {
+    top: 3.5vw;
+    left: 3.5vw;
+  }
+  header .logo {
+    top: 3.5vw;
+  }
+  header .logo svg {
+    width: 128px;
+    margin-left: -64px;
+  }
+  header .navigation {
+    padding-top: 125px;
+    width: 75vw;
+  }
+  header .navigation ul {
+    padding-left: 3.5vw;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+  }
+  header .navigation ul li {
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+  }
+
+  .fp-tableCell .slide-credit {
+    display: block;
+    top: 3.5vw;
+    right: 3.5vw;
+  }
+  .fp-tableCell .slide-title {
+    left: 3.5vw;
+    bottom: 2.5vw;
+  }
+  .fp-tableCell .slide-content {
+    width: 70vw;
+    font-size: 3.2rem;
+  }
+
+  .fp-controlArrow.fp-prev {
+    left: 3.5vw;
+  }
+
+  .fp-controlArrow.fp-next {
+    right: 3.5vw;
+  }
+
+  .fp-slidesNav {
+    right: 3.5vw;
+  }
+
+  .fp-slidesNav.fp-bottom {
+    bottom: 2.5vw;
+  }
+
+  .nextSection {
+    bottom: 2.5vw;
+    right: 3.5vw;
+  }
+
+  footer {
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    padding-top: 2.5vw;
+    margin-bottom: 2.5vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 3.5vw;
+    -moz-column-gap: 3.5vw;
+         column-gap: 3.5vw;
+  }
+  footer .footer-logo {
+    display: initial;
+  }
+  footer > div:last-child {
+    text-align: right;
+  }
+  footer .up-arrow {
+    right: 3.5vw;
+    bottom: 2.5vw;
+  }
+
+  .fp-controlArrow {
+    display: initial;
+  }
 }

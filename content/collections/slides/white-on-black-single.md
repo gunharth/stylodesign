@@ -21,9 +21,7 @@ slides:
     enabled: true
     body_copy:
       -
-        type: heading
-        attrs:
-          level: 2
+        type: paragraph
         content:
           -
             type: text
@@ -44,5 +42,5 @@ slides:
             text: 'Test Credit with link'
     video: 'https://4895768e49742e17e04d-05f151dc8b8cbd1daca39f1f4d7296ca.ssl.cf3.rackcdn.com/1560743454.mp4'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1619176183
+updated_at: 1619519966
 ---

@@ -17,6 +17,7 @@ slides:
             text: 'Director Name'
     type: slide
     enabled: true
+    background_color: '#D9CFC4'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1619170498
+updated_at: 1619182703
 ---

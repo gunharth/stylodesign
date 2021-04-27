@@ -15,8 +15,7 @@
                     <iframe src="{{ video | embed_url }}"></iframe>
                 {{ else }}
                     <!-- Other HTML5 video types -->
-                    <!-- <video src="{{ video | embed_url }}" playsinline autoplay muted loop></video> -->
-                    <video loop muted data-autoplay>
+                    <video playsinline loop muted data-autoplay>
                         <source src="{{ video | embed_url }}" type="video/mp4">
                     </video>
                 {{ /if }}

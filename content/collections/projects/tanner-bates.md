@@ -13,6 +13,7 @@ sections:
         video: 'http://0e20ce00226362322e2f-bb24ee469ec4c88bec8ffc2894929f4c.r64.cf3.rackcdn.com/production%20ID_4456168.mp4'
         type: slides
         enabled: true
+        background_color: '#D9CFC4'
     type: section
     enabled: true
 seo_noindex: false
@@ -21,5 +22,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1618586782
+updated_at: 1619182692
 ---

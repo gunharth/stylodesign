@@ -13,9 +13,7 @@ slides:
     enabled: true
     body_copy:
       -
-        type: heading
-        attrs:
-          level: 2
+        type: paragraph
         content:
           -
             type: text
@@ -30,5 +28,5 @@ slides:
     type: slide
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1618835797
+updated_at: 1619519916
 ---

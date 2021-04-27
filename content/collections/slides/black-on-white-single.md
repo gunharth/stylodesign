@@ -5,7 +5,7 @@ slides:
   -
     title: 'Black on White'
     slug: black-on-white
-    type_color: '#000000'
+    type_color: '#030425'
     hover_color: '#909197'
     slide_type: color
     background_color: '#5139FF'
@@ -31,9 +31,7 @@ slides:
     enabled: true
     body_copy:
       -
-        type: heading
-        attrs:
-          level: 2
+        type: paragraph
         content:
           -
             type: text
@@ -46,5 +44,5 @@ slides:
             type: text
             text: 'Test Credit'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1619089875
+updated_at: 1619519863
 ---

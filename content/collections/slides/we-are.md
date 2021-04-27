@@ -14,7 +14,7 @@ bard:
         type: text
         text: 'We are a small, highly flexible design and digital agency with offices in and . Established for over 20 years, the focus of our work is the creation of considered, crafted brand identities and beautiful bespoke content managed websites.'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1619177001
+updated_at: 1619520039
 section_slug: 'what slug is this'
 section_slides:
   -
@@ -125,9 +125,7 @@ slides:
             text: 'explicabo deleniti, architecto in?'
     body_copy:
       -
-        type: heading
-        attrs:
-          level: 2
+        type: paragraph
         content:
           -
             type: text
@@ -190,7 +188,7 @@ slides:
               -
                 type: link
                 attrs:
-                  href: 'http://stylo.dom'
+                  href: 'https://stylodesign.co.uk'
                   target: null
                   rel: null
             text: stylo

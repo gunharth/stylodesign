@@ -35,7 +35,7 @@ slides:
         content:
           -
             type: text
-            text: 'We’re a small and highly flexible design and digital agency based in central London with more than 35 years combined experience across the highest-level of design and digital work.'
+            text: 'We’re a small and highly flexible design and digital agency based in central London with more than 35 years combined experience across the highest-level of design and digital work. We’re a small and highly flexible design and digital agency based in central London with more than 35 years combined experience across the highest-level of design and digital work.'
     credit:
       -
         type: paragraph
@@ -44,5 +44,5 @@ slides:
             type: text
             text: 'Test Credit'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1619620977
+updated_at: 1619622232
 ---

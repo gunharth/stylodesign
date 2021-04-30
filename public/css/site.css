@@ -6,6 +6,7 @@
 /* 3.5vw; */
 /* 3.5vw; */
 /* 2.5vw; */
+/* tom's giant iMac */
 @font-face {
   font-family: "New Rail Alphabet Light";
   src: url("../fonts/NewRailAlphabet-LightWEB.eot");
@@ -255,6 +256,7 @@ header.active .nav-button div {
   position: absolute;
   bottom: 4vh;
   left: 5vh;
+  font-size: 1rem;
 }
 
 video {
@@ -444,9 +446,13 @@ footer .footer-logo svg {
     top: 6.5vh;
     right: 6.5vh;
   }
+  .fp-tableCell .slide-credit p {
+    font-size: 1rem;
+  }
   .fp-tableCell .slide-title {
     left: 6.5vh;
     bottom: 5vh;
+    font-size: 1rem;
   }
   .fp-tableCell .slide-content {
     width: 70vw;
@@ -487,9 +493,16 @@ footer .footer-logo svg {
     -moz-column-gap: 6.5vh;
          column-gap: 6.5vh;
   }
+  footer p {
+    line-height: 1.4rem;
+    font-size: 1rem;
+  }
   footer .footer-logo {
     display: initial;
     padding-top: 0.2em;
+  }
+  footer .footer-logo svg {
+    max-width: 180px;
   }
   footer > div:last-child {
     text-align: right;
@@ -504,6 +517,48 @@ footer .footer-logo svg {
 
   .fp-controlArrow span {
     display: initial;
+  }
+}
+@media only screen and (min-width: 1650px) and (min-height: 800px) {
+  p {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+    line-height: 4.8rem;
+  }
+
+  h2, h3 {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+
+  header .navigation ul li {
+    font-size: 4.2rem;
+    line-height: 4.8rem;
+  }
+
+  .fp-tableCell .slide-credit p {
+    font-size: 1.5rem;
+  }
+  .fp-tableCell .slide-title {
+    font-size: 1.5rem;
+  }
+  .fp-tableCell .slide-content {
+    font-size: 3rem;
+  }
+
+  footer p {
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+  footer .footer-logo svg {
+    max-width: 224px;
+  }
+  footer > div:last-child p {
+    line-height: 1.4em;
   }
 }
 .slide .slide-content {

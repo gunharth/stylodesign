@@ -236,7 +236,7 @@ header.active .nav-button div {
   position: absolute;
   top: 5vh;
   right: 5vh;
-  opacity: 0.5;
+  /* opacity: $hover-opacity; */
 }
 .fp-tableCell .slide-content {
   width: 84vw;

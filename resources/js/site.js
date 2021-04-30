@@ -138,4 +138,35 @@ $(function () {
             }
         }
 
+        // sectionObserver
+        const options = {
+            root: null, // use the document's viewport as the container
+            rootMargin: "0px", // % or px - offsets added to each side of the intersection
+            threshold: 0.5, // percentage of the target element which is visible
+        };
+
+        let callback = (entries) => {
+            entries.forEach((entry) => {
+                // if visible add isVisible class
+                // only add it - to show the anim every time enable the else statement
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("isVisible");
+                }
+                // else {
+                //     //entry.target.classList.remove("isVisible");
+                // }
+            });
+        };
+
+        // Create the intersection observer instance
+        let observer = new IntersectionObserver(callback, options);
+
+        // Get all the elements from DOM and attach the observer to these
+        // set to first slide per row only at present
+        document
+            .querySelectorAll(".fp-slidesContainer .slide:first-child")
+            .forEach((slide) => {
+                observer.observe(slide);
+            });
+
 });

@@ -506,3 +506,11 @@ footer .footer-logo svg {
     display: initial;
   }
 }
+.slide .slide-content {
+  transform: translateY(50px);
+  transition: all 1s;
+}
+
+.slide.isVisible .slide-content {
+  transform: translate(0px, 0px);
+}

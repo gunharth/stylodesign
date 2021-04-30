@@ -417,7 +417,7 @@ footer {
   p{
     line-height:  $mobile-smallest-lineheight;
     font-size: $mobile-smallest-fontsize;
-    
+
   }
 
   /* justify-content: space-between; */
@@ -567,12 +567,12 @@ header{
       padding-top: 0.2em;
 
     }
-    
+
     >div:last-child {
       text-align: right;
       p{
         line-height: 1.4em;
-        
+
       }
     }
     .up-arrow {
@@ -589,4 +589,11 @@ header{
   }
 
 
+}
+.slide .slide-content {
+  transform: translateY(50px);
+  transition: all 1s;
+}
+.slide.isVisible .slide-content {
+  transform: translate(0px, 0px);
 }

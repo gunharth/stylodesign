@@ -1,5 +1,12 @@
 /* $spacing: 5%; */
+/* 8vw; */
+/* 9vw; */
+/* 3.5vw; */
 /* $desktop-spacing: 5%; */
+/* 3.5vw; */
+/* 3.5vw; */
+/* 2.5vw; */
+/* tom's giant iMac */
 @font-face {
   font-family: "New Rail Alphabet Light";
   src: url("../fonts/NewRailAlphabet-LightWEB.eot");
@@ -35,14 +42,21 @@ a:hover {
   opacity: 0.5;
 }
 
-h1, h2, h3 {
+h1 {
   font-weight: normal;
-  font-size: 2rem;
-  line-height: 2.3rem;
+  font-size: 2.3rem;
+  line-height: 2.9rem;
+}
+
+h2, h3 {
+  font-weight: normal;
+  font-size: 1.45rem;
+  line-height: 1.48rem;
 }
 
 p {
-  /* font-size: 1.5em; */
+  font-size: 1.45rem;
+  line-height: 1.48rem;
   -webkit-margin-before: 0;
           margin-block-start: 0;
   -webkit-margin-after: 0;
@@ -84,7 +98,7 @@ header a:hover {
   color: #c5c5c5;
 }
 header .logo {
-  top: 9vw;
+  top: 5vh;
   left: 50%;
   position: absolute;
   z-index: 1;
@@ -98,8 +112,8 @@ header .logo svg {
 header .nav-button {
   z-index: 10;
   position: absolute;
-  top: 9vw;
-  left: 8vw;
+  top: 5vh;
+  left: 5vh;
   /* margin-top: -6px; */
   width: 50px;
   height: 20px;
@@ -135,13 +149,13 @@ header .navigation ul {
   list-style-type: none;
   text-align: left;
   margin: 0;
-  padding-left: 8vw;
+  padding-left: 5vh;
   padding-top: 15vh;
   padding-bottom: 15vh;
 }
 header .navigation ul li {
-  font-size: 2rem;
-  line-height: 2.3rem;
+  font-size: 2.3rem;
+  line-height: 2.9rem;
   font-weight: normal;
 }
 header.active .logo svg {
@@ -177,14 +191,14 @@ header.active .nav-button div {
 }
 
 .fp-controlArrow.fp-prev {
-  left: 8vw;
+  left: 5vh;
   width: 50px;
   height: 50px;
   border: 0;
 }
 
 .fp-controlArrow.fp-next {
-  right: 8vw;
+  right: 5vh;
   width: 50px;
   height: 50px;
   border: 0;
@@ -220,18 +234,23 @@ header.active .nav-button div {
 .fp-tableCell .slide-credit {
   display: none;
   position: absolute;
-  top: 9vw;
-  right: 8vw;
-  opacity: 0.5;
+  top: 5vh;
+  right: 5vh;
+  /* opacity: $hover-opacity; */
 }
 .fp-tableCell .slide-content {
   width: 84vw;
   margin: 0 auto;
-  font-size: 2rem;
+  font-size: 1.45rem;
 }
 .fp-tableCell .slide-content a {
   opacity: 0.5;
+  text-decoration: none;
+}
+.fp-tableCell .slide-content a:hover {
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.23em;
 }
 .fp-tableCell .slide-content h1 a,
 .fp-tableCell .slide-content h2 a {
@@ -240,13 +259,15 @@ header.active .nav-button div {
 }
 .fp-tableCell .slide-title {
   position: absolute;
-  bottom: 3.5vw;
-  left: 8vw;
+  bottom: 4vh;
+  left: 5vh;
+  font-size: 1rem;
 }
 
 video {
   position: absolute;
   min-height: 100%;
+  min-width: 100%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -254,11 +275,11 @@ video {
 
 .fp-slidesNav {
   left: auto !important;
-  right: 8vw;
+  right: 5vh;
 }
 
 .fp-slidesNav.fp-bottom {
-  bottom: 3.5vw;
+  bottom: 4vh;
 }
 
 #fp-nav ul li:last-child, .fp-slidesNav ul li:last-child {
@@ -297,8 +318,8 @@ video {
 } */
 .nextSection {
   position: absolute;
-  bottom: 3.5vw;
-  right: 8vw;
+  bottom: 4vh;
+  right: 5vh;
   margin-left: -10px;
   z-index: 5;
   width: 20px;
@@ -309,7 +330,7 @@ video {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 17px solid white;
-  bottom: 2.5em;
+  bottom: 3.5em;
   left: 0;
   position: absolute;
 }
@@ -334,8 +355,8 @@ video {
 
 footer {
   /* justify-content: space-between; */
-  padding-left: 8vw;
-  padding-right: 8vw;
+  padding-left: 5vh;
+  padding-right: 5vh;
   padding-top: 10vw;
   margin-bottom: 7vw;
   color: #fff;
@@ -343,17 +364,18 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* gap: $spacing; */
-  row-gap: 9vw;
-  -moz-column-gap: 8vw;
-       column-gap: 8vw;
+  row-gap: 5vh;
+  -moz-column-gap: 5vh;
+       column-gap: 5vh;
 }
 footer .up-arrow {
   position: absolute;
-  right: 8vw;
+  right: 5vh;
   bottom: 7vw;
 }
 footer p {
   line-height: 1.4em;
+  font-size: 1rem;
 }
 footer > div {
   /* width: 25%; */
@@ -377,10 +399,20 @@ footer .footer-logo svg {
   height: auto;
 }
 
-@media only screen and (min-width: 600px) {
-  h1, h2, h3 {
+@media only screen and (min-width: 600px) and (min-height: 600px) {
+  p {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+
+  h1 {
     font-size: 3.2rem;
     line-height: 4.2rem;
+  }
+
+  h2, h3 {
+    font-size: 2rem;
+    line-height: 2.2rem;
   }
 
   a:hover {
@@ -390,11 +422,11 @@ footer .footer-logo svg {
   }
 
   header .nav-button {
-    top: 3.5vw;
-    left: 3.5vw;
+    top: 6.5vh;
+    left: 6.5vh;
   }
   header .logo {
-    top: 3.5vw;
+    top: 6.5vh;
   }
   header .logo svg {
     width: 128px;
@@ -405,7 +437,7 @@ footer .footer-logo svg {
     width: 75vw;
   }
   header .navigation ul {
-    padding-left: 3.5vw;
+    padding-left: 6.5vh;
     padding-top: 15vh;
     padding-bottom: 15vh;
   }
@@ -416,52 +448,66 @@ footer .footer-logo svg {
 
   .fp-tableCell .slide-credit {
     display: block;
-    top: 3.5vw;
-    right: 3.5vw;
+    top: 6.5vh;
+    right: 6.5vh;
+  }
+  .fp-tableCell .slide-credit p {
+    font-size: 1rem;
   }
   .fp-tableCell .slide-title {
-    left: 3.5vw;
-    bottom: 2.5vw;
+    left: 6.5vh;
+    bottom: 5vh;
+    font-size: 1rem;
   }
   .fp-tableCell .slide-content {
     width: 70vw;
-    font-size: 3.2rem;
+    font-size: 2rem;
   }
 
   .fp-controlArrow.fp-prev {
-    left: 3.5vw;
+    left: 6.5vh;
   }
 
   .fp-controlArrow.fp-next {
-    right: 3.5vw;
+    right: 6.5vh;
   }
 
   .fp-slidesNav {
-    right: 3.5vw;
+    right: 6.5vh;
   }
 
   .fp-slidesNav.fp-bottom {
-    bottom: 2.5vw;
+    bottom: 5vh;
   }
 
   .nextSection {
-    bottom: 2.5vw;
-    right: 3.5vw;
+    bottom: 5vh;
+    right: 6.5vh;
+  }
+  .nextSection .down-arrow {
+    bottom: 3.5em;
   }
 
   footer {
-    padding-left: 3.5vw;
-    padding-right: 3.5vw;
-    padding-top: 2.5vw;
-    margin-bottom: 2.5vw;
+    padding-left: 6.5vh;
+    padding-right: 6.5vh;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 3.5vw;
-    -moz-column-gap: 3.5vw;
-         column-gap: 3.5vw;
+    row-gap: 6.5vh;
+    -moz-column-gap: 6.5vh;
+         column-gap: 6.5vh;
+  }
+  footer p {
+    line-height: 1.4rem;
+    font-size: 1rem;
   }
   footer .footer-logo {
     display: initial;
     padding-top: 0.2em;
+  }
+  footer .footer-logo svg {
+    max-width: 180px;
   }
   footer > div:last-child {
     text-align: right;
@@ -470,11 +516,61 @@ footer .footer-logo svg {
     line-height: 1.4em;
   }
   footer .up-arrow {
-    right: 3.5vw;
-    bottom: 2.5vw;
+    right: 6.5vh;
+    bottom: 5vh;
   }
 
   .fp-controlArrow span {
     display: initial;
   }
+}
+@media only screen and (min-width: 1650px) and (min-height: 800px) {
+  p {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+    line-height: 4.8rem;
+  }
+
+  h2, h3 {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+
+  header .navigation ul li {
+    font-size: 4.2rem;
+    line-height: 4.8rem;
+  }
+
+  .fp-tableCell .slide-credit p {
+    font-size: 1.5rem;
+  }
+  .fp-tableCell .slide-title {
+    font-size: 1.5rem;
+  }
+  .fp-tableCell .slide-content {
+    font-size: 3rem;
+  }
+
+  footer p {
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+  footer .footer-logo svg {
+    max-width: 224px;
+  }
+  footer > div:last-child p {
+    line-height: 1.4em;
+  }
+}
+.slide .slide-content {
+  transform: translateY(50px);
+  transition: all 1s;
+}
+
+.slide.isVisible .slide-content {
+  transform: translate(0px, 0px);
 }

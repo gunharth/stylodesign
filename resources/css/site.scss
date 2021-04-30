@@ -1,17 +1,33 @@
 /* $spacing: 5%; */
 $hover-opacity: 0.5;
-$mobile-page-side-margin: 8vw;
-$mobile-page-top-margin: 9vw;
-$mobile-page-bottom-margin: 3.5vw;
-$mobile-fontsize: 2rem;
-$mobile-line-height: 2.3rem;
+$mobile-page-side-margin: 5.0vh; /* 8vw; */
+$mobile-page-top-margin: 5.0vh; /* 9vw; */
+$mobile-page-bottom-margin: 4vh; /* 3.5vw; */
+$mobile-smallest-fontsize: 1.0rem;
+$mobile-smallest-lineheight: 1.4em;
+$mobile-small-fontsize: 1.45rem;
+$mobile-small-line-height: 1.48rem;
+$mobile-large-fontsize: 2.3rem;
+$mobile-large-line-height: 2.9rem;
 
 /* $desktop-spacing: 5%; */
-$desktop-page-side-margin: 3.5vw;
-$desktop-page-top-margin: 3.5vw;
-$desktop-page-bottom-margin: 2.5vw;
-$desktop-fontsize: 3.2rem;
-$desktop-line-height: 4.2rem;
+$desktop-page-side-margin: 6.5vh; /* 3.5vw; */
+$desktop-page-top-margin: 6.5vh; /* 3.5vw; */
+$desktop-page-bottom-margin: 5vh; /* 2.5vw; */
+$desktop-smallest-fontsize: 1.0rem;
+$desktop-smallest-lineheight: 1.4rem;
+$desktop-small-fontsize: 2rem;
+$desktop-small-line-height: 2.2rem;
+$desktop-large-fontsize: 3.2rem;
+$desktop-large-line-height: 4.2rem;
+
+/* tom's giant iMac */
+$large-desktop-smallest-fontsize: 1.5rem;
+$large-desktop-smallest-lineheight: 2.0rem;
+$large-desktop-small-fontsize: 3rem;
+$large-desktop-small-line-height: 3.4rem;
+$large-desktop-large-fontsize: 4.2rem;
+$large-desktop-large-line-height: 4.8rem;
 
 @font-face {
   font-family: 'New Rail Alphabet Light';
@@ -58,17 +74,21 @@ a:hover {
   text-decoration: none;
   opacity: $hover-opacity;
 }
-
-h1, h2, h3 {
+h1{
+    font-weight: normal;
+    font-size: $mobile-large-fontsize;
+    line-height: $mobile-large-line-height;
+}
+h2, h3 {
   font-weight: normal;
-  font-size: $mobile-fontsize;
-  line-height: $mobile-line-height;
+  font-size: $mobile-small-fontsize;
+  line-height: $mobile-small-line-height;
 }
 p {
-  /* font-size: 1.5em; */
-
-  margin-block-start: 0;
-  margin-block-end: 0;
+    font-size: $mobile-small-fontsize;
+    line-height: $mobile-small-line-height;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 #loader {
@@ -176,8 +196,8 @@ header {
 
 
       li {
-        font-size: $mobile-fontsize;
-        line-height: $mobile-line-height;
+        font-size: $mobile-large-fontsize;
+        line-height: $mobile-large-line-height;
         font-weight: normal;
       }
     }
@@ -221,7 +241,7 @@ header {
 }
 
 .fp-controlArrow{
-  
+
   margin-top: -25px;
   span{
     display: none;
@@ -273,17 +293,22 @@ header {
     position: absolute;
     top: $mobile-page-top-margin;
     right: $mobile-page-side-margin;
-    opacity: $hover-opacity;
+    /* opacity: $hover-opacity; */
   }
 
   .slide-content {
     width: 84vw;
     margin: 0 auto;
-    font-size: $mobile-fontsize;
+    font-size: $mobile-small-fontsize;
 
     a {
       opacity: $hover-opacity;
+      text-decoration: none;
+    }
+    a:hover{
       text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.23em;
     }
 
     h1 a,
@@ -298,6 +323,7 @@ header {
     position: absolute;
     bottom: $mobile-page-bottom-margin;
     left: $mobile-page-side-margin;
+    font-size: $mobile-smallest-fontsize;
   }
 
 
@@ -306,6 +332,7 @@ header {
 video {
   position: absolute;
   min-height: 100%;
+  min-width: 100%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -371,7 +398,7 @@ video {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 17px solid white;
-    bottom: 2.5em;
+    bottom: 3.5em;
     left: 0;
     position: absolute;
   }
@@ -404,7 +431,9 @@ footer {
   }
 
   p{
-    line-height: 1.4em;
+    line-height:  $mobile-smallest-lineheight;
+    font-size: $mobile-smallest-fontsize;
+
   }
 
   /* justify-content: space-between; */
@@ -451,11 +480,19 @@ footer {
 
 #client {}
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (min-height: 600px){
 
-h1, h2, h3 {
-  font-size: $desktop-fontsize;
-  line-height: $desktop-line-height;
+p{
+    font-size: $desktop-small-fontsize;
+    line-height: $desktop-small-line-height;
+}
+h1{
+    font-size: $desktop-large-fontsize;
+  line-height: $desktop-large-line-height;
+}
+h2, h3 {
+  font-size: $desktop-small-fontsize;
+  line-height: $desktop-small-line-height;
 }
 a:hover{
     text-decoration: underline;
@@ -484,8 +521,8 @@ header{
       padding-top: 15vh;
       padding-bottom: 15vh;
       li {
-        font-size: $desktop-fontsize;
-        line-height: $desktop-line-height;
+        font-size: $desktop-large-fontsize;
+        line-height: $desktop-large-line-height;
       }
     }
   }
@@ -498,14 +535,19 @@ header{
       display: block;
       top: $desktop-page-top-margin;
       right: $desktop-page-side-margin;
+      p{
+        font-size: $desktop-smallest-fontsize;
+      }
     }
     .slide-title {
       left: $desktop-page-side-margin;
       bottom: $desktop-page-bottom-margin;
+      font-size: $desktop-smallest-fontsize;
     }
+
     .slide-content {
       width: 70vw;
-      font-size: $desktop-fontsize;
+      font-size: $desktop-small-fontsize;
     }
   }
 
@@ -528,6 +570,9 @@ header{
 
     bottom: $desktop-page-bottom-margin;
     right: $desktop-page-side-margin;
+    .down-arrow {
+        bottom: 3.5em;
+    }
   }
 
   footer{
@@ -538,15 +583,24 @@ header{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: $desktop-page-top-margin;
     column-gap: $desktop-page-side-margin;
+    p{
+      line-height: $desktop-smallest-lineheight;
+      font-size: $desktop-smallest-fontsize;
+
+    }
     .footer-logo{
       display: initial;
       padding-top: 0.2em;
-
+      svg {
+        max-width: 180px;
+      }
     }
+
     >div:last-child {
       text-align: right;
       p{
         line-height: 1.4em;
+
       }
     }
     .up-arrow {
@@ -559,8 +613,75 @@ header{
     span{
       display: initial;
     }
-    
+
   }
 
 
+}
+@media only screen and (min-width: 1650px) and (min-height: 800px){
+  p{
+    font-size: $large-desktop-small-fontsize;
+    line-height: $large-desktop-small-line-height;
+  }
+  h1{
+      font-size: $large-desktop-large-fontsize;
+    line-height: $large-desktop-large-line-height;
+  }
+  h2, h3 {
+    font-size: $large-desktop-small-fontsize;
+    line-height: $large-desktop-small-line-height;
+  }
+
+  header{
+    .navigation {
+        ul{
+          li {
+            font-size: $large-desktop-large-fontsize;
+            line-height: $large-desktop-large-line-height;
+          }
+        }
+      }
+    }
+
+
+
+    .fp-tableCell {
+      .slide-credit {
+        p{
+          font-size: $large-desktop-smallest-fontsize;
+        }
+      }
+      .slide-title{
+        font-size: $large-desktop-smallest-fontsize;
+      }
+      .slide-content {
+        font-size: $large-desktop-small-fontsize;
+      }
+    }
+
+  footer{
+    p{
+      line-height: $large-desktop-smallest-lineheight;
+      font-size: $large-desktop-smallest-fontsize;
+    }
+    .footer-logo{
+      svg {
+        max-width: 224px;
+      }
+    }
+      >div:last-child {
+        p{
+          line-height: 1.4em;
+        }
+      }
+    }
+
+}
+
+.slide .slide-content {
+  transform: translateY(50px);
+  transition: all 1s;
+}
+.slide.isVisible .slide-content {
+  transform: translate(0px, 0px);
 }

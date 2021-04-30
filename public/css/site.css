@@ -245,7 +245,12 @@ header.active .nav-button div {
 }
 .fp-tableCell .slide-content a {
   opacity: 0.5;
+  text-decoration: none;
+}
+.fp-tableCell .slide-content a:hover {
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.23em;
 }
 .fp-tableCell .slide-content h1 a,
 .fp-tableCell .slide-content h2 a {

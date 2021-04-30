@@ -303,7 +303,12 @@ header {
 
     a {
       opacity: $hover-opacity;
+      text-decoration: none;
+    }
+    a:hover{
       text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.23em;
     }
 
     h1 a,

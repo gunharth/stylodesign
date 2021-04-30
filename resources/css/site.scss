@@ -3,21 +3,31 @@ $hover-opacity: 0.5;
 $mobile-page-side-margin: 5.0vh; /* 8vw; */
 $mobile-page-top-margin: 5.0vh; /* 9vw; */
 $mobile-page-bottom-margin: 4vh; /* 3.5vw; */
-$mobile-large-fontsize: 2.3rem;
-$mobile-large-line-height: 2.9rem;
-$mobile-small-fontsize: 1.45rem;
-$mobile-small-line-height: 1.48rem;
 $mobile-smallest-fontsize: 1.0rem;
 $mobile-smallest-lineheight: 1.4em;
+$mobile-small-fontsize: 1.45rem;
+$mobile-small-line-height: 1.48rem;
+$mobile-large-fontsize: 2.3rem;
+$mobile-large-line-height: 2.9rem;
 
 /* $desktop-spacing: 5%; */
 $desktop-page-side-margin: 6.5vh; /* 3.5vw; */
 $desktop-page-top-margin: 6.5vh; /* 3.5vw; */
 $desktop-page-bottom-margin: 5vh; /* 2.5vw; */
+$desktop-smallest-fontsize: 1.0rem;
+$desktop-smallest-lineheight: 1.4rem;
 $desktop-small-fontsize: 2rem;
 $desktop-small-line-height: 2.2rem;
 $desktop-large-fontsize: 3.2rem;
 $desktop-large-line-height: 4.2rem;
+
+/* tom's giant iMac */
+$large-desktop-smallest-fontsize: 1.5rem;
+$large-desktop-smallest-lineheight: 2.0rem;
+$large-desktop-small-fontsize: 3rem;
+$large-desktop-small-line-height: 3.4rem;
+$large-desktop-large-fontsize: 4.2rem;
+$large-desktop-large-line-height: 4.8rem;
 
 @font-face {
   font-family: 'New Rail Alphabet Light';
@@ -308,6 +318,7 @@ header {
     position: absolute;
     bottom: $mobile-page-bottom-margin;
     left: $mobile-page-side-margin;
+    font-size: $mobile-smallest-fontsize;
   }
 
 
@@ -519,11 +530,16 @@ header{
       display: block;
       top: $desktop-page-top-margin;
       right: $desktop-page-side-margin;
+      p{
+        font-size: $desktop-smallest-fontsize;
+      }
     }
     .slide-title {
       left: $desktop-page-side-margin;
       bottom: $desktop-page-bottom-margin;
+      font-size: $desktop-smallest-fontsize;
     }
+    
     .slide-content {
       width: 70vw;
       font-size: $desktop-small-fontsize;
@@ -562,10 +578,17 @@ header{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: $desktop-page-top-margin;
     column-gap: $desktop-page-side-margin;
+    p{
+      line-height: $desktop-smallest-lineheight;
+      font-size: $desktop-smallest-fontsize;
+      
+    }
     .footer-logo{
       display: initial;
       padding-top: 0.2em;
-
+      svg {
+        max-width: 180px;
+      }
     }
     
     >div:last-child {
@@ -588,5 +611,64 @@ header{
 
   }
 
+
+}
+@media only screen and (min-width: 1650px) and (min-height: 800px){
+  p{
+    font-size: $large-desktop-small-fontsize;
+    line-height: $large-desktop-small-line-height;
+  }
+  h1{
+      font-size: $large-desktop-large-fontsize;
+    line-height: $large-desktop-large-line-height;
+  }
+  h2, h3 {
+    font-size: $large-desktop-small-fontsize;
+    line-height: $large-desktop-small-line-height;
+  }
+
+  header{
+    .navigation {
+        ul{
+          li {
+            font-size: $large-desktop-large-fontsize;
+            line-height: $large-desktop-large-line-height;
+          }
+        }
+      }
+    }
+  
+  
+  
+    .fp-tableCell {
+      .slide-credit {
+        p{
+          font-size: $large-desktop-smallest-fontsize;
+        }
+      }
+      .slide-title{
+        font-size: $large-desktop-smallest-fontsize;
+      }
+      .slide-content {
+        font-size: $large-desktop-small-fontsize;
+      }
+    }
+
+  footer{
+    p{
+      line-height: $large-desktop-smallest-lineheight;
+      font-size: $large-desktop-smallest-fontsize;
+    }
+    .footer-logo{
+      svg {
+        max-width: 224px;
+      }
+    }
+      >div:last-child {
+        p{
+          line-height: 1.4em;
+        }
+      }
+    }
 
 }

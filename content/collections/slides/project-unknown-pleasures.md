@@ -4,10 +4,10 @@ title: 'Project Unknown Pleasures'
 slides:
   -
     slug: unknown-pleasures
-    type_color: '#F65050'
+    type_color: '#FF3A3B'
     slide_type: image
-    background_color: '#ECECEC'
-    image: projects/unknown-pleasures/01/UP-01c.jpg
+    background_color: '#553434'
+    image: projects/unknown-pleasures/cover/cover-2.jpg
     type: slide
     enabled: true
     body_copy:
@@ -27,5 +27,5 @@ slides:
                   rel: null
             text: 'Unknown Pleasures'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1619621220
+updated_at: 1619640012
 ---

@@ -6,7 +6,7 @@ $mobile-page-bottom-margin: 4vh; /* 3.5vw; */
 $mobile-smallest-fontsize: 1.0rem;
 $mobile-smallest-lineheight: 1.4em;
 $mobile-small-fontsize: 1.45rem;
-$mobile-small-line-height: 1.48rem;
+$mobile-small-line-height: 1.57rem;
 $mobile-large-fontsize: 2.3rem;
 $mobile-large-line-height: 2.9rem;
 
@@ -17,17 +17,17 @@ $desktop-page-bottom-margin: 5vh; /* 2.5vw; */
 $desktop-smallest-fontsize: 1.0rem;
 $desktop-smallest-lineheight: 1.4rem;
 $desktop-small-fontsize: 2rem;
-$desktop-small-line-height: 2.2rem;
+$desktop-small-line-height: 2.4rem;
 $desktop-large-fontsize: 3.2rem;
 $desktop-large-line-height: 4.2rem;
 
 /* tom's giant iMac */
-$large-desktop-smallest-fontsize: 1.5rem;
-$large-desktop-smallest-lineheight: 2.0rem;
+$large-desktop-smallest-fontsize: 1.7rem;
+$large-desktop-smallest-lineheight: 2.3rem;
 $large-desktop-small-fontsize: 3rem;
 $large-desktop-small-line-height: 3.4rem;
 $large-desktop-large-fontsize: 4.2rem;
-$large-desktop-large-line-height: 4.8rem;
+$large-desktop-large-line-height: 5.0rem;
 
 @font-face {
   font-family: 'New Rail Alphabet Light';
@@ -537,6 +537,7 @@ header{
       right: $desktop-page-side-margin;
       p{
         font-size: $desktop-smallest-fontsize;
+        line-height: 1em;
       }
     }
     .slide-title {
@@ -649,6 +650,7 @@ header{
       .slide-credit {
         p{
           font-size: $large-desktop-smallest-fontsize;
+          
         }
       }
       .slide-title{

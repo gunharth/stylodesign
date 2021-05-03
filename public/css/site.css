@@ -377,9 +377,6 @@ footer p {
   line-height: 1.4em;
   font-size: 1rem;
 }
-footer > div {
-  /* width: 25%; */
-}
 footer > div:last-child {
   text-align: left;
   /* position: relative; */
@@ -399,6 +396,7 @@ footer .footer-logo svg {
   height: auto;
 }
 
+/* #client {} */
 @media only screen and (min-width: 600px) and (min-height: 600px) {
   p {
     font-size: 2rem;

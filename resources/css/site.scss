@@ -449,10 +449,7 @@ footer {
   row-gap: $mobile-page-top-margin;
   column-gap: $mobile-page-side-margin;
 
-  >div {
-
-    /* width: 25%; */
-  }
+ 
 
   >div:last-child {
     text-align: left;
@@ -478,7 +475,7 @@ footer {
   }
 }
 
-#client {}
+/* #client {} */
 
 @media only screen and (min-width: 600px) and (min-height: 600px){
 

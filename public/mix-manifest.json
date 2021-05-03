@@ -1,14 +1,14 @@
 {
-    "/js/site.js": "/js/site.js",
-    "/css/site.css": "/css/site.css",
-    "/favicons/android-chrome-192x192.png": "/favicons/android-chrome-192x192.png",
-    "/favicons/android-chrome-256x256.png": "/favicons/android-chrome-256x256.png",
-    "/favicons/apple-touch-icon.png": "/favicons/apple-touch-icon.png",
-    "/favicons/browserconfig.xml": "/favicons/browserconfig.xml",
-    "/favicons/favicon-16x16.png": "/favicons/favicon-16x16.png",
-    "/favicons/favicon-32x32.png": "/favicons/favicon-32x32.png",
-    "/favicons/favicon.ico": "/favicons/favicon.ico",
-    "/favicons/mstile-150x150.png": "/favicons/mstile-150x150.png",
-    "/favicons/safari-pinned-tab.svg": "/favicons/safari-pinned-tab.svg",
-    "/favicons/site.webmanifest": "/favicons/site.webmanifest"
+    "/js/site.js": "/js/site.js?id=eac643b206701db85349",
+    "/css/site.css": "/css/site.css?id=335ca782de977a96ebd6",
+    "/favicons/android-chrome-192x192.png": "/favicons/android-chrome-192x192.png?id=e26df6f1747d1d0ce28e",
+    "/favicons/android-chrome-256x256.png": "/favicons/android-chrome-256x256.png?id=d3b52bb769722eb60c9c",
+    "/favicons/apple-touch-icon.png": "/favicons/apple-touch-icon.png?id=164fca91f2ff60f4fb14",
+    "/favicons/browserconfig.xml": "/favicons/browserconfig.xml?id=a493ba0aa0b8ec8068d7",
+    "/favicons/favicon-16x16.png": "/favicons/favicon-16x16.png?id=94d6350412a9946df6bf",
+    "/favicons/favicon-32x32.png": "/favicons/favicon-32x32.png?id=48f53430fb9252983217",
+    "/favicons/favicon.ico": "/favicons/favicon.ico?id=fd8c7d0f5a0a85960eea",
+    "/favicons/mstile-150x150.png": "/favicons/mstile-150x150.png?id=8b8f33c3fb479077da86",
+    "/favicons/safari-pinned-tab.svg": "/favicons/safari-pinned-tab.svg?id=f6d6c7ae492f34e7d31b",
+    "/favicons/site.webmanifest": "/favicons/site.webmanifest?id=12a02e9e386fb2d5de77"
 }

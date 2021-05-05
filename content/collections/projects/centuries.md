@@ -129,14 +129,14 @@ sections:
     slides:
       -
         slug: slide1
-        type_color: '#2933A7'
+        type_color: '#FFFFFF'
         hover_color: '#C2C2CD'
-        slide_type: color
+        slide_type: video
         background_color: '#C5C5D1'
         text_slide: true
         type: slides
         enabled: true
-        title: 'Orange Background'
+        title: Video
         bard:
           -
             type: paragraph
@@ -144,10 +144,11 @@ sections:
               -
                 type: text
                 text: 'And some text'
+        video: 'https://08958cd54560def95f79-e2ebb689d7bde9501c76afb9741d2965.ssl.cf3.rackcdn.com/Centuries_2.mp4'
     type: section
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1618668759
+updated_at: 1620154769
 title_for_display: 'The Centuries Project'
 main_project_image: projects/centuries/C_03a.jpg
 type_color: '#252F9F'

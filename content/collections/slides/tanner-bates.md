@@ -7,7 +7,7 @@ slides:
     slug: tanner-bates-1a
     type_color: '#B0916B'
     slide_type: video
-    video: 'http://0e20ce00226362322e2f-bb24ee469ec4c88bec8ffc2894929f4c.r64.cf3.rackcdn.com/production%20ID_4456168.mp4'
+    video: 'https://bb5ff14b64040179d281-bb24ee469ec4c88bec8ffc2894929f4c.ssl.cf3.rackcdn.com/TB_1.mp4'
     credit:
       -
         type: paragraph
@@ -18,6 +18,22 @@ slides:
     type: slide
     enabled: true
     background_color: '#D9CFC4'
+    body_copy:
+      -
+        type: heading
+        attrs:
+          level: 1
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'statamic://entry::35dd85c0-23fd-42f3-8409-52ada3eea1c5'
+                  target: null
+                  rel: null
+            text: 'Tanner Bates'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1619182703
+updated_at: 1620300811
 ---

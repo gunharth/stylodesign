@@ -28,27 +28,53 @@ sections:
     slug: row1-slug
     section-slug: row1-slug
   -
+    slug: centuries-1
     slides:
       -
-        type_color: '#FFFFFF'
-        type: slides
-        enabled: true
-        hover_color: '#000000'
-        background_color: '#000000'
-        image: projects/centuries/C_02a.jpg
-        title: 'Slide title'
-        slug: slide1-slug
-        slide_type: image
-        text_slide: false
-      -
-        type_color: '#FFFFFF'
-        hover_color: '#000000'
-        background_color: '#D53838'
-        image: projects/centuries/C_02b.jpg
-        type: slides
-        enabled: true
-        slug: slide2-slug
+        title: About
+        slug: centuries-01a
+        type_color: '#FFDA71'
         slide_type: color
+        background_color: '#B9942B'
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'Centuries, Budapest, is an iconic destination that encapsulates a city, a country and a culture.'
+              -
+                type: hard_break
+              -
+                type: hard_break
+              -
+                type: text
+                text: 'A connection of 3 historic buildings, of different times, wrapped in a futuristic structure of glass. This is a unique space and experience, in the heart of a global city, that encapsulates the past, celebrates the present and reflects the future.'
+        type: slides
+        enabled: true
+    type: section
+    enabled: true
+  -
+    slides:
+      -
+        slug: C-01e
+        type_color: '#FF3A3B'
+        slide_type: image
+        background_color: '#E1E1E1'
+        image: projects/centuries/01/C-01e.jpg
+        type: slides
+        enabled: true
+      -
+        type_color: '#918077B3'
+        hover_color: '#000000'
+        background_color: '#593729'
+        image: projects/centuries/01/C-01c.jpg
+        type: slides
+        enabled: true
+        slug: C-01c
+        slide_type: image
         text_slide: true
         bard:
           -
@@ -76,6 +102,30 @@ sections:
               -
                 type: text
                 text: 'animi, alias ullam a facilis ut modi, amet enim dicta qui aliquid unde sunt quos'
+      -
+        type_color: '#EEB553'
+        type: slides
+        enabled: true
+        hover_color: '#000000'
+        background_color: '#000000'
+        image: projects/centuries/01/C-01a.jpg
+        title: 'Slide title'
+        slug: C-01a
+        slide_type: image
+        text_slide: false
+      -
+        slug: C-01b
+        type_color: '#593729'
+        slide_type: image
+        background_color: '#978076'
+        image: projects/centuries/01/C-01b.jpg
+        type: slides
+        enabled: true
+      -
+        slug: C-01d
+        type_color: '#FF3A3B'
+        slide_type: color
+        background_color: '#E1E1E1'
         body_copy:
           -
             type: paragraph
@@ -83,6 +133,8 @@ sections:
               -
                 type: text
                 text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum quia ea ipsum, impedit nesciunt quibusdam vel enim tempora odio. Animi ex sapiente quidem. Exercitationem eligendi repudiandae explicabo deleniti, architecto in?'
+        type: slides
+        enabled: true
     type: section
     enabled: true
     slug: row2-slug
@@ -148,7 +200,7 @@ sections:
     type: section
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1620154769
+updated_at: 1620399425
 title_for_display: 'The Centuries Project'
 main_project_image: projects/centuries/C_03a.jpg
 type_color: '#252F9F'

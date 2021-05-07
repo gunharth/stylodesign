@@ -8,7 +8,7 @@ slide_type: image
 image: projects/centuries/C_01a.jpg
 text_slide: false
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1619176533
+updated_at: 1620335935
 replicator:
   -
     title: Home
@@ -37,7 +37,7 @@ slides:
     text_slide: false
     type: slide
     enabled: true
-    image: projects/tanner-bates/TB_04d.jpg
+    image: projects/tanner-bates/03/tb-03a.jpg
     body_copy:
       -
         type: heading

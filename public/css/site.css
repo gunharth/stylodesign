@@ -578,23 +578,37 @@ h3 {
   transform: translate(0px, 0px);
 }
 
+#client {
+  margin: 0;
+}
 #client header {
-  height: 17.5vh;
+  height: 15vh;
 }
 #client main {
-  padding: 10em 6.5vh;
+  padding: 15vh 5vh 4vh;
 }
 #client section {
   display: grid;
   grid-template-columns: 1fr;
   gap: 3em 3em;
 }
-@media (min-width: 600px) {
+#client section p {
+  line-height: 1.4em;
+  font-size: 1rem;
+}
+@media only screen and (min-width: 600px) and (min-height: 600px) {
+  #client main {
+    padding: 15vh 6.5vh 5vh;
+  }
   #client section {
     grid-template-columns: 1fr 1fr;
   }
+  #client section p {
+    line-height: 1.8rem;
+    font-size: 1.35rem;
+  }
 }
-@media (min-width: 1024px) {
+@media only screen and (min-width: 1650px) and (min-height: 800px) {
   #client section {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -608,5 +622,5 @@ h3 {
 }
 #client #footer-outer {
   position: relative;
-  width: 100vw;
+  /* width: 100vw; */
 }

@@ -671,7 +671,7 @@ footer {
     section {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 3em 3em;
+        gap: 5vh 5vh;
         p {
           line-height: $mobile-smallest-lineheight;
           font-size: $mobile-smallest-fontsize;

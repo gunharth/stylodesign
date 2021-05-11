@@ -590,7 +590,7 @@ h3 {
 #client section {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 3em 3em;
+  gap: 5vh 5vh;
 }
 #client section p {
   line-height: 1.4em;

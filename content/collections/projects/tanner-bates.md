@@ -137,6 +137,15 @@ sections:
         enabled: true
       -
         title: 'Branded Postal Packing Stickers'
+        slug: tanner-bates-4c
+        type_color: '#FFFFFF'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/tanner-bates/02/tb-02c.jpg
+        type: slides
+        enabled: true
+      -
+        title: 'Branded Postal Packing Stickers'
         slug: tanner-bates-4b
         type_color: '#FFFFFF'
         slide_type: image
@@ -144,13 +153,55 @@ sections:
         image: projects/tanner-bates/02/tb-02b.jpg
         type: slides
         enabled: true
+    type: section
+    enabled: true
+  -
+    slug: tanner-bates-6
+    slides:
       -
-        title: 'Branded Postal Packing Stickers'
-        slug: tanner-bates-4c
-        type_color: '#FFFFFF'
+        title: 'El Campo Daybag'
+        slug: tanner-bates-6b
+        type_color: '#B0916B'
         slide_type: image
         background_color: '#000000'
-        image: projects/tanner-bates/02/tb-02c.jpg
+        image: projects/tanner-bates/04/tb-04c.jpg
+        credit:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.rachelhoilephotography.com'
+                      target: _blank
+                      rel: null
+                text: 'Photography: Rachel Hoile'
+        type: slides
+        enabled: true
+      -
+        title: Satchel
+        slug: tanner-bates-6a
+        type_color: '#B0916B'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/tanner-bates/04/tb-04a.jpg
+        credit:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.rachelhoilephotography.com'
+                      target: _blank
+                      rel: null
+                text: 'Photography: Rachel Hoile'
         type: slides
         enabled: true
     type: section
@@ -161,5 +212,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1620335035
+updated_at: 1620505914
 ---

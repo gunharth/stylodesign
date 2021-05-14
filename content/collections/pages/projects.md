@@ -4,12 +4,14 @@ title: Projects
 author: 2d06efa7-b339-4b01-be90-009f00ed13d0
 template: slides
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1619620866
+updated_at: 1620900458
 sections:
-  - 31f06f59-af8d-4512-8c60-ce9677bbf2cc
-  - 1848e611-8249-4551-8bba-2f7aef0db170
   - 4f1ddcbf-7dc6-4ad1-899d-8ae3f9ebe7b3
   - 3bb976c6-befb-4007-a5a5-94d0a5fa2b50
+  - 36ce81ff-0e8b-48ec-8af4-582660a08147
+  - 1848e611-8249-4551-8bba-2f7aef0db170
+  - 806a8809-7be9-44d2-8ff5-27c8ae4a8394
+  - 31f06f59-af8d-4512-8c60-ce9677bbf2cc
   - 336bfab9-c87b-4b4e-aa41-1eb91408aa56
   - 99a1c679-e619-4c31-a46d-a1c5308ebc7d
   - d264fb9c-4b4f-4e38-9015-856b98b6d813

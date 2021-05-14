@@ -1,6 +1,6 @@
 ---
 id: 1848e611-8249-4551-8bba-2f7aef0db170
-title: 'Project Price Myers'
+title: 'Cover Price Myers'
 slides:
   -
     title: Brochure
@@ -29,5 +29,5 @@ slides:
     enabled: true
     video: 'https://4895768e49742e17e04d-05f151dc8b8cbd1daca39f1f4d7296ca.ssl.cf3.rackcdn.com/1560998517.mp4'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1619177507
+updated_at: 1620852827
 ---

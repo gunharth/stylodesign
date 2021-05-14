@@ -1,6 +1,6 @@
 ---
 id: 4f1ddcbf-7dc6-4ad1-899d-8ae3f9ebe7b3
-title: 'Project Unknown Pleasures'
+title: 'Cover Unknown Pleasures'
 slides:
   -
     slug: unknown-pleasures
@@ -27,5 +27,5 @@ slides:
                   rel: null
             text: 'Unknown Pleasures'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1619640012
+updated_at: 1620852842
 ---

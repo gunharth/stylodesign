@@ -48,7 +48,8 @@ h1 {
   line-height: 2.9rem;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-weight: normal;
   font-size: 1.45rem;
   line-height: 1.57rem;
@@ -81,6 +82,7 @@ p {
 }
 
 header {
+  top: 0;
   position: fixed;
   height: 0;
   display: block;
@@ -250,7 +252,7 @@ header.active .nav-button div {
 .fp-tableCell .slide-content a:hover {
   text-decoration: underline;
   text-decoration-thickness: 1px;
-  text-underline-offset: 0.23em;
+  text-underline-offset: 0.3em;
 }
 .fp-tableCell .slide-content h1 a,
 .fp-tableCell .slide-content h2 a {
@@ -277,12 +279,16 @@ video {
   left: auto !important;
   right: 5vh;
 }
+.fp-slidesNav ul li {
+  margin: 0 7px;
+}
 
 .fp-slidesNav.fp-bottom {
   bottom: 4vh;
 }
 
-#fp-nav ul li:last-child, .fp-slidesNav ul li:last-child {
+#fp-nav ul li:last-child,
+.fp-slidesNav ul li:last-child {
   margin-right: 3px;
 }
 
@@ -396,7 +402,6 @@ footer .footer-logo svg {
   height: auto;
 }
 
-/* #client {} */
 @media only screen and (min-width: 600px) and (min-height: 600px) {
   p {
     font-size: 2rem;
@@ -408,7 +413,8 @@ footer .footer-logo svg {
     line-height: 4.2rem;
   }
 
-  h2, h3 {
+  h2,
+h3 {
     font-size: 2rem;
     line-height: 2.4rem;
   }
@@ -416,7 +422,7 @@ footer .footer-logo svg {
   a:hover {
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 0.23em;
+    text-underline-offset: 0.3em;
   }
 
   header .nav-button {
@@ -534,7 +540,8 @@ footer .footer-logo svg {
     line-height: 5rem;
   }
 
-  h2, h3 {
+  h2,
+h3 {
     font-size: 3rem;
     line-height: 3.4rem;
   }
@@ -555,7 +562,7 @@ footer .footer-logo svg {
   }
 
   footer p {
-    line-height: 2.3rem;
+    line-height: 2rem;
     font-size: 1.35rem;
   }
   footer .footer-logo svg {
@@ -572,4 +579,52 @@ footer .footer-logo svg {
 
 .slide.isVisible .slide-content {
   transform: translate(0px, 0px);
+}
+
+#client {
+  margin: 0;
+}
+#client header {
+  height: 15vh;
+}
+#client main {
+  padding: 15vh 5vh 4vh;
+}
+#client section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6vh 5vh;
+}
+#client section p {
+  line-height: 1.4em;
+  font-size: 1rem;
+}
+@media only screen and (min-width: 600px) and (min-height: 600px) {
+  #client main {
+    padding: 15vh 6.5vh 5vh;
+  }
+  #client section {
+    grid-template-columns: 1fr 1fr;
+  }
+  #client section p {
+    line-height: 2rem;
+    font-size: 1.35rem;
+  }
+}
+@media only screen and (min-width: 1650px) and (min-height: 800px) {
+  #client section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+#client article img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1vh;
+}
+#client article a {
+  display: block;
+}
+#client #footer-outer {
+  position: relative;
+  /* width: 100vw; */
 }

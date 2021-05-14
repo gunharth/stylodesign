@@ -7,12 +7,11 @@
         color: {{ text_color }};
     }
     a:hover {
-        opacity: 50%;
         color: {{ text_color }};
     }
     header {
-        top: 0;
         color: {{ text_color }};
+        background-color: {{ background_color }};
     }
     header a {
         color: {{ text_color }};
@@ -36,52 +35,23 @@
     header.active .nav-button div {
         background-color: {{ background_color }};
     }
-
-
-    article img {
-        width: 100%;
-        height: auto;
-    }
-    article a { display: block; }
-    article a:hover img {
-        opacity: 50%;
-    }
-
-    main {
-    padding-top: 10em;
-            padding: 10em 5%;
-  }
-  section {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1em 1em;
-  }
-  @media (min-width: 600px) {
-    section {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-  #footer-outer {
-    width: 100vw;
-  }
-
-  footer {
+    footer {
         color: {{ text_color }};
     }
     footer .footer-logo svg {
-        fill: {{ text_color }}
+        fill: {{ text_color }};
     }
     #loader {
-
-  background-color: {{ background_color }};
-}
+        background-color: {{ background_color }};
+    }
 </style>
 {{ partial:partials/header }}
 <main>
     <h1>{{ title }}</h1>
     <section>
-        {{ replicator }}
+        {{ replicator sort="date:desc" }}
             <article>
+                <p>
                 <a href="{{ url }}" target="_blank">
                 {{ assets }}
                     <img src="{{ url }}" alt="{{ alt }}" />
@@ -89,6 +59,7 @@
                 {{ title }} <br>
                 {{ date format="d.m.y" }}
                 </a>
+                </p>
             </article>
         {{ /replicator }}
     </section>

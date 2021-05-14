@@ -23,7 +23,7 @@ $desktop-large-line-height: 4.2rem;
 
 /* tom's giant iMac */
 $large-desktop-smallest-fontsize: 1.35rem;
-$large-desktop-smallest-lineheight: 2.3rem;
+$large-desktop-smallest-lineheight: 2.0rem;
 $large-desktop-small-fontsize: 3rem;
 $large-desktop-small-line-height: 3.4rem;
 $large-desktop-large-fontsize: 4.2rem;
@@ -300,7 +300,7 @@ header {
         a:hover {
             text-decoration: underline;
             text-decoration-thickness: 1px;
-            text-underline-offset: 0.23em;
+            text-underline-offset: 0.3em;
         }
 
         h1 a,
@@ -330,6 +330,11 @@ video {
 .fp-slidesNav {
     left: auto !important;
     right: $mobile-page-side-margin;
+    ul{
+        li{
+            margin: 0 7px;
+        }
+    }
 }
 
 .fp-slidesNav.fp-bottom {
@@ -477,7 +482,7 @@ footer {
     a:hover {
         text-decoration: underline;
         text-decoration-thickness: 1px;
-        text-underline-offset: 0.23em;
+        text-underline-offset: 0.3em;
     }
     header {
         .nav-button {
@@ -539,6 +544,7 @@ footer {
 
     .fp-slidesNav {
         right: $desktop-page-side-margin;
+        
     }
 
     .fp-slidesNav.fp-bottom {
@@ -671,7 +677,7 @@ footer {
     section {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 5vh 5vh;
+        gap: 6vh 5vh;
         p {
           line-height: $mobile-smallest-lineheight;
           font-size: $mobile-smallest-fontsize;
@@ -686,7 +692,7 @@ footer {
         section {
             grid-template-columns: 1fr 1fr;
             p {
-              line-height: 1.8rem;
+              line-height: 2.0rem;
               font-size: $large-desktop-smallest-fontsize;
             }
         }
@@ -705,6 +711,7 @@ footer {
     article img {
         width: 100%;
         height: auto;
+        margin-bottom: 1vh;
     }
 
     article a {

@@ -3,14 +3,36 @@ id: 25877e83-629c-4462-b035-80aace36cb92
 title: 'Industrial Facility'
 sections:
   -
+    slug: industrial-facility-3
+    slides:
+      -
+        slug: industrial-facility-3a
+        type_color: '#410000'
+        slide_type: image
+        background_color: '#D10000'
+        image: projects/industrial-facility/cover/cover-01y.jpg
+        type: slides
+        enabled: true
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 1
+            content:
+              -
+                type: text
+                text: 'Industrial Facility'
+    type: section
+    enabled: true
+  -
     slug: industrial-facility-4
     slides:
       -
         slug: industrial-facility-4a
-        type_color: '#FF533C'
+        type_color: '#717171'
         slide_type: image
-        background_color: '#302F32'
-        image: projects/industrial-facility/cover/cover-01b.jpg
+        background_color: '#434343'
+        image: projects/industrial-facility/cover/cover-01z.jpg
         body_copy:
           -
             type: heading
@@ -27,49 +49,6 @@ sections:
               -
                 type: text
                 text: 'A world renowned practice, their prolific industrial design output covers an incredibly broad range of product design including appliances, electronics and furniture. Sam and Kim also operate as Creative Directors for Muji Europe.'
-        type: slides
-        enabled: true
-    type: section
-    enabled: true
-  -
-    slug: industrial-facility-1
-    slides:
-      -
-        title: 'Bespoke Logotype Construction'
-        slug: industrial-facility-1b
-        type_color: '#FF533C'
-        slide_type: image
-        background_color: '#F8F8F6'
-        image: projects/industrial-facility/01/if-01g.jpg
-        type: slides
-        enabled: true
-      -
-        title: 'Bespoke Logotype Construction'
-        slug: industrial-facility-1c
-        type_color: '#FF533C'
-        slide_type: image
-        background_color: '#FDEFED'
-        image: projects/industrial-facility/03/if-03d.jpg
-        type: slides
-        enabled: true
-      -
-        slug: industrial-facility-1d
-        type_color: '#EBECEB'
-        slide_type: image
-        image: projects/industrial-facility/01/if-01k.jpg
-        type: slides
-        enabled: true
-    type: section
-    enabled: true
-  -
-    slug: industrial-facility-3
-    slides:
-      -
-        slug: industrial-facility-3a
-        type_color: '#42445A'
-        slide_type: image
-        background_color: '#42445A'
-        image: projects/industrial-facility/01/if-01a.jpg
         type: slides
         enabled: true
     type: section
@@ -78,39 +57,107 @@ sections:
     slug: industrial-facility-2
     slides:
       -
-        title: Website
-        slug: industrial-facility-2b
-        type_color: '#302F32'
-        slide_type: image
-        background_color: '#FF533C'
-        image: projects/industrial-facility/02/if-02p.jpg
-        type: slides
-        enabled: true
-      -
-        slug: industrial-facility-2a
-        type_color: '#333333'
-        slide_type: image
-        background_color: '#FF533C'
-        image: projects/industrial-facility/02/if-02k.jpg
-        type: slides
-        enabled: true
-      -
-        title: Website
-        slug: industrial-facility-2a
-        type_color: '#DB3A1B'
-        slide_type: image
-        background_color: '#FFEFED'
-        image: projects/industrial-facility/02/if-02m.jpg
-        type: slides
-        enabled: true
-      -
         slug: industrial-facility-2c
-        type_color: '#333333'
+        type_color: '#BDBDBD'
         slide_type: image
-        background_color: '#F3EBC8'
-        image: projects/industrial-facility/02/if-02o.jpg
+        image: projects/industrial-facility/06/if-04e.jpg
         type: slides
         enabled: true
+        background_color: '#000000'
+        title: 'Poster Set'
+      -
+        slug: industrial-facility-2a
+        type_color: '#5F5F5F'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/industrial-facility/06/if-04a.jpg
+        type: slides
+        enabled: true
+        title: 'Poster Set'
+      -
+        slug: industrial-facility-2f
+        type_color: '#BBB7B2'
+        slide_type: image
+        background_color: '#5F5F5F'
+        image: projects/industrial-facility/06/if-04d.jpg
+        type: slides
+        enabled: true
+        title: 'Poster Set'
+      -
+        slug: industrial-facility-2b
+        type_color: '#5F5F5F'
+        slide_type: image
+        image: projects/industrial-facility/06/if-04b.jpg
+        type: slides
+        enabled: true
+        background_color: '#000000'
+        title: 'Poster Set'
+      -
+        slug: industrial-facility-2d
+        type_color: '#BBB7B2'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/industrial-facility/06/if-04f.jpg
+        type: slides
+        enabled: false
+        title: 'Poster Set'
+      -
+        slug: industrial-facility-2g
+        type_color: '#BBB7B2'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/industrial-facility/06/if-04g.jpg
+        type: slides
+        enabled: false
+        title: 'Poster Set'
+    type: section
+    enabled: true
+  -
+    slug: industrial-facility-1
+    slides:
+      -
+        title: Logotype
+        slug: industrial-facility-1b
+        type_color: '#656565'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/industrial-facility/05/if-05q.jpg
+        type: slides
+        enabled: true
+      -
+        slug: industrial-facility-1a
+        type_color: '#595959'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/industrial-facility/05/if-05r.jpg
+        type: slides
+        enabled: true
+        title: 'Business Card'
+      -
+        slug: industrial-facility-1e
+        type_color: '#595959'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/industrial-facility/05/if-05u.jpg
+        type: slides
+        enabled: true
+      -
+        slug: industrial-facility-1d
+        type_color: '#BDBDBD'
+        slide_type: image
+        type: slides
+        enabled: false
+        background_color: '#4F5056'
+        title: 'Business Card'
+        image: projects/industrial-facility/05/if-05s.jpg
+      -
+        slug: industrial-facility-1c
+        type_color: '#656565'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/industrial-facility/05/if-05t.jpg
+        type: slides
+        enabled: false
     type: section
     enabled: true
   -
@@ -119,9 +166,9 @@ sections:
       -
         title: About
         slug: industrial-facility-5a
-        type_color: '#EBD889'
+        type_color: '#000000'
         slide_type: color
-        background_color: '#302F32'
+        background_color: '#4F4F4F'
         body_copy:
           -
             type: heading
@@ -140,21 +187,13 @@ sections:
                 text: 'A world renowned practice, their prolific industrial design output covers an incredibly broad range of product design including appliances, electronics and furniture. Sam and Kim also operate as Creative Directors for Muji Europe.'
         type: slides
         enabled: true
-      -
-        slug: industrial-facility-5b
-        type_color: '#42445A'
-        slide_type: image
-        background_color: '#42445A'
-        image: projects/industrial-facility/03/if-03d.jpg
-        type: slides
-        enabled: true
     type: section
-    enabled: true
+    enabled: false
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1620942391
+updated_at: 1646946518
 ---

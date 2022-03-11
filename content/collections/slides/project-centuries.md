@@ -3,10 +3,10 @@ id: 31f06f59-af8d-4512-8c60-ce9677bbf2cc
 title: 'Cover Project Centuries'
 slides:
   -
-    slug: centuries
-    type_color: '#FF6E00'
+    slug: cover-centuries
+    type_color: '#E3DEDA'
     slide_type: image
-    image: projects/centuries/C_03b.jpg
+    image: projects/centuries/cover/cover-01f.jpg
     body_copy:
       -
         type: heading
@@ -25,7 +25,8 @@ slides:
             text: Centuries
     type: slide
     enabled: true
-    background_color: '#713100'
+    background_color: '#E1D8D1'
+    title: 'Lobby Bar'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1620852818
+updated_at: 1646912314
 ---

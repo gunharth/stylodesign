@@ -2,8 +2,8 @@
 id: ff7b4226-f947-477e-9ab9-37a380d5550a
 title: 'Ridley Scott Creative Group'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1620383813
-text_color: '#FFFFFF'
+updated_at: 1633526630
+text_color: '#595959'
 background_color: '#000000'
 replicator:
   -

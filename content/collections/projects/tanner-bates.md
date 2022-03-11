@@ -36,15 +36,6 @@ sections:
     slides:
       -
         title: 'Product Packaging'
-        slug: tanner-bates-5a
-        type_color: '#B0916B'
-        slide_type: image
-        background_color: '#000000'
-        image: projects/tanner-bates/03/tb-03a.jpg
-        type: slides
-        enabled: true
-      -
-        title: 'Product Packaging'
         slug: tanner-bates-5b
         type_color: '#B0916B'
         slide_type: image
@@ -70,6 +61,74 @@ sections:
         image: projects/tanner-bates/03/tb-03d.jpg
         type: slides
         enabled: true
+      -
+        title: 'Product Packaging'
+        slug: tanner-bates-5a
+        type_color: '#B0916B'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/tanner-bates/03/tb-03a.jpg
+        type: slides
+        enabled: true
+    type: section
+    enabled: true
+  -
+    slug: tanner-bates-7
+    slides:
+      -
+        title: 'Brand Guidelines'
+        slug: tanner-bates-7f
+        type_color: '#B0916B'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/tanner-bates/06/tb-06f.jpg
+        type: slides
+        enabled: true
+      -
+        title: 'Brand Guidelines'
+        slug: tanner-bates-7a
+        type_color: '#B0916B'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/tanner-bates/06/Brand-Guidelines-Final-Gif-Layers-5a.gif
+        type: slides
+        enabled: true
+      -
+        title: 'Brand Guidelines'
+        slug: tanner-bates-7e
+        type_color: '#B0916B'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/tanner-bates/06/tb-06d.jpg
+        type: slides
+        enabled: false
+      -
+        title: 'Brand Guidelines'
+        slug: tanner-bates-7c
+        type_color: '#B0916B'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/tanner-bates/06/tb-06b.jpg
+        type: slides
+        enabled: false
+      -
+        title: 'Brand Guidelines'
+        slug: tanner-bates-7b
+        type_color: '#B0916B'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/tanner-bates/06/tb-06e.jpg
+        type: slides
+        enabled: false
+      -
+        title: 'Brand Guidelines'
+        slug: tanner-bates-7d
+        type_color: '#B0916B'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/tanner-bates/06/tb-06c.jpg
+        type: slides
+        enabled: false
     type: section
     enabled: true
   -
@@ -101,7 +160,7 @@ sections:
         type_color: '#B0916B'
         slide_type: video
         background_color: '#000000'
-        video: 'https://bb5ff14b64040179d281-bb24ee469ec4c88bec8ffc2894929f4c.ssl.cf3.rackcdn.com/TB_3.mp4'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Tanner%20Bates/TB_4.mp4'
         type: slides
         enabled: true
       -
@@ -119,6 +178,14 @@ sections:
         slide_type: image
         background_color: '#000000'
         image: projects/tanner-bates/01/tb-01c.jpg
+        type: slides
+        enabled: true
+      -
+        slug: tanner-bates-3d
+        type_color: '#B0916B'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/tanner-bates/01/tb-01e.jpg
         type: slides
         enabled: true
     type: section
@@ -156,15 +223,43 @@ sections:
     type: section
     enabled: true
   -
+    slug: tanner-bates-8
+    slides:
+      -
+        slug: tanner-bates-8b
+        type_color: '#B0916B'
+        slide_type: video
+        background_color: '#000000'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Tanner%20Bates/TB_2a.mp4'
+        type: slides
+        enabled: true
+      -
+        slug: tanner-bates-8a
+        type_color: '#B0916B'
+        slide_type: video
+        background_color: '#000000'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Tanner%20Bates/TB_5.mp4'
+        body_copy:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Leather making and working are part of our national fabric and I am proud to be one of the few makers still employing these traditions of crafting and using the leather that we are famous for throughout the world.'
+        type: slides
+        enabled: true
+    type: section
+    enabled: true
+  -
     slug: tanner-bates-6
     slides:
       -
-        title: 'El Campo Daybag'
-        slug: tanner-bates-6b
+        title: Satchel
+        slug: tanner-bates-6a
         type_color: '#B0916B'
         slide_type: image
         background_color: '#000000'
-        image: projects/tanner-bates/04/tb-04c.jpg
+        image: projects/tanner-bates/04/tb-04a.jpg
         credit:
           -
             type: paragraph
@@ -182,12 +277,12 @@ sections:
         type: slides
         enabled: true
       -
-        title: Satchel
-        slug: tanner-bates-6a
+        title: 'El Campo Daybag'
+        slug: tanner-bates-6b
         type_color: '#B0916B'
         slide_type: image
         background_color: '#000000'
-        image: projects/tanner-bates/04/tb-04a.jpg
+        image: projects/tanner-bates/04/tb-04d.jpg
         credit:
           -
             type: paragraph
@@ -212,5 +307,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1620505914
+updated_at: 1646993709
 ---

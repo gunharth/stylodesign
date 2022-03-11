@@ -5,7 +5,7 @@ password_hash: $2y$10$SOsnjGny97iYBnz7zDUiduPTK.BzBHenv9nmxYdAGPeL.uBetNmdW
 preferences:
   assets:
     assets:
-      mode: table
+      mode: grid
   collections:
     projects:
       after_save: continue_editing

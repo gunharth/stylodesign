@@ -23,7 +23,7 @@ $desktop-large-line-height: 4.2rem;
 
 /* tom's giant iMac */
 $large-desktop-smallest-fontsize: 1.35rem;
-$large-desktop-smallest-lineheight: 2.0rem;
+$large-desktop-smallest-lineheight: 2rem;
 $large-desktop-small-fontsize: 3rem;
 $large-desktop-small-line-height: 3.4rem;
 $large-desktop-large-fontsize: 4.2rem;
@@ -330,8 +330,8 @@ video {
 .fp-slidesNav {
     left: auto !important;
     right: $mobile-page-side-margin;
-    ul{
-        li{
+    ul {
+        li {
             margin: 0 7px;
         }
     }
@@ -392,7 +392,7 @@ video {
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
         border-top: 17px solid white;
-        bottom: 3.5em;
+        bottom: 2px;
         left: 0;
         position: absolute;
     }
@@ -544,7 +544,6 @@ footer {
 
     .fp-slidesNav {
         right: $desktop-page-side-margin;
-        
     }
 
     .fp-slidesNav.fp-bottom {
@@ -554,7 +553,7 @@ footer {
         bottom: $desktop-page-bottom-margin;
         right: $desktop-page-side-margin;
         .down-arrow {
-            bottom: 3.5em;
+            bottom: 2px;
         }
     }
 
@@ -662,7 +661,6 @@ footer {
     transform: translate(0px, 0px);
 }
 
-
 #client {
     margin: 0;
 
@@ -679,34 +677,29 @@ footer {
         grid-template-columns: 1fr;
         gap: 6vh 5vh;
         p {
-          line-height: $mobile-smallest-lineheight;
-          font-size: $mobile-smallest-fontsize;
+            line-height: $mobile-smallest-lineheight;
+            font-size: $mobile-smallest-fontsize;
         }
     }
-    
 
     @media only screen and (min-width: 600px) and (min-height: 600px) {
         main {
-          padding: 15vh $desktop-page-side-margin $desktop-page-bottom-margin;
-      }
+            padding: 15vh $desktop-page-side-margin $desktop-page-bottom-margin;
+        }
         section {
             grid-template-columns: 1fr 1fr;
             p {
-              line-height: 2.0rem;
-              font-size: $large-desktop-smallest-fontsize;
+                line-height: 2rem;
+                font-size: $large-desktop-smallest-fontsize;
             }
         }
-        
     }
 
     @media only screen and (min-width: 1650px) and (min-height: 800px) {
         section {
             grid-template-columns: 1fr 1fr 1fr 1fr;
         }
-
     }
-  
-  
 
     article img {
         width: 100%;
@@ -722,5 +715,4 @@ footer {
         position: relative;
         /* width: 100vw; */
     }
-
 }

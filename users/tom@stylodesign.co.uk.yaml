@@ -1,7 +1,7 @@
 name: Admin
 super: true
 id: 2d06efa7-b339-4b01-be90-009f00ed13d0
-password_hash: $2y$10$SOsnjGny97iYBnz7zDUiduPTK.BzBHenv9nmxYdAGPeL.uBetNmdW
+password_hash: $2y$10$M06EvClij/5sbpy4XTnAs.tA0kK7GBXAqPU8EgsJaAleaOsknl7Mu
 preferences:
   assets:
     assets:

@@ -7,7 +7,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1646858753
+updated_at: 1647026965
 sections:
   -
     slug: village-01
@@ -37,6 +37,7 @@ sections:
                       target: null
                       title: null
                 text: 'The Village Spirit Co.'
+        title: 'Gin Bottle'
     type: section
     enabled: true
   -
@@ -62,9 +63,10 @@ sections:
                 type: hard_break
               -
                 type: text
-                text: 'Following a pitch process we were retained to create the visual identity and full packaging output. Our solution was simple, utilising bold embossed typography on the bottle itself as the stand out graphic element paired with filled labelling to give an aesthetic that emphasises the quality of the contents. '
+                text: 'Following a pitch process we were retained to create the visual identity and full packaging output. Our solution was simple, typography on the bottle itself is the stand out graphic element, paired with more ''type as image'' aesthetic on the packaging to emphasise the quality of the contents. '
         type: slides
         enabled: true
+        title: About
     type: section
     enabled: true
   -
@@ -78,6 +80,7 @@ sections:
         image: projects/village/10/V-10a.jpg
         type: slides
         enabled: true
+        title: Logotype
       -
         slug: village-03k
         type_color: '#F6CFAB'
@@ -86,6 +89,7 @@ sections:
         image: projects/village/10/V-10c.jpg
         type: slides
         enabled: true
+        title: 'Logo Marque'
       -
         slug: village-03q
         type_color: '#F6CFAB'
@@ -117,6 +121,7 @@ sections:
                 text: '3 hares believed to avert evil influences. Features in numerous locations in Devon, it was seen as a warning to resist temptation and confess to sins. It actually depicts three rabbits running in a circular formation. Their ears interlock in the centre – and here is the really clever bit, they actually form an optical illusion in that although they all appear to have two ears in fact only three are actually depicted. '
         type: slides
         enabled: true
+        title: About
       -
         slug: village-03a
         type_color: '#000000'
@@ -125,14 +130,17 @@ sections:
         type: slides
         enabled: true
         image: projects/village/03/V-03gi.jpg
+        title: 'Logo Marque'
       -
         slug: village-03d
-        type_color: '#F6CFAB'
-        slide_type: image
-        background_color: '#000000'
+        type_color: '#000000'
+        slide_type: video
+        background_color: '#F6CFAB'
         image: projects/village/03/V-03n.jpg
         type: slides
-        enabled: false
+        enabled: true
+        title: 'Logo Marque'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Village/4.mp4'
       -
         slug: village-03c
         type_color: '#F6CFAB'
@@ -141,6 +149,7 @@ sections:
         image: projects/village/06/V-06f.jpg
         type: slides
         enabled: false
+        title: Typography
       -
         slug: village-03e
         type_color: '#F6CFAB'
@@ -149,6 +158,7 @@ sections:
         image: projects/village/06/V-06g.jpg
         type: slides
         enabled: false
+        title: Typography
       -
         slug: village-03f
         type_color: '#F6CFAB'
@@ -156,6 +166,7 @@ sections:
         image: projects/village/06/V-06h.jpg
         type: slides
         enabled: false
+        title: Typography
       -
         slug: village-03g
         type_color: '#F6CFAB'
@@ -164,6 +175,7 @@ sections:
         image: projects/village/06/V-06l.jpg
         type: slides
         enabled: false
+        title: Typography
       -
         slug: village-03h
         type_color: '#F6CFAB'
@@ -172,6 +184,7 @@ sections:
         image: projects/village/06/V-06k.jpg
         type: slides
         enabled: false
+        title: Typography
       -
         slug: village-03j
         type_color: '#F6CFAB'
@@ -180,6 +193,7 @@ sections:
         image: projects/village/07/V-07k.jpg
         type: slides
         enabled: false
+        title: Typography
       -
         slug: village-03i
         type_color: '#161D16'
@@ -188,6 +202,7 @@ sections:
         image: projects/village/07/V-07i.jpg
         type: slides
         enabled: false
+        title: 'Gin Packaging'
       -
         slug: village-03l
         type_color: '#F6CFAB'
@@ -196,6 +211,7 @@ sections:
         image: projects/village/10/V-10b.jpg
         type: slides
         enabled: false
+        title: Typography
       -
         slug: village-03m
         type_color: '#161D16'
@@ -204,6 +220,7 @@ sections:
         image: projects/village/07/V-07n.jpg
         type: slides
         enabled: false
+        title: 'Gin Packaging'
       -
         slug: village-03n
         type_color: '#161D16'
@@ -212,6 +229,7 @@ sections:
         image: projects/village/07/V-07o.jpg
         type: slides
         enabled: false
+        title: 'Gin Packaging'
       -
         slug: village-03o
         type_color: '#161D16'
@@ -220,6 +238,7 @@ sections:
         image: projects/village/07/V-07p.jpg
         type: slides
         enabled: false
+        title: 'Gin Packaging'
       -
         slug: village-03p
         type_color: '#161D16'
@@ -228,6 +247,7 @@ sections:
         image: projects/village/07/V-07q.jpg
         type: slides
         enabled: false
+        title: 'Gin Packaging'
     type: section
     enabled: true
   -
@@ -241,6 +261,7 @@ sections:
         image: projects/village/04/V-04l.jpg
         type: slides
         enabled: true
+        title: 'Gin Bottle'
       -
         slug: village-06e
         type_color: '#F6CFAB'
@@ -249,6 +270,7 @@ sections:
         image: projects/village/07/V-07f.jpg
         type: slides
         enabled: false
+        title: 'Gin Bottle'
       -
         slug: village-06f
         type_color: '#F6CFAB'
@@ -257,6 +279,7 @@ sections:
         image: projects/village/07/V-07g.jpg
         type: slides
         enabled: true
+        title: 'Special Release'
       -
         slug: village-06b
         type_color: '#161D16'
@@ -265,6 +288,7 @@ sections:
         image: projects/village/07/V-07b.jpg
         type: slides
         enabled: true
+        title: 'Gin Bottle'
       -
         slug: village-06c
         type_color: '#242D24'
@@ -273,6 +297,7 @@ sections:
         image: projects/village/04/V-04d.jpg
         type: slides
         enabled: true
+        title: 'Gin Bottle'
       -
         slug: village-06d
         type_color: '#161D16'
@@ -281,6 +306,7 @@ sections:
         image: projects/village/07/V-07e.jpg
         type: slides
         enabled: false
+        title: 'Gin Bottle'
     type: section
     enabled: true
   -
@@ -294,6 +320,7 @@ sections:
         image: projects/village/07/V-07k.jpg
         type: slides
         enabled: true
+        title: Typography
       -
         slug: village-08a
         type_color: '#161D16'
@@ -302,6 +329,7 @@ sections:
         image: projects/village/07/V-07i.jpg
         type: slides
         enabled: true
+        title: 'Gin Packaging'
       -
         slug: village-08c
         type_color: '#161D16'
@@ -310,6 +338,7 @@ sections:
         image: projects/village/07/V-07n.jpg
         type: slides
         enabled: true
+        title: 'Gin Packaging'
       -
         slug: village-08d
         type_color: '#161D16'
@@ -318,6 +347,7 @@ sections:
         image: projects/village/07/V-07p.jpg
         type: slides
         enabled: true
+        title: 'Gin Packaging'
       -
         slug: village-08d
         type_color: '#161D16'
@@ -326,6 +356,7 @@ sections:
         image: projects/village/07/V-07q.jpg
         type: slides
         enabled: true
+        title: 'Gin Packaging'
     type: section
     enabled: true
   -
@@ -344,9 +375,10 @@ sections:
             content:
               -
                 type: text
-                text: 'A local gin with big ideas.'
+                text: 'A local gin with big ideas. '
         type: slides
         enabled: true
+        title: About
     type: section
     enabled: true
   -
@@ -360,6 +392,7 @@ sections:
         image: projects/village/08/V-08b.jpg
         type: slides
         enabled: true
+        title: 'Rum Bottle'
       -
         slug: village-07a
         type_color: '#F8D6B0'
@@ -368,6 +401,7 @@ sections:
         image: projects/village/08/V-08a.jpg
         type: slides
         enabled: false
+        title: 'Rum Bottle'
       -
         slug: village-07c
         type_color: '#F8D6B0'
@@ -376,6 +410,7 @@ sections:
         image: projects/village/08/V-08c.jpg
         type: slides
         enabled: false
+        title: 'Rum Bottle'
       -
         slug: village-07d
         type_color: '#F8D6B0'
@@ -384,6 +419,7 @@ sections:
         image: projects/village/08/V-08d.jpg
         type: slides
         enabled: true
+        title: 'Rum Bottle'
       -
         slug: village-07e
         type_color: '#F8D6B0'
@@ -392,6 +428,7 @@ sections:
         image: projects/village/08/V-08e.jpg
         type: slides
         enabled: true
+        title: 'Rum Bottle'
       -
         slug: village-07f
         type_color: '#F8D6B0'
@@ -400,6 +437,7 @@ sections:
         image: projects/village/09/V-09e.jpg
         type: slides
         enabled: false
+        title: 'Rum Packaging'
       -
         slug: village-07k
         type_color: '#F8D6B0'
@@ -408,6 +446,7 @@ sections:
         image: projects/village/09/V-09g.jpg
         type: slides
         enabled: true
+        title: 'Rum Packaging'
       -
         slug: village-07g
         type_color: '#2C2723'
@@ -416,6 +455,7 @@ sections:
         image: projects/village/09/V-09d.jpg
         type: slides
         enabled: false
+        title: 'Rum Packaging'
       -
         slug: village-07h
         type_color: '#2C2723'
@@ -424,6 +464,7 @@ sections:
         image: projects/village/09/V-09c.jpg
         type: slides
         enabled: true
+        title: 'Rum Packaging'
       -
         slug: village-07i
         type_color: '#2C2723'
@@ -432,6 +473,7 @@ sections:
         image: projects/village/09/V-09b.jpg
         type: slides
         enabled: false
+        title: 'Rum Packaging'
       -
         slug: village-07j
         type_color: '#2C2723'
@@ -440,13 +482,14 @@ sections:
         image: projects/village/09/V-09a.jpg
         type: slides
         enabled: true
+        title: 'Rum Packaging'
     type: section
     enabled: true
   -
     slug: village-05
     slides:
       -
-        title: Logotype
+        title: 'Gin Bottle'
         slug: village-05a
         type_color: '#000000'
         slide_type: image
@@ -462,6 +505,7 @@ sections:
         image: projects/village/06/V-06a.jpg
         type: slides
         enabled: true
+        title: Logotype
       -
         slug: village-05c
         type_color: '#F6CFAB'
@@ -470,6 +514,7 @@ sections:
         image: projects/village/06/V-06c.jpg
         type: slides
         enabled: true
+        title: Logotype
       -
         slug: village-05d
         type_color: '#F6CFAB'
@@ -478,6 +523,7 @@ sections:
         image: projects/village/06/V-06d.jpg
         type: slides
         enabled: true
+        title: Logotype
       -
         slug: village-05e
         type_color: '#F6CFAB'
@@ -486,6 +532,7 @@ sections:
         image: projects/village/06/V-06e.jpg
         type: slides
         enabled: true
+        title: Logotype
     type: section
     enabled: false
 ---

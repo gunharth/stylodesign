@@ -7,13 +7,6 @@ slides:
     type_color: '#B0916B'
     slide_type: video
     video: 'https://bb5ff14b64040179d281-bb24ee469ec4c88bec8ffc2894929f4c.ssl.cf3.rackcdn.com/TB_1.mp4'
-    credit:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Director Name'
     type: slide
     enabled: true
     background_color: '#D9CFC4'
@@ -35,5 +28,5 @@ slides:
             text: 'Tanner Bates'
     title: Workshop
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1646908650
+updated_at: 1646999692
 ---

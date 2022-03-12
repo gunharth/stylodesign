@@ -3,106 +3,26 @@ id: a7e07c01-c4fc-4851-a303-e3805de5a752
 title: 'Unknown Pleasures'
 sections:
   -
-    slug: unknown-pleasures-1
-    type: section
-    enabled: true
+    slug: unknown-pleasures-9
     slides:
       -
-        slug: unknown-pleasures-1c
-        type_color: '#502E19'
-        slide_type: image
-        background_color: '#1B1223'
-        image: projects/unknown-pleasures/06/PM-06a.jpg
-        type: slides
-        enabled: true
-        title: 'Can Design'
-      -
-        slug: unknown-pleasures-1f
-        type_color: '#EEC6AB'
-        slide_type: image
-        image: projects/unknown-pleasures/06/PM-06f.jpg
-        type: slides
-        enabled: true
-        background_color: '#502E19'
-        title: 'Can Design'
-      -
-        slug: unknown-pleasures-1e
-        type_color: '#502E19'
-        slide_type: color
-        background_color: '#EEC6AB'
+        slug: unknown-pleasures-9a
+        type_color: '#6F5B4C'
+        slide_type: video
+        background_color: '#2F1B14'
+        image: projects/unknown-pleasures/04/PM-04a.jpg
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Unknown%20Pleasures/pexels-mikhail-nilov-7815754.mp4'
         body_copy:
           -
             type: heading
             attrs:
-              level: 2
+              level: 1
             content:
               -
                 type: text
-                text: 'Aliquam mattis imperdiet iaculis. Aliquam erat volutpat. Proin aliquet sem et tellus. Vivamus in vulputate ex, eget consectetur ligula. Nullam pretium porttitor bibendum. Aenean lorem massa, mattis non nunc id, ultricies condimentum diam. Quisque ac urnasuscipit tortor lobortis mollis.'
+                text: 'Unknown Pleasures'
         type: slides
         enabled: true
-        title: 'Project Information'
-      -
-        slug: unknown-pleasures-1d
-        type_color: '#502E19'
-        slide_type: image
-        background_color: '#EEC6AB'
-        image: projects/unknown-pleasures/06/PM-06b.jpg
-        type: slides
-        enabled: true
-        title: 'Can Design'
-      -
-        slug: unknown-pleasures-1a
-        type_color: '#502E19'
-        slide_type: image
-        type: slides
-        enabled: true
-        image: projects/unknown-pleasures/06/PM-06c.jpg
-        background_color: '#EEC6AB'
-        title: 'Can Design'
-      -
-        slug: unknown-pleasures-1e
-        type_color: '#502E19'
-        slide_type: image
-        image: projects/unknown-pleasures/06/PM-06h.jpg
-        type: slides
-        enabled: true
-        background_color: '#EEC6AB'
-        title: 'Can Design'
-  -
-    slug: unknown-pleasures-2
-    slides:
-      -
-        slug: unknown-pleasures-2a
-        type_color: '#D0A78C'
-        slide_type: color
-        background_color: '#2D1709'
-        body_copy:
-          -
-            type: heading
-            attrs:
-              level: 2
-            content:
-              -
-                type: text
-                text: 'Aliquam mattis imperdiet iaculis. Aliquam erat volutpat. Proin aliquet sem et tellus. Vivamus in vulputate ex, eget consectetur ligula. Nullam pretium porttitor bibendum. Aenean lorem massa, mattis non nunc id, ultricies condimentum diam. Quisque ac urnasuscipit tortor lobortis mollis.'
-        type: slides
-        enabled: true
-        title: 'Project Information'
-    type: section
-    enabled: true
-  -
-    slug: unknown-pleasures-6
-    slides:
-      -
-        slug: unknown-pleasures-6a
-        type_color: '#502E19'
-        slide_type: image
-        background_color: '#EEC6AB'
-        image: projects/unknown-pleasures/07/PM-07e.gif
-        type: slides
-        enabled: true
-        title: 'Can Design'
     type: section
     enabled: true
   -
@@ -116,6 +36,7 @@ sections:
         image: projects/unknown-pleasures/08/PM-08a.jpg
         type: slides
         enabled: true
+        title: 'Cocktail Range'
       -
         title: 'Can Reverse'
         slug: unknown-pleasures-8a
@@ -133,78 +54,7 @@ sections:
         image: projects/unknown-pleasures/08/PM-08d.jpg
         type: slides
         enabled: true
-    type: section
-    enabled: true
-  -
-    slug: unknown-pleasures-5
-    slides:
-      -
-        slug: unknown-pleasures-5c
-        type_color: '#EEC6AB'
-        slide_type: image
-        background_color: '#EEC6AB'
-        image: projects/unknown-pleasures/05/PM-05e.gif
-        type: slides
-        enabled: true
-      -
-        title: 'Colour Palette'
-        slug: unknown-pleasures-5b
-        type_color: '#EEC6AB'
-        slide_type: image
-        background_color: '#502E19'
-        image: projects/unknown-pleasures/05/PM-05a.jpg
-        type: slides
-        enabled: true
-      -
-        title: 'Logo Marque Colourways'
-        slug: unknown-pleasures-5a
-        type_color: '#502E19'
-        slide_type: image
-        image: projects/unknown-pleasures/05/PM-05c.gif
-        type: slides
-        enabled: false
-        background_color: '#EEC6AB'
-    type: section
-    enabled: true
-  -
-    slug: unknown-pleasures-3
-    slides:
-      -
-        title: 'Lemon Margarita Tray Pack'
-        slug: unknown-pleasures-3d
-        type_color: '#502E19'
-        slide_type: image
-        background_color: '#EEC6AB'
-        image: projects/unknown-pleasures/09/PM-09f.jpg
-        type: slides
-        enabled: false
-      -
-        slug: unknown-pleasures-3c
-        type_color: '#502E19'
-        slide_type: image
-        background_color: '#EEC6AB'
-        image: projects/unknown-pleasures/09/PM-09n.jpg
-        type: slides
-        enabled: true
-        title: 'Espresso Martini Tray Pack'
-      -
-        slug: unknown-pleasures-3a
-        type_color: '#502E19'
-        slide_type: image
-        background_color: '#EEC6AB'
-        image: projects/unknown-pleasures/10/PM-010c.gif
-        type: slides
-        enabled: true
-        title: 'Tray Pack'
-      -
-        slug: unknown-pleasures-3e
-        type_color: '#502E19'
-        slide_type: image
-        background_color: '#EEC6AB'
-        image: projects/unknown-pleasures/09/PM-09c.jpg
-        type: slides
-        enabled: true
-        title: 'Tray Pack'
+        title: 'Can Design'
     type: section
     enabled: true
   -
@@ -212,6 +62,48 @@ sections:
     slides:
       -
         slug: unknown-pleasures-4a
+        type_color: '#291305'
+        slide_type: color
+        background_color: '#EEC6AB'
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'A unique mixology inspiring crafted premium cocktails liberating a sensory immersion in taste. Stimulating a thirst for mischief, passion and igniting unknown pleasures. Original recipes blending all natural and vegan ingredients in the convenience of a recyclable can.'
+        type: slides
+        enabled: true
+        title: About
+    type: section
+    enabled: true
+  -
+    slug: unknown-pleasures-1
+    type: section
+    enabled: true
+    slides:
+      -
+        slug: unknown-pleasures-1c
+        type_color: '#502E19'
+        slide_type: image
+        background_color: '#EEC6AB'
+        image: projects/unknown-pleasures/06/PM-06a.jpg
+        type: slides
+        enabled: true
+        title: 'Cocktail Range'
+      -
+        slug: unknown-pleasures-1f
+        type_color: '#EEC6AB'
+        slide_type: image
+        image: projects/unknown-pleasures/06/PM-06f.jpg
+        type: slides
+        enabled: true
+        background_color: '#502E19'
+        title: 'Cocktail Range'
+      -
+        slug: unknown-pleasures-1e
         type_color: '#502E19'
         slide_type: color
         background_color: '#EEC6AB'
@@ -225,7 +117,128 @@ sections:
                 type: text
                 text: 'Aliquam mattis imperdiet iaculis. Aliquam erat volutpat. Proin aliquet sem et tellus. Vivamus in vulputate ex, eget consectetur ligula. Nullam pretium porttitor bibendum. Aenean lorem massa, mattis non nunc id, ultricies condimentum diam. Quisque ac urnasuscipit tortor lobortis mollis.'
         type: slides
+        enabled: false
+        title: About
+      -
+        slug: unknown-pleasures-1d
+        type_color: '#502E19'
+        slide_type: image
+        background_color: '#EEC6AB'
+        image: projects/unknown-pleasures/06/PM-06b.jpg
+        type: slides
+        enabled: false
+        title: 'Can Design'
+      -
+        slug: unknown-pleasures-1a
+        type_color: '#502E19'
+        slide_type: image
+        type: slides
         enabled: true
+        image: projects/unknown-pleasures/06/PM-06c.jpg
+        background_color: '#EEC6AB'
+        title: 'Can Design'
+      -
+        slug: unknown-pleasures-1e
+        type_color: '#502E19'
+        slide_type: image
+        image: projects/unknown-pleasures/06/PM-06h.jpg
+        type: slides
+        enabled: false
+        background_color: '#EEC6AB'
+        title: 'Can Design'
+  -
+    slug: unknown-pleasures-5
+    slides:
+      -
+        slug: unknown-pleasures-5c
+        type_color: '#CBBDB5'
+        slide_type: image
+        background_color: '#502E19'
+        image: projects/unknown-pleasures/05/PM-05e.gif
+        type: slides
+        enabled: true
+        title: 'Logo Marque'
+      -
+        title: 'Colour Palette'
+        slug: unknown-pleasures-5b
+        type_color: '#CBBDB5'
+        slide_type: image
+        background_color: '#502E19'
+        image: projects/unknown-pleasures/05/PM-05a.jpg
+        type: slides
+        enabled: true
+      -
+        title: 'Logo Marque'
+        slug: unknown-pleasures-5a
+        type_color: '#502E19'
+        slide_type: image
+        image: projects/unknown-pleasures/05/PM-05c.gif
+        type: slides
+        enabled: false
+        background_color: '#EEC6AB'
+    type: section
+    enabled: true
+  -
+    slug: unknown-pleasures-3
+    slides:
+      -
+        slug: unknown-pleasures-3c
+        type_color: '#5A1813'
+        slide_type: image
+        background_color: '#C9413D'
+        image: projects/unknown-pleasures/09/PM-09n.jpg
+        type: slides
+        enabled: true
+        title: 'Tray Pack'
+      -
+        slug: unknown-pleasures-3a
+        type_color: '#6F5B4C'
+        slide_type: image
+        background_color: '#2F1B14'
+        image: projects/unknown-pleasures/10/PM-010c.gif
+        type: slides
+        enabled: true
+        title: 'Tray Pack'
+      -
+        title: 'Tray Pack'
+        slug: unknown-pleasures-3d
+        type_color: '#6F5B4C'
+        slide_type: image
+        background_color: '#2F1B14'
+        image: projects/unknown-pleasures/10/PM-010b.gif
+        type: slides
+        enabled: true
+      -
+        slug: unknown-pleasures-3e
+        type_color: '#6F5B4C'
+        slide_type: image
+        background_color: '#2F1B14'
+        image: projects/unknown-pleasures/09/PM-09c.jpg
+        type: slides
+        enabled: true
+        title: 'Tray Pack'
+    type: section
+    enabled: true
+  -
+    slug: unknown-pleasures-2
+    slides:
+      -
+        slug: unknown-pleasures-2a
+        type_color: '#412014'
+        slide_type: color
+        background_color: '#CBBDB5'
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'A unique mixology inspiring crafted premium cocktails liberating a sensory immersion in taste. Stimulating a thirst for mischief, passion and igniting unknown pleasures. Original recipes blending all natural and vegan ingredients in the convenience of a recyclable can.'
+        type: slides
+        enabled: true
+        title: About
     type: section
     enabled: true
   -
@@ -233,13 +246,27 @@ sections:
     slides:
       -
         slug: unknown-pleasures-7a
-        type_color: '#502E19'
+        type_color: '#6F5B4C'
         slide_type: image
-        background_color: '#EEC6AB'
+        background_color: '#2F1B14'
         image: projects/unknown-pleasures/10/PM-010b.gif
         type: slides
         enabled: true
         title: '4 Pack'
+    type: section
+    enabled: false
+  -
+    slug: unknown-pleasures-6
+    slides:
+      -
+        slug: unknown-pleasures-6a
+        type_color: '#502E19'
+        slide_type: image
+        background_color: '#EEC6AB'
+        image: projects/unknown-pleasures/07/PM-07e.gif
+        type: slides
+        enabled: true
+        title: 'Can Design'
     type: section
     enabled: true
 seo_noindex: false
@@ -248,5 +275,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1643482625
+updated_at: 1647021454
 ---

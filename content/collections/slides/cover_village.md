@@ -2,7 +2,7 @@
 id: 304d917f-4898-4b89-8bdf-cbb8be308ea2
 title: 'Cover Village Spirit Co.'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1646913038
+updated_at: 1646999659
 slides:
   -
     slug: cover_village

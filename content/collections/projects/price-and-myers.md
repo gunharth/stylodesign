@@ -7,7 +7,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1646946163
+updated_at: 1647021537
 sections:
   -
     slug: price-myers-01
@@ -113,7 +113,7 @@ sections:
         background_color: '#002368'
         image: projects/price-myers/08/PM-4i.jpg
         type: slides
-        enabled: true
+        enabled: false
         title: 'Business Cards'
       -
         slug: price-myers-08d
@@ -122,7 +122,7 @@ sections:
         background_color: '#DCDDE0'
         image: projects/price-myers/08/PM-4q.jpg
         type: slides
-        enabled: true
+        enabled: false
         title: Monogram
     type: section
     enabled: true

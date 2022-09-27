@@ -1,5 +1,6 @@
 ---
 id: d0901c96-9b62-4600-b7e3-a629d4e18c4a
+blueprint: projects
 title: Village
 seo_noindex: false
 seo_nofollow: false
@@ -7,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1647026965
+updated_at: 1662643658
 sections:
   -
     slug: village-01
@@ -56,14 +57,7 @@ sections:
             content:
               -
                 type: text
-                text: 'Village is a small batch, double distilled gin of exceptional quality. Infused with carefully selected botanicals found in Devon hedgerows, including hawthorne, bay & hazlenut creating a unique refreshing gin of superb depth and complexity.'
-              -
-                type: hard_break
-              -
-                type: hard_break
-              -
-                type: text
-                text: 'Following a pitch process we were retained to create the visual identity and full packaging output. Our solution was simple, typography on the bottle itself is the stand out graphic element, paired with more ''type as image'' aesthetic on the packaging to emphasise the quality of the contents. '
+                text: 'The Village Spirit Co. is a small distillery based in the beautiful South Hams in Devon. We were approached to come up with both the identity for the company and the design of their opening two offerings — a ‘Very Special Gin’ and a ‘Reserve Molasses Rum’.'
         type: slides
         enabled: true
         title: About
@@ -86,7 +80,7 @@ sections:
         type_color: '#F6CFAB'
         slide_type: image
         background_color: '#161D16'
-        image: projects/village/10/V-10c.jpg
+        image: projects/village/10/V-10e.jpg
         type: slides
         enabled: true
         title: 'Logo Marque'
@@ -103,25 +97,20 @@ sections:
             content:
               -
                 type: text
-                text: "A warning against sin? Or a way to advertise good fortune? The motif seems to have been important in the world's major faiths, spanning thousands of miles and at least 1,500 years - but no-one knows why: \"The meaning, well that's very tricky ground,\" said Dr Greeves.\_"
-          -
-            type: heading
-            attrs:
-              level: 2
-            content:
-              -
-                type: text
-                text: '"It''s a wonderful mystery.'
-              -
-                type: hard_break
-              -
-                type: hard_break
-              -
-                type: text
-                text: '3 hares believed to avert evil influences. Features in numerous locations in Devon, it was seen as a warning to resist temptation and confess to sins. It actually depicts three rabbits running in a circular formation. Their ears interlock in the centre – and here is the really clever bit, they actually form an optical illusion in that although they all appear to have two ears in fact only three are actually depicted. '
+                text: 'A characterful typographic solution for the identity was paired with the 3 hares motif found throughout ancient Devon for at least 1,500 years. A warning against sin? A way to advertise good fortune or avert evil influences? No one is certain of their actual meaning!'
         type: slides
         enabled: true
         title: About
+      -
+        slug: village-03d
+        type_color: '#F7F1EB'
+        slide_type: video
+        background_color: '#F6CFAB'
+        image: projects/village/03/V-03n.jpg
+        type: slides
+        enabled: true
+        title: 'Logo Marque'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Village/4.mp4'
       -
         slug: village-03a
         type_color: '#000000'
@@ -131,16 +120,6 @@ sections:
         enabled: true
         image: projects/village/03/V-03gi.jpg
         title: 'Logo Marque'
-      -
-        slug: village-03d
-        type_color: '#000000'
-        slide_type: video
-        background_color: '#F6CFAB'
-        image: projects/village/03/V-03n.jpg
-        type: slides
-        enabled: true
-        title: 'Logo Marque'
-        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Village/4.mp4'
       -
         slug: village-03c
         type_color: '#F6CFAB'
@@ -364,9 +343,9 @@ sections:
     slides:
       -
         slug: village-04a
-        type_color: '#161D16'
-        slide_type: color
-        background_color: '#F6CFAB'
+        type_color: '#F6CFAB'
+        slide_type: video
+        background_color: '#161D16'
         body_copy:
           -
             type: heading
@@ -375,10 +354,11 @@ sections:
             content:
               -
                 type: text
-                text: 'A local gin with big ideas. '
+                text: 'A local distillery with big ideas. '
         type: slides
         enabled: true
         title: About
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Village/6a.mp4'
     type: section
     enabled: true
   -

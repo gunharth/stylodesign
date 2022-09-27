@@ -1,5 +1,6 @@
 ---
 id: b2eb19d5-d0c7-42a9-9d11-57a73eec079a
+blueprint: projects
 title: 'Price & Myers'
 seo_noindex: false
 seo_nofollow: false
@@ -7,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1647021537
+updated_at: 1662111813
 sections:
   -
     slug: price-myers-01
@@ -30,6 +31,89 @@ sections:
               -
                 type: text
                 text: 'Price & Myers'
+    type: section
+    enabled: true
+  -
+    slug: price-myers-11
+    slides:
+      -
+        slug: price-myers-11a
+        type_color: '#001789'
+        slide_type: color
+        background_color: '#033DD7'
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'Price & Myers is a consulting civil and structural engineering practice established in London in 1978 with offices in London, Nottingham, and Oxford, and currently employ about 130 people. '
+        type: slides
+        enabled: true
+    type: section
+    enabled: true
+  -
+    slug: price-myers-10
+    slides:
+      -
+        title: Website
+        slug: price-myers-10a
+        type_color: '#033DD7'
+        slide_type: video
+        background_color: '#90A2FA'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Price%20Myers/Video%201a.mp4'
+        type: slides
+        enabled: true
+      -
+        title: Website
+        slug: price-myers-10b
+        type_color: '#033DD7'
+        slide_type: image
+        background_color: '#90A2FA'
+        image: projects/price-myers/09/PM-8f.jpg
+        type: slides
+        enabled: true
+      -
+        title: Website
+        slug: price-myers-10c
+        type_color: '#033DD7'
+        slide_type: image
+        background_color: '#90A2FA'
+        image: projects/price-myers/09/PM-8g.jpg
+        type: slides
+        enabled: true
+    type: section
+    enabled: true
+  -
+    slug: price-myers-03
+    slides:
+      -
+        title: 'Tate St. Ives'
+        slug: price-myers-03a
+        type_color: '#033DD7'
+        slide_type: video
+        background_color: '#90A2FA'
+        video: 'https://4895768e49742e17e04d-05f151dc8b8cbd1daca39f1f4d7296ca.ssl.cf3.rackcdn.com/1560998517.mp4'
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'Our work for P&M covered an update to their visual identity, website and an extensive suite of corporate materials covering marketing collateral, in-house documentation.'
+        credit:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Credit Name'
+        type: slides
+        enabled: true
     type: section
     enabled: true
   -
@@ -56,12 +140,21 @@ sections:
       -
         slug: price-myers-08h
         type_color: '#033DD7'
-        slide_type: video
-        background_color: '#002368'
+        slide_type: color
+        background_color: '#D4DAF3'
         video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Price%20Myers/4.mp4'
         type: slides
-        enabled: false
+        enabled: true
         title: Monogram
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'We provided Price & Myers with a refreshed identity and colour palette which included the development of a bespoke monogram for use across digital channels.'
       -
         slug: price-myers-08b
         type_color: '#033DD7'
@@ -124,68 +217,6 @@ sections:
         type: slides
         enabled: false
         title: Monogram
-    type: section
-    enabled: true
-  -
-    slug: price-myers-03
-    slides:
-      -
-        title: 'Tate St. Ives'
-        slug: price-myers-03a
-        type_color: '#033DD7'
-        slide_type: video
-        background_color: '#90A2FA'
-        video: 'https://4895768e49742e17e04d-05f151dc8b8cbd1daca39f1f4d7296ca.ssl.cf3.rackcdn.com/1560998517.mp4'
-        body_copy:
-          -
-            type: heading
-            attrs:
-              level: 2
-            content:
-              -
-                type: text
-                text: 'Price & Myers is a consulting civil and structural engineering practice established in London in 1978 with offices in London, Nottingham, and Oxford, and currently employ about 130 people. '
-        credit:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Credit Name'
-        type: slides
-        enabled: true
-    type: section
-    enabled: true
-  -
-    slug: price-myers-10
-    slides:
-      -
-        title: Website
-        slug: price-myers-10a
-        type_color: '#033DD7'
-        slide_type: video
-        background_color: '#90A2FA'
-        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Price%20Myers/Video%201a.mp4'
-        type: slides
-        enabled: true
-      -
-        title: Website
-        slug: price-myers-10b
-        type_color: '#033DD7'
-        slide_type: image
-        background_color: '#90A2FA'
-        image: projects/price-myers/09/PM-8f.jpg
-        type: slides
-        enabled: true
-      -
-        title: Website
-        slug: price-myers-10c
-        type_color: '#033DD7'
-        slide_type: image
-        background_color: '#90A2FA'
-        image: projects/price-myers/09/PM-8g.jpg
-        type: slides
-        enabled: true
     type: section
     enabled: true
   -

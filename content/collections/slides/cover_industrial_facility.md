@@ -1,8 +1,10 @@
 ---
 id: 36ce81ff-0e8b-48ec-8af4-582660a08147
+published: false
+blueprint: slides
 title: 'Cover Industrial Facility'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1646908780
+updated_at: 1647169056
 slides:
   -
     slug: cover_industrial_facility

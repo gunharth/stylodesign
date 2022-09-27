@@ -1,5 +1,6 @@
 ---
 id: a7e07c01-c4fc-4851-a303-e3805de5a752
+blueprint: projects
 title: 'Unknown Pleasures'
 sections:
   -
@@ -7,11 +8,11 @@ sections:
     slides:
       -
         slug: unknown-pleasures-9a
-        type_color: '#6F5B4C'
+        type_color: '#EEC6AB'
         slide_type: video
         background_color: '#2F1B14'
         image: projects/unknown-pleasures/04/PM-04a.jpg
-        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Unknown%20Pleasures/pexels-mikhail-nilov-7815754.mp4'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Unknown%20Pleasures/2a.mp4'
         body_copy:
           -
             type: heading
@@ -73,7 +74,9 @@ sections:
             content:
               -
                 type: text
-                text: 'A unique mixology inspiring crafted premium cocktails liberating a sensory immersion in taste. Stimulating a thirst for mischief, passion and igniting unknown pleasures. Original recipes blending all natural and vegan ingredients in the convenience of a recyclable can.'
+                text: 'Irish restaurateur and Great British Menu judge Oliver Peyton has launched a range of ready to drink premium cocktails in collaboration with bartender Dré Masso called Unknown Pleasures.'
+              -
+                type: hard_break
         type: slides
         enabled: true
         title: About
@@ -147,14 +150,45 @@ sections:
         background_color: '#EEC6AB'
         title: 'Can Design'
   -
+    slug: unknown-pleasures-10
+    slides:
+      -
+        slug: unknown-pleasures-10a
+        type_color: '#EEC6AB'
+        slide_type: video
+        background_color: '#291305'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Unknown%20Pleasures/4a.mp4'
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'Three years in development, the range was designed to mimic what comes out of a cocktail shaker and required a premium aesthetic to represent the high quality single sourced ingredients.'
+        type: slides
+        enabled: true
+    type: section
+    enabled: true
+  -
     slug: unknown-pleasures-5
     slides:
       -
-        slug: unknown-pleasures-5c
-        type_color: '#CBBDB5'
+        title: 'Logo Marque'
+        slug: unknown-pleasures-5a
+        type_color: '#502E19'
         slide_type: image
-        background_color: '#502E19'
-        image: projects/unknown-pleasures/05/PM-05e.gif
+        image: projects/unknown-pleasures/11/PM-011a.gif
+        type: slides
+        enabled: true
+        background_color: '#EEC6AB'
+      -
+        slug: unknown-pleasures-5c
+        type_color: '#502E19'
+        slide_type: image
+        background_color: '#EEC6AB'
+        image: projects/unknown-pleasures/11/PM-011d.gif
         type: slides
         enabled: true
         title: 'Logo Marque'
@@ -166,16 +200,7 @@ sections:
         background_color: '#502E19'
         image: projects/unknown-pleasures/05/PM-05a.jpg
         type: slides
-        enabled: true
-      -
-        title: 'Logo Marque'
-        slug: unknown-pleasures-5a
-        type_color: '#502E19'
-        slide_type: image
-        image: projects/unknown-pleasures/05/PM-05c.gif
-        type: slides
         enabled: false
-        background_color: '#EEC6AB'
     type: section
     enabled: true
   -
@@ -224,9 +249,9 @@ sections:
     slides:
       -
         slug: unknown-pleasures-2a
-        type_color: '#412014'
-        slide_type: color
-        background_color: '#CBBDB5'
+        type_color: '#EEC6AB'
+        slide_type: image
+        background_color: '#291305'
         body_copy:
           -
             type: heading
@@ -235,10 +260,11 @@ sections:
             content:
               -
                 type: text
-                text: 'A unique mixology inspiring crafted premium cocktails liberating a sensory immersion in taste. Stimulating a thirst for mischief, passion and igniting unknown pleasures. Original recipes blending all natural and vegan ingredients in the convenience of a recyclable can.'
+                text: 'We were tasked with producing a design with not only shelf presence, but one that has the elegance befitting the quality of the product itself. Copper colour coded cans and bold typography provide a striking solution.'
         type: slides
         enabled: true
         title: About
+        image: projects/unknown-pleasures/11/PM-011c.jpg
     type: section
     enabled: true
   -
@@ -275,5 +301,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1647021454
+updated_at: 1647198842
 ---

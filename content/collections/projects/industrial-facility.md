@@ -1,5 +1,6 @@
 ---
 id: 25877e83-629c-4462-b035-80aace36cb92
+blueprint: projects
 title: 'Industrial Facility'
 sections:
   -
@@ -198,5 +199,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1647080462
+updated_at: 1647104971
 ---

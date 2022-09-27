@@ -1,13 +1,14 @@
 ---
 id: c4ce53ac-7de5-4fca-837d-2fbe86bb4af3
+blueprint: slides
 title: '01 Home Video'
 slides:
   -
     slug: 01_home_video
-    type_color: '#E3D4CA'
+    type_color: '#EBE9E5'
     hover_color: '#A4A4A7'
     slide_type: video
-    background_color: '#514136'
+    background_color: '#000000'
     text_slide: true
     bard:
       -
@@ -27,8 +28,8 @@ slides:
           -
             type: text
             text: 'Simple ideas. Beautifully realised.'
-    video: 'https://e7d65fe1e962763baaf1-743a436a5b1e6ba64c92cfc30b331932.ssl.cf3.rackcdn.com/About%20Video%203%20Edit.mp4'
+    video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Home/Home%20Video%206.mp4'
     title: 'Scroll for more'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1646912396
+updated_at: 1663166682
 ---

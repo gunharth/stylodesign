@@ -1,8 +1,9 @@
 ---
 id: 806a8809-7be9-44d2-8ff5-27c8ae4a8394
+blueprint: slides
 title: 'Cover Eckersley O''Callaghan'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1642852480
+updated_at: 1647433636
 slides:
   -
     slug: eckersley-ocallaghan-1a

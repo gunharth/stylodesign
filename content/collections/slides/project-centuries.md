@@ -1,5 +1,6 @@
 ---
 id: 31f06f59-af8d-4512-8c60-ce9677bbf2cc
+blueprint: slides
 title: 'Cover Project Centuries'
 slides:
   -
@@ -25,8 +26,8 @@ slides:
             text: Centuries
     type: slide
     enabled: true
-    background_color: '#E1D8D1'
+    background_color: '#43413F'
     title: 'Lobby Bar'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1646912314
+updated_at: 1649338164
 ---

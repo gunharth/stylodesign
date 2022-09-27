@@ -2,6 +2,11 @@ title: 'Social media'
 data:
   social_media:
     -
+      url: stylodesign_studio
+      prefix: 'https://www.instagram.com/'
+      type: instagram
+      enabled: true
+    -
       url: stylodesign
       type: pinterest
       enabled: true
@@ -12,7 +17,7 @@ data:
       type: twitter
       enabled: true
     -
-      url: fsdfdsf
+      url: stylobranding
       prefix: 'https://www.behance.net/'
       type: behance
       enabled: true

@@ -12,7 +12,12 @@ data:
       type: twitter
       enabled: true
     -
-      url: fsdfdsf
+      url: stylodesign_studio
+      prefix: 'https://www.instagram.com/'
+      type: instagram
+      enabled: true
+    -
+      url: stylobranding
       prefix: 'https://www.behance.net/'
       type: behance
       enabled: true

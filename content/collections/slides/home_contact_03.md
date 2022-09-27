@@ -1,10 +1,11 @@
 ---
 id: 9dfbd0cf-81d8-4164-9cd6-c2e23817a4a5
+blueprint: slides
 title: '03 Home Contact'
 slides:
   -
     slug: home_contact_03
-    type_color: '#E3D4CA'
+    type_color: '#6C6D6F'
     slide_type: image
     body_copy:
       -
@@ -19,7 +20,7 @@ slides:
               -
                 type: link
                 attrs:
-                  href: 'https://v2.stylodesign.co.uk/projects'
+                  href: 'https://stylodesign.co.uk/projects'
                   rel: null
                   target: null
                   title: null
@@ -33,7 +34,7 @@ slides:
               -
                 type: link
                 attrs:
-                  href: 'https://v2.stylodesign.co.uk/contact'
+                  href: 'https://stylodesign.co.uk/contact'
                   rel: null
                   target: null
                   title: null
@@ -43,8 +44,8 @@ slides:
             text: .
     type: slide
     enabled: true
-    background_color: '#161414'
-    image: projects/tanner-bates/03/tb-03a.jpg
+    background_color: '#2D2E2F'
+    image: projects/ridley-scott-creative-group/cover/rscg-cover-01a.jpg
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1643375695
+updated_at: 1663166083
 ---

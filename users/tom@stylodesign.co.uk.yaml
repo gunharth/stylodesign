@@ -9,3 +9,5 @@ preferences:
   collections:
     projects:
       after_save: continue_editing
+    clients:
+      after_save: continue_editing

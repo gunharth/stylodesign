@@ -1,5 +1,6 @@
 ---
 id: 35dd85c0-23fd-42f3-8409-52ada3eea1c5
+blueprint: projects
 title: 'Tanner Bates'
 sections:
   -
@@ -30,6 +31,30 @@ sections:
                 type: text
                 text: 'Photograph — Chris Gilbert'
         title: Dartmoor
+    type: section
+    enabled: true
+  -
+    slug: tanner-bates-2
+    slides:
+      -
+        title: About
+        slug: tanner-bates-2a
+        type_color: '#B0916B'
+        slide_type: color
+        background_color: '#000000'
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'Tanner Bates are one of the UK’s leading traditional leather working companies. Based in Devon and employing a team of skilled artisans they are known as one of the few remaining leather workers using oak bark tanned leather from Europe’s only remaining oak bark tannery in Devon.'
+              -
+                type: hard_break
+        type: slides
+        enabled: true
     type: section
     enabled: true
   -
@@ -133,21 +158,25 @@ sections:
     type: section
     enabled: true
   -
-    slug: tanner-bates-2
+    slug: tanner-bates-10
     slides:
       -
-        title: About
-        slug: tanner-bates-2a
+        slug: tanner-bates-10a
         type_color: '#B0916B'
-        slide_type: color
-        background_color: '#000000'
+        slide_type: video
+        background_color: '#4B2E0F'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Tanner%20Bates/TB_1.mp4'
         body_copy:
           -
-            type: paragraph
+            type: heading
+            attrs:
+              level: 2
             content:
               -
                 type: text
-                text: 'Leather making and working are part of our national fabric and I am proud to be one of the few makers still employing these traditions of crafting and using the leather that we are famous for throughout the world.'
+                text: 'As they look to move into new markets, create new designs and explore how modern digital technology combined with traditional techniques and materials can meet the needs and desires of todays consumers they recognised the need for an update to their identity and marketing collateral.'
+              -
+                type: hard_break
         type: slides
         enabled: true
     type: section
@@ -174,6 +203,21 @@ sections:
         title: Logomark
         image: projects/tanner-bates/01/tb-01a.jpg
       -
+        slug: tanner-bates-3e
+        type_color: '#B0916B'
+        slide_type: image
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'Our solution utilised classic typography with paired with a logo marque that references both the classic leather working saddlers knife and the beauty of the countryside that provides the raw materials.'
+        type: slides
+        enabled: true
+      -
         slug: tanner-bates-3c
         type_color: '#B0916B'
         slide_type: image
@@ -191,36 +235,6 @@ sections:
         type: slides
         enabled: true
         title: 'Brand repeat'
-    type: section
-    enabled: true
-  -
-    slug: tanner-bates-8
-    slides:
-      -
-        slug: tanner-bates-8b
-        type_color: '#B0916B'
-        slide_type: video
-        background_color: '#000000'
-        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Tanner%20Bates/TB_2a.mp4'
-        type: slides
-        enabled: false
-        title: 'Logo Marque'
-      -
-        slug: tanner-bates-8a
-        type_color: '#B0916B'
-        slide_type: video
-        background_color: '#000000'
-        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Tanner%20Bates/TB_5.mp4'
-        body_copy:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Leather making and working are part of our national fabric and I am proud to be one of the few makers still employing these traditions of crafting and using the leather that we are famous for throughout the world.'
-        type: slides
-        enabled: true
-        title: About
     type: section
     enabled: true
   -
@@ -291,6 +305,36 @@ sections:
     type: section
     enabled: true
   -
+    slug: tanner-bates-8
+    slides:
+      -
+        slug: tanner-bates-8a
+        type_color: '#B0916B'
+        slide_type: video
+        background_color: '#000000'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Tanner%20Bates/TB_5.mp4'
+        body_copy:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Leather making and working are part of our national fabric. Tanner Bates are one of the few makers still employing these traditions of crafting and using the leather that they are famous for throughout the world.'
+        type: slides
+        enabled: true
+        title: About
+      -
+        slug: tanner-bates-8b
+        type_color: '#B0916B'
+        slide_type: video
+        background_color: '#000000'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Tanner%20Bates/TB_2a.mp4'
+        type: slides
+        enabled: false
+        title: 'Logo Marque'
+    type: section
+    enabled: true
+  -
     slug: tanner-bates-4
     slides:
       -
@@ -351,5 +395,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1647021128
+updated_at: 1662641620
 ---

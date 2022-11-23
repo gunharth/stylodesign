@@ -1,15 +1,15 @@
 {
-    "/js/site.js": "/js/site.js?id=ac76071d943de4936aba424363b047ee",
-    "/css/site.css": "/css/site.css?id=bcfba8be8eb1bb8db44a834b998ab805",
-    "/favicons/android-chrome-192x192.png": "/favicons/android-chrome-192x192.png?id=e26df6f1747d1d0ce28e27bb5a33d0b9",
-    "/favicons/android-chrome-256x256.png": "/favicons/android-chrome-256x256.png?id=d3b52bb769722eb60c9c2cb14e54e0d5",
-    "/favicons/android-chrome-512x512.png": "/favicons/android-chrome-512x512.png?id=f46dba3aa0d5b2cbaf6a5d9c2fd3e700",
-    "/favicons/apple-touch-icon.png": "/favicons/apple-touch-icon.png?id=164fca91f2ff60f4fb14c0da1cec810e",
-    "/favicons/browserconfig.xml": "/favicons/browserconfig.xml?id=a493ba0aa0b8ec8068d786d7248bb92c",
-    "/favicons/favicon-16x16.png": "/favicons/favicon-16x16.png?id=94d6350412a9946df6bfcc17ee791dda",
-    "/favicons/favicon-32x32.png": "/favicons/favicon-32x32.png?id=48f53430fb9252983217806714f64491",
-    "/favicons/favicon.ico": "/favicons/favicon.ico?id=fd8c7d0f5a0a85960eea8b7f070c700e",
-    "/favicons/mstile-150x150.png": "/favicons/mstile-150x150.png?id=8b8f33c3fb479077da864d82215bab23",
-    "/favicons/safari-pinned-tab.svg": "/favicons/safari-pinned-tab.svg?id=f6d6c7ae492f34e7d31b87f24e5199e3",
-    "/favicons/site.webmanifest": "/favicons/site.webmanifest?id=12a02e9e386fb2d5de77fdfa48f15ad5"
+    "/js/site.js": "/js/site.js",
+    "/css/site.css": "/css/site.css",
+    "/favicons/android-chrome-192x192.png": "/favicons/android-chrome-192x192.png",
+    "/favicons/android-chrome-256x256.png": "/favicons/android-chrome-256x256.png",
+    "/favicons/android-chrome-512x512.png": "/favicons/android-chrome-512x512.png",
+    "/favicons/apple-touch-icon.png": "/favicons/apple-touch-icon.png",
+    "/favicons/browserconfig.xml": "/favicons/browserconfig.xml",
+    "/favicons/favicon-16x16.png": "/favicons/favicon-16x16.png",
+    "/favicons/favicon-32x32.png": "/favicons/favicon-32x32.png",
+    "/favicons/favicon.ico": "/favicons/favicon.ico",
+    "/favicons/mstile-150x150.png": "/favicons/mstile-150x150.png",
+    "/favicons/safari-pinned-tab.svg": "/favicons/safari-pinned-tab.svg",
+    "/favicons/site.webmanifest": "/favicons/site.webmanifest"
 }

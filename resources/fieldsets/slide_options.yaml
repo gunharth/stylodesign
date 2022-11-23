@@ -16,6 +16,22 @@ fields:
         - required
       width: 25
   -
+    handle: background_color
+    field:
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - HEXA
+      display: Color
+      type: color
+      icon: color
+      listable: hidden
+      width: 25
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
     handle: slide_type
     field:
       options:
@@ -33,21 +49,6 @@ fields:
       type: select
       icon: select
       listable: hidden
-      width: 25
-  -
-    handle: background_color
-    field:
-      theme: classic
-      lock_opacity: false
-      default_color_mode: HEXA
-      color_modes:
-        - HEXA
-      display: Color
-      type: color
-      icon: color
-      listable: hidden
-      if:
-        slide_type: 'equals color'
       width: 50
   -
     handle: image

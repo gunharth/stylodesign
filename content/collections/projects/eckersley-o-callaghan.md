@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1669214290
+updated_at: 1669220177
 sections:
   -
     slug: eoc_1
@@ -30,6 +30,7 @@ sections:
         type: slides
         enabled: true
         title: 'Coal Drops Yard'
+        background_color: '#FFEDEA'
     type: section
     enabled: true
   -
@@ -94,6 +95,7 @@ sections:
         type: slides
         enabled: true
         title: Monogram
+        background_color: '#FFEDEA'
       -
         slug: eoc_7e
         type_color: '#FFEDEA'
@@ -146,6 +148,7 @@ sections:
         image: projects/eckersley-ocallaghan/03/eoc_03h.gif
         type: slides
         enabled: true
+        background_color: '#FFEDEA'
       -
         title: Brochure
         slug: eoc_4b

@@ -1,29 +1,44 @@
 ---
 id: ff7b4226-f947-477e-9ab9-37a380d5550a
+blueprint: clients
 title: 'Ridley Scott Creative Group'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1633526630
+updated_at: 1665738563
 text_color: '#595959'
 background_color: '#000000'
 replicator:
+  -
+    title: 'RSCG Design 2022 1.2'
+    assets: clients/rscg/rscg_2022_1.1.jpg
+    url: 'https://bb1462c7a4bc09ffb62d-caa606ebdb7284929d384951d0ab5e0e.ssl.cf3.rackcdn.com/RSCG%202022%201.2.pdf'
+    date: '2022-10-14'
+    type: entries
+    enabled: true
+  -
+    title: 'RSCG Design 2022 1.1'
+    assets: clients/rscg/rscg_2022_1.1.jpg
+    url: 'https://bb1462c7a4bc09ffb62d-caa606ebdb7284929d384951d0ab5e0e.ssl.cf3.rackcdn.com/RSCG%202022%201.1.pdf'
+    date: '2022-10-11'
+    type: entries
+    enabled: true
   -
     title: 'Design Stage 1.1'
     assets: clients/rscg/29.07.19.jpg
     date: '2021-05-07'
     type: entries
-    enabled: true
+    enabled: false
   -
     title: 'Design Stage 1.2'
     assets: clients/rscg/31.07.19.jpg
     date: '2021-05-07'
     type: entries
-    enabled: true
+    enabled: false
   -
     title: 'Design Stage 1.3'
     assets: clients/rscg/black_dog_25.10.19.jpg
     date: '2021-05-07'
     type: entries
-    enabled: true
+    enabled: false
   -
     title: 'Design Stage 1.4'
     assets: clients/rscg/black_dog_mobile_25.10.19.jpg

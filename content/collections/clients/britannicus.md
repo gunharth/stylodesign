@@ -3,7 +3,7 @@ id: bc7262de-7eec-4cf3-8968-cf45495c1c24
 blueprint: clients
 title: Britannicus
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1657634541
+updated_at: 1669127882
 text_color: '#2E2D2D'
 background_color: '#8D8A89'
 replicator:

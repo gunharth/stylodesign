@@ -3,11 +3,13 @@ super: true
 id: 2d06efa7-b339-4b01-be90-009f00ed13d0
 password_hash: $2y$10$M06EvClij/5sbpy4XTnAs.tA0kK7GBXAqPU8EgsJaAleaOsknl7Mu
 preferences:
-  assets:
-    assets:
-      mode: grid
   collections:
     projects:
       after_save: continue_editing
     clients:
       after_save: continue_editing
+    slides:
+      after_save: continue_editing
+  assets:
+    assets:
+      mode: grid

@@ -3,10 +3,17 @@ id: da5e2b2f-efcf-4d09-a952-f7e18fd71fe1
 blueprint: clients
 title: Shambala
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1663843381
+updated_at: 1664966820
 text_color: '#AD9463'
 background_color: '#08114C'
 replicator:
+  -
+    title: 'shambala.co productions amend'
+    assets: clients/shambala/films.shambala.1.jpg
+    url: 'https://1402d556d3eb7f8265bc-a1cfb8746bd04532d8c8963c0e12e6a3.ssl.cf3.rackcdn.com/shambala.co%20productions%20amend.pdf'
+    date: '2022-10-05'
+    type: entries
+    enabled: true
   -
     title: 'shambala.co 2.2'
     assets: clients/shambala/films.shambala.1.jpg

@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1647435109
+updated_at: 1669214290
 sections:
   -
     slug: eoc_1
@@ -17,7 +17,6 @@ sections:
         slug: eoc_1a
         type_color: '#FF4D34'
         slide_type: image
-        background_color: '#32312F'
         image: projects/eckersley-ocallaghan/cover/cover-08.jpg
         body_copy:
           -
@@ -61,7 +60,6 @@ sections:
                 text: 'It''s a vision that has proved to be successful. They regularly collaborate with the most respected names in architecture and design, while their clients include some of the world''s most valuable companies.'
         type: slides
         enabled: true
-        image: projects/eckersley-ocallaghan/test/test-15.jpg
     type: section
     enabled: true
   -
@@ -92,7 +90,6 @@ sections:
         slug: eoc_7d
         type_color: '#FF4D34'
         slide_type: image
-        background_color: '#FFEDEA'
         image: projects/eckersley-ocallaghan/04/eoc_04y.jpg
         type: slides
         enabled: true
@@ -117,7 +114,6 @@ sections:
         slug: eoc_7a
         type_color: '#FF4D34'
         slide_type: image
-        background_color: '#FFEDEA'
         image: projects/eckersley-ocallaghan/04/eoc_04p.gif
         type: slides
         enabled: true
@@ -126,7 +122,6 @@ sections:
         slug: eoc_7c
         type_color: '#FF4D34'
         slide_type: image
-        background_color: '#FFEDEA'
         image: projects/eckersley-ocallaghan/04/eoc_04x.jpg
         type: slides
         enabled: true
@@ -135,7 +130,6 @@ sections:
         slug: eoc_7d
         type_color: '#FFEDEA'
         slide_type: video
-        background_color: '#FF4D34'
         video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/EOC/Identity%201.mp4'
         type: slides
         enabled: false
@@ -149,7 +143,6 @@ sections:
         slug: eoc_4a
         type_color: '#FF4D34'
         slide_type: image
-        background_color: '#312F32'
         image: projects/eckersley-ocallaghan/03/eoc_03h.gif
         type: slides
         enabled: true
@@ -158,7 +151,6 @@ sections:
         slug: eoc_4b
         type_color: '#9B9CA1'
         slide_type: image
-        background_color: '#302F32'
         image: projects/eckersley-ocallaghan/03/eoc_03b.jpg
         type: slides
         enabled: true
@@ -169,7 +161,6 @@ sections:
         image: projects/eckersley-ocallaghan/03/eoc_03c.jpg
         type: slides
         enabled: true
-        background_color: '#302F32'
         title: 'Report Document'
       -
         slug: eoc_4d
@@ -177,8 +168,7 @@ sections:
         slide_type: image
         image: projects/eckersley-ocallaghan/03/eoc_03d.jpg
         type: slides
-        enabled: true
-        background_color: '#FF4D34'
+        enabled: false
         title: Brochure
       -
         slug: eoc_4e
@@ -187,7 +177,6 @@ sections:
         image: projects/eckersley-ocallaghan/03/eoc_03e.jpg
         type: slides
         enabled: false
-        background_color: '#302F32'
         title: 'Business Card'
       -
         slug: eoc_4f
@@ -196,13 +185,11 @@ sections:
         image: projects/eckersley-ocallaghan/03/eoc_03f.jpg
         type: slides
         enabled: false
-        background_color: '#302F32'
         title: 'Business Card'
       -
         slug: eoc_4g
         type_color: '#FF4D34'
         slide_type: image
-        background_color: '#302F32'
         image: projects/eckersley-ocallaghan/03/eoc_03g.jpg
         type: slides
         enabled: false
@@ -216,7 +203,6 @@ sections:
         slug: eoc_8a
         type_color: '#FF4D34'
         slide_type: image
-        background_color: '#302F32'
         image: projects/eckersley-ocallaghan/03/eoc_03e.jpg
         type: slides
         enabled: true
@@ -251,7 +237,6 @@ sections:
         slug: eoc_3b
         type_color: '#FF4D34'
         slide_type: image
-        background_color: '#D7D7D7'
         image: projects/eckersley-ocallaghan/06/eoc_06g.jpg
         type: slides
         enabled: false
@@ -260,17 +245,15 @@ sections:
         slug: eoc_3d
         type_color: '#302F32'
         slide_type: image
-        background_color: '#FF4D34'
         image: projects/eckersley-ocallaghan/06/eoc_06f.jpg
         type: slides
-        enabled: true
+        enabled: false
         title: 'Brand Guidelines'
       -
         title: 'Brand Guidelines'
         slug: eoc_3a
-        type_color: '#FF4D34'
+        type_color: '#302F32'
         slide_type: image
-        background_color: '#302F32'
         type: slides
         enabled: true
         image: projects/eckersley-ocallaghan/06/eoc_06b.gif
@@ -279,7 +262,6 @@ sections:
         slug: eoc_3c
         type_color: '#FF4D34'
         slide_type: image
-        background_color: '#302F32'
         image: projects/eckersley-ocallaghan/06/eoc_06e.jpg
         type: slides
         enabled: false
@@ -304,7 +286,6 @@ sections:
                 text: 'We developed a new website showcasing over 140 projects and growing. Easy project selection is facilitated by the implementation of a filtering system allowing users to select projects by type and category in a list, image or location view.'
         type: slides
         enabled: true
-        background_color: '#696C7A'
         title: About
     type: section
     enabled: true
@@ -315,7 +296,6 @@ sections:
         slug: eoc_6c
         type_color: '#424242'
         slide_type: video
-        background_color: '#000000'
         video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/EOC/EOC%20Web%20Video%2003b.mp4'
         type: slides
         enabled: true
@@ -324,7 +304,6 @@ sections:
         slug: eoc_6a
         type_color: '#303132'
         slide_type: image
-        background_color: '#000000'
         body_copy:
           -
             type: heading
@@ -338,8 +317,6 @@ sections:
         slug: eoc_6b
         type_color: '#303132'
         slide_type: image
-        background_color: '#000000'
-        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/EOC/01.mp4'
         type: slides
         enabled: true
         image: projects/eckersley-ocallaghan/05/eoc_05p.jpg

@@ -9,7 +9,7 @@
             {{ /if }}
 
             {{ if slide_type == "video" }}
-                <div style="position: absolute; top:0; bottom:0; left:0; right:0; z-index:-1">
+                <div style="position: absolute; top:0; bottom:0; left:0; right:0; z-index:-1; overflow: hidden;">
                 {{ if video | is_embeddable }}
                     <!-- Youtube and Vimeo -->
                     <iframe src="{{ video | embed_url }}"></iframe>

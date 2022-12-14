@@ -11,5 +11,5 @@ preferences:
     slides:
       after_save: continue_editing
   assets:
-    assets:
+    synthesis_sound_archive:
       mode: grid

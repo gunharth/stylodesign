@@ -8,7 +8,7 @@ slides:
     type_color: '#EAEBED'
     slide_type: image
     background_color: '#1229FF'
-    image: projects/blokbuild/05/BB-05b.jpg
+    image: projects/blokbuild/08/BB-08f.jpg
     type: slide
     enabled: true
     title: 'Project — BlokBuild'
@@ -30,5 +30,5 @@ slides:
                   title: null
             text: BlokBuild
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1655990801
+updated_at: 1669239854
 ---

@@ -64,6 +64,11 @@ fields:
       if:
         slide_type: 'equals image'
       width: 50
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      container: assets
+      show_filename: true
   -
     handle: video
     field:

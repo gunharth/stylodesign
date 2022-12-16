@@ -20,6 +20,11 @@ fields:
       type: assets
       icon: assets
       listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      container: assets
+      show_filename: true
   -
     handle: url
     field:

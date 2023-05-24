@@ -1,5 +1,6 @@
 ---
 id: 99a1c679-e619-4c31-a46d-a1c5308ebc7d
+blueprint: slides
 title: Contact
 replicator:
   -
@@ -20,9 +21,10 @@ replicator:
     type: slides
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1642771109
+updated_at: 1682588621
 slides:
   -
+    id: U4TehMuq
     slug: contact_01
     type_color: '#C7BDB7'
     hover_color: '#717381'
@@ -54,7 +56,7 @@ slides:
         content:
           -
             type: text
-            text: 'We find that being approachable is just as important as being creative. If you’re interested in talking to us about a new project or want to find out more about what we can do for your business please get in touch.'
+            text: 'If you’re interested in talking to us about a new project, want to discuss our portfolio or find out more about what we can do for your business please get in touch.'
           -
             type: hard_break
           -
@@ -69,7 +71,7 @@ slides:
                   rel: null
                   target: null
                   title: null
-            text: '+44 20 33318 3038'
+            text: '+44 203 318 3038'
           -
             type: hard_break
           -
@@ -85,6 +87,7 @@ slides:
             text: info@stylodesign.co.uk
     background_color: '#4F3F49'
   -
+    id: 8lDym9b1
     title: dssf
     slug: asasdasd
     type_color: '#2737E2'

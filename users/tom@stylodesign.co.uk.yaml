@@ -13,3 +13,5 @@ preferences:
   assets:
     synthesis_sound_archive:
       mode: grid
+    assets:
+      mode: grid

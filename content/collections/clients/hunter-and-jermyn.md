@@ -3,10 +3,42 @@ id: 3628b866-f918-40c9-b73f-c921efafba9b
 blueprint: clients
 title: 'Hunter & Jermyn'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1683646199
+updated_at: 1695123061
 text_color: '#F0F5F3'
 background_color: '#5A5B5F'
 replicator:
+  -
+    id: lmq8hp67
+    title: 'Website Design 2.2'
+    assets: clients/hunter_jermyn/website_1.2.jpg
+    url: 'https://f81cb0a12a5884aa5eec-a282c9fe56b4af2a9503bed6d5efff3b.ssl.cf3.rackcdn.com/H%26J%20Website%20Design%202.2.pdf'
+    date: '2023-09-19'
+    type: entries
+    enabled: true
+  -
+    id: lkazv2h7
+    title: 'Website Design 2.1'
+    assets: clients/hunter_jermyn/website_1.2.jpg
+    url: 'https://f81cb0a12a5884aa5eec-a282c9fe56b4af2a9503bed6d5efff3b.ssl.cf3.rackcdn.com/H%26J%20Website%20Design%202.1.pdf'
+    date: '2023-07-20'
+    type: entries
+    enabled: true
+  -
+    id: lj89z0qp
+    title: 'Website Design 1.1'
+    assets: clients/hunter_jermyn/website_1.2.jpg
+    url: 'https://f81cb0a12a5884aa5eec-a282c9fe56b4af2a9503bed6d5efff3b.ssl.cf3.rackcdn.com/H%26J%20Website%201.1.pdf'
+    date: '2023-06-23'
+    type: entries
+    enabled: true
+  -
+    id: liylvc7l
+    title: 'Website Design 1.1 (Work in progress)'
+    assets: clients/hunter_jermyn/website_1.1.jpg
+    url: 'https://f81cb0a12a5884aa5eec-a282c9fe56b4af2a9503bed6d5efff3b.ssl.cf3.rackcdn.com/H%26J%20Website%20Design%201.1.pdf'
+    date: '2023-06-16'
+    type: entries
+    enabled: true
   -
     id: lhgff9qy
     title: 'Final Logos'

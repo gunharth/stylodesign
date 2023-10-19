@@ -1,8 +1,10 @@
 ---
 id: 3bb976c6-befb-4007-a5a5-94d0a5fa2b50
+blueprint: slides
 title: 'Cover Tanner Bates'
 slides:
   -
+    id: aGzeOI5Y
     slug: tanner-bates-1a
     type_color: '#B0916B'
     slide_type: video
@@ -26,7 +28,7 @@ slides:
                   target: null
                   rel: null
             text: 'Tanner Bates'
-    title: Workshop
+    title: 'Brand Identity'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1646999692
+updated_at: 1697487430
 ---

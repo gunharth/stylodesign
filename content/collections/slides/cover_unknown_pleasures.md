@@ -4,6 +4,7 @@ blueprint: slides
 title: 'Cover Unknown Pleasures'
 slides:
   -
+    id: xWmTMPVd
     slug: cover_unknown_pleasures
     type_color: '#E75350'
     slide_type: video
@@ -25,8 +26,8 @@ slides:
                   target: null
                   rel: null
             text: 'Unknown Pleasures'
-    title: Cocktails
+    title: 'Brand Identity & Packaging Design'
     video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Unknown%20Pleasures/4a.mp4'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1669142028
+updated_at: 1697487444
 ---

@@ -8,15 +8,17 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1654692359
+updated_at: 1697488005
 sections:
   -
+    id: HhJ0Tfp5
     slug: BlokBuild_01
     slides:
       -
+        id: GxPtgsEO
         slug: BlokBuild_01a
         type_color: '#FFFFFF'
-        slide_type: image
+        slide_type: video
         background_color: '#1229FF'
         body_copy:
           -
@@ -29,19 +31,20 @@ sections:
                 text: BlokBuild
         type: slides
         enabled: true
-        image: projects/blokbuild/09/BB-09k.jpg
-        title: 'Site Signage'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/BlokBuild/3.mp4'
+        title: 'Cassette Construction'
     type: section
     enabled: true
   -
+    id: I0mXVQnK
     slug: BlokBuild_07
     slides:
       -
+        id: wf7vxDRa
         slug: BlokBuild_07a
         type_color: '#EAEBED'
         slide_type: video
         background_color: '#1229FF'
-        image: projects/blokbuild/03/BB-03r.jpg
         body_copy:
           -
             type: paragraph
@@ -56,18 +59,11 @@ sections:
     type: section
     enabled: true
   -
+    id: co6QqJVJ
     slug: BlokBuild_03
     slides:
       -
-        slug: BlokBuild_03b
-        type_color: '#FFFFFF'
-        slide_type: image
-        background_color: '#1229FF'
-        image: projects/blokbuild/05/BB-05e.jpg
-        type: slides
-        enabled: true
-        title: Logotype
-      -
+        id: cCm9RL3W
         slug: BlokBuild_03a
         type_color: '#EAEBED'
         slide_type: image
@@ -77,6 +73,17 @@ sections:
         enabled: true
         title: Logotype
       -
+        id: NQcJHfxK
+        slug: BlokBuild_03b
+        type_color: '#FFFFFF'
+        slide_type: image
+        background_color: '#1229FF'
+        image: projects/blokbuild/05/BB-05e.jpg
+        type: slides
+        enabled: true
+        title: Logotype
+      -
+        id: NJAHtrwi
         slug: BlokBuild_03c
         type_color: '#1229FF'
         slide_type: image
@@ -86,6 +93,7 @@ sections:
         enabled: true
         title: Logotype
       -
+        id: o6krqZNr
         slug: BlokBuild_03d
         type_color: '#1229FF'
         slide_type: image
@@ -95,6 +103,7 @@ sections:
         enabled: false
         title: 'Hard Hat'
       -
+        id: dLLnkCFG
         slug: BlokBuild_03e
         type_color: '#1229FF'
         slide_type: image
@@ -106,9 +115,11 @@ sections:
     type: section
     enabled: true
   -
+    id: 7mFWAE5q
     slug: BlokBuild_09
     slides:
       -
+        id: 1kfFFtlH
         slug: BlokBuild_09a
         type_color: '#1229FF'
         slide_type: color
@@ -142,9 +153,11 @@ sections:
     type: section
     enabled: true
   -
+    id: UbIzifIN
     slug: BlokBuild_02
     slides:
       -
+        id: yzaS2HTd
         title: 'System Explainer'
         slug: BlokBuild_02c
         type_color: '#1229FF'
@@ -154,6 +167,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: l3D44xsk
         slug: BlokBuild_02f
         type_color: '#EAEBED'
         slide_type: color
@@ -168,6 +182,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: fXx62szf
         title: 'System Explainer'
         slug: BlokBuild_02a
         type_color: '#1229FF'
@@ -177,6 +192,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: Ku8Uj7ZN
         title: 'System Explainer'
         slug: BlokBuild_02e
         type_color: '#1229FF'
@@ -184,8 +200,9 @@ sections:
         background_color: '#EAEBED'
         image: projects/blokbuild/08/BB-08i.jpg
         type: slides
-        enabled: true
+        enabled: false
       -
+        id: avBY5iFo
         title: 'System Explainer'
         slug: BlokBuild_02d
         type_color: '#1229FF'
@@ -195,6 +212,7 @@ sections:
         type: slides
         enabled: false
       -
+        id: liFVQbAd
         title: 'System Explainer'
         slug: BlokBuild_02b
         type_color: '#EAEBED'
@@ -206,9 +224,11 @@ sections:
     type: section
     enabled: true
   -
+    id: TsnOFof7
     slug: BlokBuild_10
     slides:
       -
+        id: QkT43GOJ
         slug: BlokBuild_10a
         type_color: '#1229FF'
         slide_type: image
@@ -217,9 +237,11 @@ sections:
     type: section
     enabled: false
   -
+    id: ADQaWJWq
     slug: BlokBuild_04
     slides:
       -
+        id: eJYiXVdQ
         slug: BlokBuild_04c
         type_color: '#011C65'
         slide_type: color
@@ -234,6 +256,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: 3DqxZ5bo
         title: 'Business Cards'
         slug: BlokBuild_04f
         type_color: '#1229FF'
@@ -243,6 +266,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: wb5EO6zx
         slug: BlokBuild_04a
         type_color: '#EAEBED'
         slide_type: image
@@ -252,6 +276,7 @@ sections:
         title: Livery
         background_color: '#1229FF'
       -
+        id: ySCz0Luf
         slug: BlokBuild_04b
         type_color: '#EAEBED'
         slide_type: image
@@ -261,6 +286,7 @@ sections:
         enabled: true
         title: Livery
       -
+        id: 80ACdHAh
         title: 'Hard Hat'
         slug: BlokBuild_04d
         type_color: '#1229FF'
@@ -268,8 +294,9 @@ sections:
         background_color: '#EAEBED'
         image: projects/blokbuild/05/BB-05d.jpg
         type: slides
-        enabled: true
+        enabled: false
       -
+        id: 00SUlH0k
         title: T-shirt
         slug: BlokBuild_04e
         type_color: '#EAEBED'
@@ -281,9 +308,11 @@ sections:
     type: section
     enabled: true
   -
+    id: vd2AisJO
     slug: BlokBuild_05
     slides:
       -
+        id: S0PbnGHe
         slug: BlokBuild_05a
         type_color: '#1229FF'
         slide_type: image
@@ -293,6 +322,7 @@ sections:
         enabled: true
         title: 'Hard Hat'
       -
+        id: 5Px3K32o
         slug: BlokBuild_05b
         type_color: '#EAEBED'
         slide_type: image
@@ -304,9 +334,11 @@ sections:
     type: section
     enabled: false
   -
+    id: lgpwaTf8
     slug: BlokBuild_08
     slides:
       -
+        id: PcsqrKKw
         title: 'Site Signage'
         slug: BlokBuild_08a
         type_color: '#1229FF'
@@ -314,8 +346,9 @@ sections:
         background_color: '#EAEBED'
         image: projects/blokbuild/09/BB-09i.jpg
         type: slides
-        enabled: true
+        enabled: false
       -
+        id: Vk5qBHuD
         title: 'Site Signage'
         slug: BlokBuild_08b
         type_color: '#EAEBED'
@@ -325,6 +358,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: p4pC8D4p
         title: 'Site Signage'
         slug: BlokBuild_08c
         type_color: '#EAEBED'
@@ -333,6 +367,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: 3FrhfBpG
         title: 'Site Signage'
         slug: BlokBuild_08d
         type_color: '#EAEBED'
@@ -340,8 +375,9 @@ sections:
         background_color: '#1229FF'
         image: projects/blokbuild/09/BB-09h.jpg
         type: slides
-        enabled: true
+        enabled: false
       -
+        id: PwI509Lv
         title: 'Site Signage'
         slug: BlokBuild_08e
         type_color: '#EAEBED'
@@ -353,9 +389,11 @@ sections:
     type: section
     enabled: true
   -
+    id: 63xbcHkf
     slug: BlokBuild_06
     slides:
       -
+        id: yYd4Peox
         slug: BlokBuild_06b
         type_color: '#EAEBED'
         slide_type: image
@@ -365,6 +403,7 @@ sections:
         enabled: true
         title: 'Business Card'
       -
+        id: 0ZqtScDj
         slug: BlokBuild_06c
         type_color: '#EAEBED'
         slide_type: image
@@ -374,6 +413,7 @@ sections:
         enabled: true
         title: 'Business Card'
       -
+        id: lsUj5khP
         slug: BlokBuild_06a
         type_color: '#1229FF'
         slide_type: image

@@ -4,9 +4,10 @@ published: false
 blueprint: slides
 title: 'Cover Industrial Facility'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1647169056
+updated_at: 1697487457
 slides:
   -
+    id: o9fw3OAe
     slug: cover_industrial_facility
     type_color: '#BFC1CD'
     slide_type: image
@@ -30,5 +31,5 @@ slides:
                   target: null
                   rel: null
             text: 'Industrial Facility'
-    title: 'w162 Dalston'
+    title: 'Brand Identity & Website'
 ---

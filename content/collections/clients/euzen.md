@@ -3,10 +3,42 @@ id: db0933bf-0cee-4e9c-8c77-0fe9329fc1a2
 blueprint: clients
 title: Euzen
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1677172730
+updated_at: 1688575404
 text_color: '#054033'
 background_color: '#05D48A'
 replicator:
+  -
+    id: ljpx8u47
+    title: 'Euzen Social Media Source Files'
+    assets: clients/euzen/social_media_1.1b.jpg
+    url: 'https://5e256dec76fe616889eb-0fa5c4a46c2a6899def7f141526f7a46.ssl.cf3.rackcdn.com/Euzen%20Social%20Media.zip'
+    date: '2023-07-05'
+    type: entries
+    enabled: true
+  -
+    id: ljhhhwve
+    title: 'CNELM Logo Lock Up 1.2'
+    assets: clients/euzen/cnelm_lock_up_1.2.jpg
+    url: 'https://5e256dec76fe616889eb-0fa5c4a46c2a6899def7f141526f7a46.ssl.cf3.rackcdn.com/CNELM%20Lock%20Up%201.2.pdf'
+    date: '2023-06-29'
+    type: entries
+    enabled: true
+  -
+    id: ljh2k61u
+    title: 'CNELM Logo Lock Up 1.1'
+    assets: clients/euzen/cnelm_lock_up_1.1.jpg
+    url: 'https://5e256dec76fe616889eb-0fa5c4a46c2a6899def7f141526f7a46.ssl.cf3.rackcdn.com/CNELM%20Lock%20Up%201.1.pdf'
+    date: '2023-06-29'
+    type: entries
+    enabled: true
+  -
+    id: ljftpok3
+    title: 'Euzen Social Media 1.1'
+    assets: clients/euzen/social_media_1.1b.jpg
+    url: 'https://5e256dec76fe616889eb-0fa5c4a46c2a6899def7f141526f7a46.ssl.cf3.rackcdn.com/Euzen%20Social%20Media%201.1.pdf'
+    date: '2023-06-28'
+    type: entries
+    enabled: true
   -
     id: lehd6tqx
     title: 'Euzen Marketing Images 1.1'

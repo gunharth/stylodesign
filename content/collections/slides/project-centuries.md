@@ -4,6 +4,7 @@ blueprint: slides
 title: 'Cover Project Centuries'
 slides:
   -
+    id: BisFNoNA
     slug: cover-centuries
     type_color: '#E3DEDA'
     slide_type: image
@@ -27,7 +28,7 @@ slides:
     type: slide
     enabled: true
     background_color: '#43413F'
-    title: 'Lobby Bar'
+    title: 'Brand Identity & Marketing Collateral'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1649338164
+updated_at: 1697487486
 ---

@@ -7,12 +7,11 @@ slides:
     id: SLoJUlqu
     slug: Cover_BlokBuild
     type_color: '#EAEBED'
-    slide_type: image
+    slide_type: video
     background_color: '#1229FF'
-    image: projects/blokbuild/08/BB-08i.jpg
     type: slide
     enabled: true
-    title: 'Project — BlokBuild'
+    title: 'Brand Identity & Marketing Collateral'
     body_copy:
       -
         type: heading
@@ -30,6 +29,7 @@ slides:
                   target: null
                   title: null
             text: BlokBuild
+    video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/BlokBuild/2.mp4'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1676996744
+updated_at: 1697487407
 ---

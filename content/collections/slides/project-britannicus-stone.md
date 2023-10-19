@@ -4,6 +4,7 @@ blueprint: slides
 title: 'Cover Britannicus Stone'
 slides:
   -
+    id: e1m0xJwl
     slug: Cover-Britannicus-Stone
     type_color: '#F4F2F1'
     slide_type: image
@@ -28,6 +29,7 @@ slides:
     enabled: true
     image: projects/britannicus-stone/01/bs-01p.jpg
     background_color: '#252123'
+    title: 'Brand Identity & Website'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1669239895
+updated_at: 1697487376
 ---

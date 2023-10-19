@@ -1,9 +1,11 @@
 ---
 id: c4c5c6d7-9445-4041-a1ab-0675eeb175ac
 published: false
+blueprint: slides
 title: 'Cover Living Rooms'
 slides:
   -
+    id: F5mtjRvk
     slug: cover-living-rooms
     type_color: '#FFDFDF'
     slide_type: image
@@ -28,7 +30,7 @@ slides:
             text: 'Living Rooms'
     type: slide
     enabled: true
-    title: 'Marylebone Lane'
+    title: 'Brand Identity & Website'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1646946579
+updated_at: 1697487495
 ---

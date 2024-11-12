@@ -21,7 +21,7 @@ replicator:
     type: slides
     enabled: true
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1682588621
+updated_at: 1707301065
 slides:
   -
     id: U4TehMuq
@@ -59,19 +59,6 @@ slides:
             text: 'If you’re interested in talking to us about a new project, want to discuss our portfolio or find out more about what we can do for your business please get in touch.'
           -
             type: hard_break
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'tel:+44 20 33318 3038'
-                  rel: null
-                  target: null
-                  title: null
-            text: '+44 203 318 3038'
           -
             type: hard_break
           -

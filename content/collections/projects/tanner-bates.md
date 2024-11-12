@@ -4,9 +4,11 @@ blueprint: projects
 title: 'Tanner Bates'
 sections:
   -
+    id: 151iT82P
     slug: tanner-bates-1
     slides:
       -
+        id: igYXS8AO
         slug: tanner-bates-1a
         type_color: '#B0916B'
         slide_type: image
@@ -34,9 +36,83 @@ sections:
     type: section
     enabled: true
   -
+    id: pmFoyTIb
+    slug: tanner-bates-3
+    slides:
+      -
+        id: lvgt1ut5
+        title: 'Linear Logo Lock-up'
+        slug: tanner-bates-3m
+        type_color: '#B0916B'
+        background_color: '#000000'
+        slide_type: video
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Tanner%20Bates/Tanner%20Bates%20Animation%206.mp4'
+        type: slides
+        enabled: true
+      -
+        id: p51Lqk20
+        title: 'Stacked Logo Lock-up'
+        slug: tanner-bates-3a
+        type_color: '#B0916B'
+        slide_type: video
+        background_color: '#000000'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Tanner%20Bates/TB_4.mp4'
+        type: slides
+        enabled: true
+      -
+        id: 6N561pRQ
+        slug: tanner-bates-3b
+        type_color: '#B0916B'
+        slide_type: image
+        background_color: '#000000'
+        type: slides
+        enabled: true
+        title: Logomark
+        image: projects/tanner-bates/01/tb-01a.jpg
+      -
+        id: UhKF9c40
+        slug: tanner-bates-3e
+        type_color: '#B0916B'
+        slide_type: image
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'Our solution utilised classic typography with paired with a logo marque that references both the classic leather working saddlers knife and the beauty of the countryside that provides the raw materials.'
+        type: slides
+        enabled: true
+      -
+        id: sJquLLY6
+        slug: tanner-bates-3c
+        type_color: '#B0916B'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/tanner-bates/01/tb-01c.jpg
+        type: slides
+        enabled: true
+        title: 'Brand repeat'
+      -
+        id: x25gQkDC
+        slug: tanner-bates-3d
+        type_color: '#B0916B'
+        slide_type: image
+        background_color: '#000000'
+        image: projects/tanner-bates/01/tb-01e.jpg
+        type: slides
+        enabled: true
+        title: 'Brand repeat'
+    type: section
+    enabled: true
+  -
+    id: emKPuwrW
     slug: tanner-bates-2
     slides:
       -
+        id: 5r4WszKX
         title: About
         slug: tanner-bates-2a
         type_color: '#B0916B'
@@ -58,9 +134,11 @@ sections:
     type: section
     enabled: true
   -
+    id: ZtSwG8Uj
     slug: tanner-bates-5
     slides:
       -
+        id: XcST87YD
         title: 'Product Packaging'
         slug: tanner-bates-5b
         type_color: '#B0916B'
@@ -70,6 +148,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: gbTUJk5z
         title: 'Product Packaging'
         slug: tanner-bates-5c
         type_color: '#B0916B'
@@ -79,6 +158,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: 49IoxBuj
         title: 'Product Packaging'
         slug: tanner-bates-5d
         type_color: '#B0916B'
@@ -88,6 +168,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: EeExqpxi
         title: 'Product Packaging'
         slug: tanner-bates-5a
         type_color: '#B0916B'
@@ -99,9 +180,11 @@ sections:
     type: section
     enabled: true
   -
+    id: w2FJLF78
     slug: tanner-bates-7
     slides:
       -
+        id: ozvbSJ3X
         title: 'Brand Guidelines'
         slug: tanner-bates-7f
         type_color: '#B0916B'
@@ -111,6 +194,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: EQtPBBwl
         title: 'Brand Guidelines'
         slug: tanner-bates-7a
         type_color: '#B0916B'
@@ -120,6 +204,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: BZoJHyTx
         title: 'Brand Guidelines'
         slug: tanner-bates-7e
         type_color: '#B0916B'
@@ -129,6 +214,7 @@ sections:
         type: slides
         enabled: false
       -
+        id: MNuOTQWi
         title: 'Brand Guidelines'
         slug: tanner-bates-7c
         type_color: '#B0916B'
@@ -138,6 +224,7 @@ sections:
         type: slides
         enabled: false
       -
+        id: MqdJcPmC
         title: 'Brand Guidelines'
         slug: tanner-bates-7b
         type_color: '#B0916B'
@@ -147,6 +234,7 @@ sections:
         type: slides
         enabled: false
       -
+        id: luyzXXOM
         title: 'Brand Guidelines'
         slug: tanner-bates-7d
         type_color: '#B0916B'
@@ -158,9 +246,11 @@ sections:
     type: section
     enabled: true
   -
+    id: 37b7n9kv
     slug: tanner-bates-10
     slides:
       -
+        id: EwCTgljG
         slug: tanner-bates-10a
         type_color: '#B0916B'
         slide_type: video
@@ -182,65 +272,11 @@ sections:
     type: section
     enabled: true
   -
-    slug: tanner-bates-3
-    slides:
-      -
-        title: 'Logo Lock-up'
-        slug: tanner-bates-3a
-        type_color: '#B0916B'
-        slide_type: video
-        background_color: '#000000'
-        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Tanner%20Bates/TB_4.mp4'
-        type: slides
-        enabled: true
-      -
-        slug: tanner-bates-3b
-        type_color: '#B0916B'
-        slide_type: image
-        background_color: '#000000'
-        type: slides
-        enabled: true
-        title: Logomark
-        image: projects/tanner-bates/01/tb-01a.jpg
-      -
-        slug: tanner-bates-3e
-        type_color: '#B0916B'
-        slide_type: image
-        body_copy:
-          -
-            type: heading
-            attrs:
-              level: 2
-            content:
-              -
-                type: text
-                text: 'Our solution utilised classic typography with paired with a logo marque that references both the classic leather working saddlers knife and the beauty of the countryside that provides the raw materials.'
-        type: slides
-        enabled: true
-      -
-        slug: tanner-bates-3c
-        type_color: '#B0916B'
-        slide_type: image
-        background_color: '#000000'
-        image: projects/tanner-bates/01/tb-01c.jpg
-        type: slides
-        enabled: true
-        title: 'Brand repeat'
-      -
-        slug: tanner-bates-3d
-        type_color: '#B0916B'
-        slide_type: image
-        background_color: '#000000'
-        image: projects/tanner-bates/01/tb-01e.jpg
-        type: slides
-        enabled: true
-        title: 'Brand repeat'
-    type: section
-    enabled: true
-  -
+    id: j782l9oN
     slug: tanner-bates-6
     slides:
       -
+        id: BHT8NGNe
         slug: tanner-bates-6c
         type_color: '#D36B35'
         slide_type: image
@@ -249,6 +285,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: PUvulfD0
         slug: tanner-bates-6d
         type_color: '#D36B35'
         slide_type: image
@@ -257,6 +294,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: HoJQLY4b
         title: 'Messenger Bag'
         slug: tanner-bates-6a
         type_color: '#B0916B'
@@ -280,6 +318,7 @@ sections:
         type: slides
         enabled: false
       -
+        id: 0wEDBDAA
         title: 'El Campo Daybag'
         slug: tanner-bates-6b
         type_color: '#B0916B'
@@ -305,9 +344,11 @@ sections:
     type: section
     enabled: true
   -
+    id: Sxh7P2p1
     slug: tanner-bates-8
     slides:
       -
+        id: TAzVwcZf
         slug: tanner-bates-8a
         type_color: '#B0916B'
         slide_type: video
@@ -324,6 +365,7 @@ sections:
         enabled: true
         title: About
       -
+        id: cTJOTuk5
         slug: tanner-bates-8b
         type_color: '#B0916B'
         slide_type: video
@@ -335,9 +377,11 @@ sections:
     type: section
     enabled: true
   -
+    id: 3Z7b2AoS
     slug: tanner-bates-4
     slides:
       -
+        id: Zo0cVZFi
         title: 'Postal Packaging'
         slug: tanner-bates-4a
         type_color: '#FFFFFF'
@@ -347,6 +391,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: vKqu4HV9
         title: 'Postal Packaging'
         slug: tanner-bates-4c
         type_color: '#FFFFFF'
@@ -356,6 +401,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: VPEoEgS2
         title: 'Postal Packaging'
         slug: tanner-bates-4b
         type_color: '#FFFFFF'
@@ -367,9 +413,11 @@ sections:
     type: section
     enabled: true
   -
+    id: yJ94OmIl
     slug: tanner-bates-9
     slides:
       -
+        id: I0L6otsn
         title: Campaign
         slug: tanner-bates-9a
         type_color: '#B0916B'
@@ -379,6 +427,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: e2uE2CQE
         title: Campaign
         slug: tanner-bates-9b
         type_color: '#B0916B'
@@ -395,5 +444,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1662641620
+updated_at: 1714145308
 ---

@@ -45,7 +45,7 @@ slides:
     type: slide
     enabled: true
     background_color: '#2D2E2F'
-    image: projects/ridley-scott-creative-group/cover/rscg-cover-01a.jpg
+    image: projects/ridley-scott-associates/cover/rscg-cover-01a.jpg
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
 updated_at: 1663166083
 ---

@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1697488005
+updated_at: 1714139781
 sections:
   -
     id: HhJ0Tfp5
@@ -63,22 +63,22 @@ sections:
     slug: BlokBuild_03
     slides:
       -
+        id: NQcJHfxK
+        slug: BlokBuild_03b
+        type_color: '#FFFFFF'
+        slide_type: video
+        background_color: '#1229FF'
+        type: slides
+        enabled: true
+        title: Logotype
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/BlokBuild/BlokBuild%20Animation%204.mp4'
+      -
         id: cCm9RL3W
         slug: BlokBuild_03a
         type_color: '#EAEBED'
         slide_type: image
         background_color: '#1229FF'
         image: projects/blokbuild/01/BB-01a.jpg
-        type: slides
-        enabled: true
-        title: Logotype
-      -
-        id: NQcJHfxK
-        slug: BlokBuild_03b
-        type_color: '#FFFFFF'
-        slide_type: image
-        background_color: '#1229FF'
-        image: projects/blokbuild/05/BB-05e.jpg
         type: slides
         enabled: true
         title: Logotype

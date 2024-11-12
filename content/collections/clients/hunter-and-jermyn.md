@@ -3,10 +3,18 @@ id: 3628b866-f918-40c9-b73f-c921efafba9b
 blueprint: clients
 title: 'Hunter & Jermyn'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1695123061
+updated_at: 1719400942
 text_color: '#F0F5F3'
 background_color: '#5A5B5F'
 replicator:
+  -
+    id: lxvqp2e6
+    title: 'Modules Update / New Module'
+    assets: clients/hunter_jermyn/website_1.2.2.jpg
+    url: 'https://f81cb0a12a5884aa5eec-a282c9fe56b4af2a9503bed6d5efff3b.ssl.cf3.rackcdn.com/Revised%20arrows%20%3A%20Position%20%3A%20New%20module.pdf'
+    date: '2024-06-26'
+    type: entries
+    enabled: true
   -
     id: lmq8hp67
     title: 'Website Design 2.2'

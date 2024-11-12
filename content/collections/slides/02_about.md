@@ -1,8 +1,10 @@
 ---
 id: 336bfab9-c87b-4b4e-aa41-1eb91408aa56
+blueprint: slides
 title: '02 About'
 slides:
   -
+    id: NbtiuAYh
     title: About
     slug: 02_about
     type_color: '#030425'
@@ -35,12 +37,26 @@ slides:
         content:
           -
             type: text
-            text: 'We’re a small and highly flexible design and digital agency based in central London with more than 40 years combined experience across the highest-level of design and digital work.'
+            text: 'We’re a small and highly flexible design and digital agency based in central London with more than 40 years combined experience across the highest-level of '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://stylodesign.co.uk/projects'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'design and digital work'
+          -
+            type: text
+            text: .
       -
         type: paragraph
         content:
           -
             type: hard_break
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1643301662
+updated_at: 1714221931
 ---

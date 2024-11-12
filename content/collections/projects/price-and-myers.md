@@ -8,12 +8,14 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1662111813
+updated_at: 1714143730
 sections:
   -
+    id: qXDqmZ23
     slug: price-myers-01
     slides:
       -
+        id: 8cGjmJy3
         title: Video
         slug: price-myers-01b
         type_color: '#033DD7'
@@ -34,9 +36,11 @@ sections:
     type: section
     enabled: true
   -
+    id: RKg1NWj2
     slug: price-myers-11
     slides:
       -
+        id: wLHOGGSM
         slug: price-myers-11a
         type_color: '#001789'
         slide_type: color
@@ -55,18 +59,175 @@ sections:
     type: section
     enabled: true
   -
+    id: HOpR2Rds
+    slug: price-myers-08
+    slides:
+      -
+        id: Qk2wigUU
+        title: Monogram
+        slug: price-myers-08i
+        type_color: '#EAEBEF'
+        slide_type: video
+        background_color: '#033DD7'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Price%20Myers/P%26M%20Animation%205.mp4'
+        type: slides
+        enabled: true
+      -
+        id: TUkVCdft
+        title: Stationery
+        slug: price-myers-8g
+        type_color: '#D4DAF3'
+        slide_type: image
+        background_color: '#033DD7'
+        image: projects/price-myers/08/PM-4k.jpg
+        type: slides
+        enabled: true
+      -
+        id: TAWsWQSq
+        slug: price-myers-08h
+        type_color: '#033DD7'
+        slide_type: color
+        background_color: '#D4DAF3'
+        type: slides
+        enabled: true
+        title: Monogram
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'We provided Price & Myers with a refreshed identity and colour palette which included the development of a bespoke monogram for use across digital channels.'
+      -
+        id: eXboSIas
+        slug: price-myers-08b
+        type_color: '#033DD7'
+        slide_type: image
+        background_color: '#DCDDE0'
+        image: projects/price-myers/08/PM-4n.jpg
+        type: slides
+        enabled: true
+        title: Monogram
+      -
+        id: kuIry01U
+        slug: price-myers-08a
+        type_color: '#033DD7'
+        slide_type: image
+        background_color: '#002368'
+        image: projects/price-myers/08/PM-4o.jpg
+        type: slides
+        enabled: true
+        title: Logotype
+      -
+        id: NPvW2Ibi
+        slug: price-myers-08c
+        type_color: '#033DD7'
+        slide_type: image
+        background_color: '#033DD7'
+        image: projects/price-myers/08/PM-4m.jpg
+        type: slides
+        enabled: false
+      -
+        id: vSkVVPHB
+        title: Stationery
+        slug: price-myers-8h
+        type_color: '#D4DAF3'
+        slide_type: image
+        background_color: '#033DD7'
+        image: projects/price-myers/08/PM-4l.jpg
+        type: slides
+        enabled: true
+      -
+        id: h1chf8ad
+        title: 'Business Cards'
+        slug: price-myers-08f
+        type_color: '#033DD7'
+        slide_type: image
+        background_color: '#002368'
+        image: projects/price-myers/08/PM-4j.jpg
+        type: slides
+        enabled: false
+      -
+        id: C6TfyBQJ
+        slug: price-myers-08e
+        type_color: '#033DD7'
+        slide_type: image
+        background_color: '#002368'
+        image: projects/price-myers/08/PM-4i.jpg
+        type: slides
+        enabled: false
+        title: 'Business Cards'
+      -
+        id: pY2zxsHm
+        slug: price-myers-08d
+        type_color: '#033DD7'
+        slide_type: image
+        background_color: '#DCDDE0'
+        image: projects/price-myers/08/PM-4q.jpg
+        type: slides
+        enabled: false
+        title: Monogram
+    type: section
+    enabled: true
+  -
+    id: z0ll6Syl
+    slug: price-myers-07
+    slides:
+      -
+        id: iJjWNlaJ
+        slug: price-myers-07c
+        type_color: '#D2D6E4'
+        slide_type: video
+        background_color: '#033DD7'
+        type: slides
+        enabled: true
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Price%20Myers/5.mp4'
+        body_copy:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'P&M''s work covers an unusually wide range, both in size and type. Projects vary from minor alterations and extensions, to major new buildings and refurbishment projects, using the most recent developments in materials and construction techniques. They have advised on the repair and restoration of many historic buildings, and have worked with some of the country''s leading architects on the design of many outstanding modern buildings.'
+        title: About
+      -
+        id: 6SFZG1jk
+        slug: price-myers-07a
+        type_color: '#002BFF'
+        slide_type: image
+        background_color: '#0B0B75'
+        type: slides
+        enabled: false
+      -
+        id: cl6kYLFe
+        slug: price-myers-07b
+        type_color: '#002BFF'
+        slide_type: image
+        background_color: '#0B0B75'
+        type: slides
+        enabled: false
+    type: section
+    enabled: true
+  -
+    id: 8clkZcfx
     slug: price-myers-10
     slides:
       -
+        id: fwbMa7Hk
         title: Website
         slug: price-myers-10a
         type_color: '#033DD7'
         slide_type: video
         background_color: '#90A2FA'
-        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Price%20Myers/Video%201a.mp4'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Price%20Myers/P%26M%20Website%201.mp4'
         type: slides
         enabled: true
       -
+        id: PSBTtIIX
         title: Website
         slug: price-myers-10b
         type_color: '#033DD7'
@@ -76,6 +237,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: 0mryXn9F
         title: Website
         slug: price-myers-10c
         type_color: '#033DD7'
@@ -87,9 +249,11 @@ sections:
     type: section
     enabled: true
   -
+    id: uGW9qj9v
     slug: price-myers-03
     slides:
       -
+        id: AqzzHm8G
         title: 'Tate St. Ives'
         slug: price-myers-03a
         type_color: '#033DD7'
@@ -117,149 +281,11 @@ sections:
     type: section
     enabled: true
   -
-    slug: price-myers-08
-    slides:
-      -
-        title: Stationery
-        slug: price-myers-8g
-        type_color: '#D4DAF3'
-        slide_type: image
-        background_color: '#033DD7'
-        image: projects/price-myers/08/PM-4k.jpg
-        type: slides
-        enabled: true
-      -
-        title: Monogram
-        slug: price-myers-08i
-        type_color: '#EAEBEF'
-        slide_type: video
-        background_color: '#033DD7'
-        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Price%20Myers/4b.mp4'
-        type: slides
-        enabled: true
-      -
-        slug: price-myers-08h
-        type_color: '#033DD7'
-        slide_type: color
-        background_color: '#D4DAF3'
-        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Price%20Myers/4.mp4'
-        type: slides
-        enabled: true
-        title: Monogram
-        body_copy:
-          -
-            type: heading
-            attrs:
-              level: 2
-            content:
-              -
-                type: text
-                text: 'We provided Price & Myers with a refreshed identity and colour palette which included the development of a bespoke monogram for use across digital channels.'
-      -
-        slug: price-myers-08b
-        type_color: '#033DD7'
-        slide_type: image
-        background_color: '#DCDDE0'
-        image: projects/price-myers/08/PM-4n.jpg
-        type: slides
-        enabled: true
-        title: Monogram
-      -
-        slug: price-myers-08a
-        type_color: '#033DD7'
-        slide_type: image
-        background_color: '#002368'
-        image: projects/price-myers/08/PM-4o.jpg
-        type: slides
-        enabled: true
-        title: Logotype
-      -
-        slug: price-myers-08c
-        type_color: '#033DD7'
-        slide_type: image
-        background_color: '#033DD7'
-        image: projects/price-myers/08/PM-4m.jpg
-        type: slides
-        enabled: false
-      -
-        title: Stationery
-        slug: price-myers-8h
-        type_color: '#D4DAF3'
-        slide_type: image
-        background_color: '#033DD7'
-        image: projects/price-myers/08/PM-4l.jpg
-        type: slides
-        enabled: true
-      -
-        title: 'Business Cards'
-        slug: price-myers-08f
-        type_color: '#033DD7'
-        slide_type: image
-        background_color: '#002368'
-        image: projects/price-myers/08/PM-4j.jpg
-        type: slides
-        enabled: true
-      -
-        slug: price-myers-08e
-        type_color: '#033DD7'
-        slide_type: image
-        background_color: '#002368'
-        image: projects/price-myers/08/PM-4i.jpg
-        type: slides
-        enabled: false
-        title: 'Business Cards'
-      -
-        slug: price-myers-08d
-        type_color: '#033DD7'
-        slide_type: image
-        background_color: '#DCDDE0'
-        image: projects/price-myers/08/PM-4q.jpg
-        type: slides
-        enabled: false
-        title: Monogram
-    type: section
-    enabled: true
-  -
-    slug: price-myers-07
-    slides:
-      -
-        slug: price-myers-07c
-        type_color: '#D2D6E4'
-        slide_type: video
-        background_color: '#033DD7'
-        type: slides
-        enabled: true
-        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/Price%20Myers/5.mp4'
-        body_copy:
-          -
-            type: heading
-            attrs:
-              level: 2
-            content:
-              -
-                type: text
-                text: 'P&M''s work covers an unusually wide range, both in size and type. Projects vary from minor alterations and extensions, to major new buildings and refurbishment projects, using the most recent developments in materials and construction techniques. They have advised on the repair and restoration of many historic buildings, and have worked with some of the country''s leading architects on the design of many outstanding modern buildings.'
-        title: About
-      -
-        slug: price-myers-07a
-        type_color: '#002BFF'
-        slide_type: image
-        background_color: '#0B0B75'
-        type: slides
-        enabled: false
-      -
-        slug: price-myers-07b
-        type_color: '#002BFF'
-        slide_type: image
-        background_color: '#0B0B75'
-        type: slides
-        enabled: false
-    type: section
-    enabled: true
-  -
+    id: HPMmsJO8
     slug: price-myers-02
     slides:
       -
+        id: ldavx8ew
         title: 'P&M Book'
         slug: price-myers-02a
         type_color: '#033DD7'
@@ -269,6 +295,7 @@ sections:
         enabled: true
         image: projects/price-myers/05/PM-05a.jpg
       -
+        id: 4PtszhaV
         title: 'P&M Book'
         slug: price-myers-02b
         type_color: '#FFFFFF'
@@ -278,6 +305,7 @@ sections:
         enabled: true
         background_color: '#033DD7'
       -
+        id: Uu56ZiSO
         title: 'P&M Book'
         slug: price-myers-02d
         type_color: '#D2D6E4'
@@ -289,9 +317,11 @@ sections:
     type: section
     enabled: true
   -
+    id: Cu46k0b5
     slug: price-myers-05
     slides:
       -
+        id: XVrx6LEO
         title: About
         slug: price-myers-05a
         type_color: '#D2D6E4'
@@ -312,9 +342,11 @@ sections:
     type: section
     enabled: false
   -
+    id: q93axTOz
     slug: price-myers-04
     slides:
       -
+        id: 5Op31mLL
         title: 'Worcester College Auditorium'
         slug: price-myers-04a
         type_color: '#033DD7'
@@ -326,9 +358,11 @@ sections:
     type: section
     enabled: true
   -
+    id: rIqFiSwd
     slug: price-myers-06
     slides:
       -
+        id: tGiZv7i2
         title: About
         slug: price-myers-06a
         type_color: '#033DD7'

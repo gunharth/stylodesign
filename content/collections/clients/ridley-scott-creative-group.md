@@ -3,10 +3,34 @@ id: ff7b4226-f947-477e-9ab9-37a380d5550a
 blueprint: clients
 title: 'Ridley Scott Creative Group'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1696604534
+updated_at: 1699976366
 text_color: '#595959'
 background_color: '#000000'
 replicator:
+  -
+    id: loyi0x5k
+    title: 'RSA Design 2023 1.5.1'
+    assets: clients/rscg/rsa_2023_1.4.jpg
+    url: 'https://bb1462c7a4bc09ffb62d-caa606ebdb7284929d384951d0ab5e0e.ssl.cf3.rackcdn.com/RSA%201.5.1.pdf'
+    date: '2023-11-14'
+    type: entries
+    enabled: true
+  -
+    id: losgfw5h
+    title: 'RSA Design 2023 1.5'
+    assets: clients/rscg/rsa_2023_1.4.jpg
+    url: 'https://bb1462c7a4bc09ffb62d-caa606ebdb7284929d384951d0ab5e0e.ssl.cf3.rackcdn.com/RSA%201.5.pdf'
+    date: '2023-11-10'
+    type: entries
+    enabled: true
+  -
+    id: lon01pn4
+    title: 'RSA Design 2023 1.4'
+    assets: clients/rscg/rsa_2023_1.4.jpg
+    url: 'https://bb1462c7a4bc09ffb62d-caa606ebdb7284929d384951d0ab5e0e.ssl.cf3.rackcdn.com/RSA%20Films%201.4.pdf'
+    date: '2023-11-06'
+    type: entries
+    enabled: true
   -
     id: lneq2ps5
     title: 'RSA Design 2023 1.3'

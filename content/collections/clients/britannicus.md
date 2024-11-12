@@ -3,10 +3,18 @@ id: bc7262de-7eec-4cf3-8968-cf45495c1c24
 blueprint: clients
 title: Britannicus
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1678193441
+updated_at: 1709034152
 text_color: '#2E2D2D'
 background_color: '#8D8A89'
 replicator:
+  -
+    id: lt4apx4u
+    title: 'Download Icon Options'
+    assets: clients/britannicus/download_icon.jpg
+    url: 'https://f08d5bab0b4e5e0ed44a-30f84a4fcb9aed5c0e93cffaa6ed408f.ssl.cf3.rackcdn.com/Download%20Icon%20Options.pdf'
+    date: '2024-02-27'
+    type: entries
+    enabled: true
   -
     id: QSnUYFwo
     title: 'Holding Page 1.2'

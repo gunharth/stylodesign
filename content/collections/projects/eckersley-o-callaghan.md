@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1675284744
+updated_at: 1738703852
 sections:
   -
     id: iXxVk6xP
@@ -31,7 +31,7 @@ sections:
                 text: 'Eckersley O''Callaghan'
         type: slides
         enabled: true
-        title: 'Coal Drops Yard'
+        title: 'Scroll for more'
         background_color: '#FFEDEA'
     type: section
     enabled: true

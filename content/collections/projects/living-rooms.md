@@ -1,11 +1,14 @@
 ---
 id: 632df4df-98db-4a8a-ad97-6126dd9eab9e
+blueprint: projects
 title: 'Living Rooms'
 sections:
   -
+    id: 7Httysvd
     slug: living-rooms-05
     slides:
       -
+        id: 7qMYG5hv
         slug: living-rooms-05a
         type_color: '#EEEDEA'
         slide_type: color
@@ -21,12 +24,15 @@ sections:
                 text: 'Coming soon.'
         type: slides
         enabled: true
+        title: 'Scroll for more'
     type: section
     enabled: true
   -
+    id: bvQBpzdY
     slug: living-rooms-01
     slides:
       -
+        id: pJJBiF8Q
         title: 'In Room Toiletries'
         slug: living-rooms-01a
         type_color: '#EEEDEA'
@@ -47,9 +53,11 @@ sections:
     type: section
     enabled: false
   -
+    id: pLJezPnj
     slug: living-rooms-02
     slides:
       -
+        id: qdmgVmf5
         slug: living-rooms-02a
         type_color: '#1D1B1B'
         slide_type: image
@@ -60,9 +68,11 @@ sections:
     type: section
     enabled: false
   -
+    id: nt6Wxsab
     slug: living-rooms-03
     slides:
       -
+        id: ANxWZGnB
         slug: living-rooms-03a
         type_color: '#F1F1F1'
         slide_type: color
@@ -81,9 +91,11 @@ sections:
     type: section
     enabled: false
   -
+    id: oLFbJE9w
     slug: living-rooms-04
     slides:
       -
+        id: ZqEPaa0Y
         slug: living-rooms-04a
         type_color: '#EEEDEA'
         slide_type: image
@@ -98,5 +110,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1645791030
+updated_at: 1738703955
 ---

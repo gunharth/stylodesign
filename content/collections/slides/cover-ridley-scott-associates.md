@@ -1,10 +1,9 @@
 ---
 id: 44706c89-dc5e-484f-bd87-6038a299f099
-published: false
 blueprint: slides
 title: 'Cover Ridley Scott Associates'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1717668162
+updated_at: 1738668544
 slides:
   -
     id: HSdZFWGy

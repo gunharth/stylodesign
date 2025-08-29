@@ -1,6 +1,5 @@
 ---
 id: 65b5d41a-00e3-489f-9831-48a32dc47fb6
-published: false
 blueprint: slides
 title: '02 Home Info'
 type_color: '#000000'
@@ -16,7 +15,7 @@ bard:
         type: text
         text: 'We are a small, highly flexible design and digital agency with offices in and . Established for over 20 years, the focus of our work is the creation of considered, crafted brand identities and beautiful bespoke content managed websites.'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1709283614
+updated_at: 1738668068
 section_slug: 'what slug is this'
 section_slides:
   -
@@ -83,9 +82,9 @@ slides:
   -
     id: XviBVJcS
     slug: 02_home_info
-    type_color: '#B0916B'
+    type_color: '#EFEDEC'
     hover_color: '#D3D5E3'
-    slide_type: video
+    slide_type: image
     text_slide: true
     type: slide
     enabled: true
@@ -130,22 +129,29 @@ slides:
         content:
           -
             type: text
-            text: 'Stylo is a design consultancy specialising in brand and digital. '
+            text: 'Latest Work'
+          -
+            type: hard_break
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'statamic://entry::1dbcd8aa-811c-4d90-9a3b-e9838cd27884'
+                  rel: null
+                  target: null
+                  title: null
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: 'https://stylodesign.co.uk/projects'
+                  href: 'statamic://entry::1dbcd8aa-811c-4d90-9a3b-e9838cd27884'
                   rel: null
                   target: null
                   title: null
-            text: 'Our work'
-          -
-            type: text
-            text: ' focuses on the creation of beautiful bespoke content managed websites and highly considered brand identities.'
-    background_color: '#594327'
-    video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/RSA/home_1a.mp4'
+            text: 'Ridley Scott Associates'
+    background_color: '#555452'
     title: 'Ridley Scott Associates'
+    image: projects/ridley-scott-associates/2025/13.jpg
 ---

@@ -1,11 +1,14 @@
 ---
 id: 54de19da-2431-4f22-ac13-8f83be9614df
+blueprint: projects
 title: Centuries
 sections:
   -
+    id: YmyKNTLD
     slug: centuries_07
     slides:
       -
+        id: hraUQCxV
         slug: centuries_07a
         type_color: '#382B2B'
         slide_type: color
@@ -21,11 +24,14 @@ sections:
                 text: 'Coming soon'
         type: slides
         enabled: true
+        title: 'Scroll for more'
     type: section
     enabled: true
   -
+    id: YUKSqMz5
     slides:
       -
+        id: DilCOpry
         type_color: '#FFFFFF'
         type: slides
         enabled: true
@@ -49,9 +55,11 @@ sections:
     slug: centuries-1
     section-slug: row1-slug
   -
+    id: SfkM8eHs
     slug: centuries-2
     slides:
       -
+        id: RartHxns
         title: 'Centuries Chocolate'
         slug: centuries-2a
         type_color: '#807068'
@@ -61,6 +69,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: OXND5f3S
         title: 'Centuries Chocolate'
         slug: centuries-2b
         type_color: '#807068'
@@ -70,6 +79,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: CtEoV6J2
         title: 'Centuries Chocolate'
         slug: centuries-2c
         type_color: '#807068'
@@ -79,6 +89,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: sQbnCNix
         title: 'Centuries Chocolate'
         slug: centuries-2d
         type_color: '#807068'
@@ -88,6 +99,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: LU6WRIsu
         title: 'Centuries Chocolate'
         slug: centuries-2e
         type_color: '#807068'
@@ -97,6 +109,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: WB1gySbG
         title: 'Centuries Chocolate'
         slug: centuries-2f
         type_color: '#807068'
@@ -106,6 +119,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: ItAIVWKm
         title: 'Centuries Chocolate'
         slug: centuries-2g
         type_color: '#807068'
@@ -115,6 +129,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: CXK7asvf
         title: 'Centuries Chocolate'
         slug: centuries-2h
         type_color: '#807068'
@@ -124,6 +139,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: PccKULcE
         title: 'Centuries Chocolate'
         slug: centuries-2i
         type_color: '#807068'
@@ -133,6 +149,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: oA07CNSS
         title: 'Centuries Chocolate'
         slug: centuries-2j
         type_color: '#807068'
@@ -142,6 +159,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: L2lCi0Em
         title: 'Centuries Chocolate'
         slug: centuries-2k
         type_color: '#807068'
@@ -151,6 +169,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: FEOdZjsb
         title: 'Centuries Chocolate'
         slug: centuries-2l
         type_color: '#807068'
@@ -160,6 +179,7 @@ sections:
         enabled: true
         background_color: '#473933'
       -
+        id: 7MBXHYn2
         title: 'Centuries Chocolate'
         slug: centuries-2m
         type_color: '#807068'
@@ -171,9 +191,11 @@ sections:
     type: section
     enabled: false
   -
+    id: mBLjIMDb
     slug: centuries-3
     slides:
       -
+        id: SZHxdxHJ
         slug: centuries-03b
         type_color: '#E3CBC5'
         slide_type: image
@@ -198,6 +220,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: RtaAwFX4
         title: About
         slug: centuries-03a
         type_color: '#BBA8A4'
@@ -224,9 +247,11 @@ sections:
     type: section
     enabled: false
   -
+    id: gaLp0Lah
     slug: centuries-04
     slides:
       -
+        id: TAIFxcBb
         title: 'Centuries Eau de Parfum'
         slug: centuries-04a
         type_color: '#807068'
@@ -236,6 +261,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: 50ye6Pxk
         title: 'Centuries Eau de Parfum'
         slug: centuries-04b
         type_color: '#807068'
@@ -245,6 +271,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: qX0Y5vB0
         title: 'Centuries Eau de Parfum'
         slug: centuries-04c
         type_color: '#807068'
@@ -254,6 +281,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: jACIBgk0
         title: 'Centuries Eau de Parfum'
         slug: centuries-04d
         type_color: '#807068'
@@ -263,6 +291,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: fnFBRXfY
         title: 'Centuries Eau de Parfum'
         slug: centuries-04e
         type_color: '#807068'
@@ -272,6 +301,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: yIHAMejH
         title: 'Centuries Eau de Parfum'
         slug: centuries-04f
         type_color: '#807068'
@@ -283,8 +313,10 @@ sections:
     type: section
     enabled: false
   -
+    id: UYrAKtZa
     slides:
       -
+        id: ZL2skOd6
         slug: centuries-05h
         type_color: '#EECCB8'
         slide_type: image
@@ -293,6 +325,7 @@ sections:
         enabled: true
         background_color: '#382B2B'
       -
+        id: gp5np6Ej
         slug: centuries-05i
         type_color: '#EECCB8'
         slide_type: image
@@ -301,6 +334,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: 4c6nvNsQ
         slug: centuries-05h
         type_color: '#807068'
         slide_type: image
@@ -309,6 +343,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: Q6rSU309
         slug: centuries-05a
         type_color: '#807068'
         slide_type: image
@@ -317,6 +352,7 @@ sections:
         type: slides
         enabled: true
       -
+        id: wS9pDAOA
         slug: centuries-05e
         type_color: '#EECCB8'
         slide_type: image
@@ -325,6 +361,7 @@ sections:
         enabled: true
         background_color: '#202021'
       -
+        id: GmTeuaVD
         slug: centuries-05g
         type_color: '#EECCB8'
         slide_type: image
@@ -333,6 +370,7 @@ sections:
         enabled: true
         background_color: '#202021'
       -
+        id: lH3S7Gi7
         slug: centuries-05f
         type_color: '#EECCB8'
         slide_type: image
@@ -345,8 +383,10 @@ sections:
     slug: centuries-05
     section-slug: row2-slug
   -
+    id: uqKZvbJR
     slides:
       -
+        id: 6yUfmbD6
         type_color: '#202021'
         hover_color: '#FFFFFF'
         background_color: '#CCCCCC'
@@ -357,6 +397,7 @@ sections:
         slide_type: image
         text_slide: false
       -
+        id: 1kXNmbn6
         type_color: '#C75700'
         hover_color: '#FFFFFF'
         background_color: '#FFFFFF'
@@ -367,6 +408,7 @@ sections:
         slide_type: image
         text_slide: false
       -
+        id: vthwkQSD
         title: 'Third Slide'
         slug: slide3-slug
         type_color: '#FFFFFF'
@@ -382,9 +424,11 @@ sections:
     slug: row3-slug
     section-slug: row3-slug
   -
+    id: uT6plSjh
     slug: centuries-06
     slides:
       -
+        id: JD9tX1b8
         slug: centuries-06a
         type_color: '#EECCB8'
         hover_color: '#C2C2CD'
@@ -403,6 +447,7 @@ sections:
                 text: 'And some text'
         video: 'https://08958cd54560def95f79-e2ebb689d7bde9501c76afb9741d2965.ssl.cf3.rackcdn.com/Botanical%202b.mp4'
       -
+        id: QsDrBsCp
         slug: centuries-06b
         type_color: '#CED7D4'
         slide_type: video
@@ -413,7 +458,7 @@ sections:
     type: section
     enabled: false
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1644920230
+updated_at: 1738703983
 title_for_display: 'The Centuries Project'
 main_project_image: projects/centuries/C_03a.jpg
 type_color: '#252F9F'

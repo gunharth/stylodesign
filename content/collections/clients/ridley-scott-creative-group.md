@@ -3,10 +3,34 @@ id: ff7b4226-f947-477e-9ab9-37a380d5550a
 blueprint: clients
 title: 'Ridley Scott Creative Group'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1699976366
+updated_at: 1748856875
 text_color: '#595959'
 background_color: '#000000'
 replicator:
+  -
+    id: mbevyolv
+    title: 'Revised Director Roster'
+    assets: clients/rscg/roster_02.06.25.jpg
+    url: 'https://bb1462c7a4bc09ffb62d-caa606ebdb7284929d384951d0ab5e0e.ssl.cf3.rackcdn.com/Director%20Roster%2002.06.25.pdf'
+    date: '2025-06-02'
+    type: entries
+    enabled: true
+  -
+    id: mbdttmft
+    title: 'RSA Design Advertising'
+    assets: clients/rscg/advertising_01.06.25.jpg
+    url: 'https://bb1462c7a4bc09ffb62d-caa606ebdb7284929d384951d0ab5e0e.ssl.cf3.rackcdn.com/RSA%20Design%20Advertising%2001.06.25.pdf'
+    date: '2025-06-01'
+    type: entries
+    enabled: true
+  -
+    id: mbaqpf8j
+    title: 'RSA Design Amends'
+    assets: clients/rscg/rsa_30.05.25.jpg
+    url: 'https://13af6bfa0521f717df8a-f45ae31b98fab9bc0e072370844f33f6.ssl.cf3.rackcdn.com/RSA%20Design%20Amends%2028.05.25.pdf'
+    date: '2025-05-30'
+    type: entries
+    enabled: true
   -
     id: loyi0x5k
     title: 'RSA Design 2023 1.5.1'

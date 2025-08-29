@@ -4,14 +4,14 @@ published: false
 blueprint: slides
 title: 'Cover Industrial Facility'
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1697487457
+updated_at: 1738932047
 slides:
   -
     id: o9fw3OAe
     slug: cover_industrial_facility
-    type_color: '#BFC1CD'
+    type_color: '#CAD2FF'
     slide_type: image
-    background_color: '#2D3191'
+    background_color: '#0A12C1'
     type: slide
     enabled: true
     image: projects/industrial-facility/cover/cover-01r.jpg

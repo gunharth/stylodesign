@@ -13,7 +13,7 @@ sections:
         type_color: '#FFFFFF'
         background_color: '#3F3E3C'
         slide_type: image
-        image: projects/ridley-scott-associates/02/02i.jpg
+        image: projects/ridley-scott-associates/2025/12.jpg
         body_copy:
           -
             type: heading
@@ -25,6 +25,7 @@ sections:
                 text: 'Ridley Scott Associates'
         type: slides
         enabled: true
+        title: 'Scroll for more'
     type: section
     enabled: true
   -
@@ -50,6 +51,22 @@ sections:
     type: section
     enabled: true
   -
+    id: m6qeevrm
+    slug: ridley-scott-associates-11
+    slides:
+      -
+        id: m6qef06e
+        title: 'RSA Films'
+        slug: ridley-scott-associates-11a
+        type_color: '#FFFFFF'
+        background_color: '#000000'
+        slide_type: image
+        image: projects/ridley-scott-associates/2025/09.jpg
+        type: slides
+        enabled: true
+    type: section
+    enabled: true
+  -
     id: fpbM8QBY
     slug: ridley-scott-associates-1
     slides:
@@ -61,7 +78,7 @@ sections:
         slide_type: video
         type: slides
         enabled: true
-        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/RSA/rsa_edit_2d.mp4'
+        video: 'https://823e900b80a4467976cd-af87ef11030f529d7beab1c83eae6d62.ssl.cf3.rackcdn.com/RSA/rsa_edit_2e%201.mp4'
       -
         id: lt64kzxo
         slug: ridley-scott-associates-1d
@@ -78,7 +95,7 @@ sections:
         slide_type: image
         background_color: '#000000'
         type: slides
-        enabled: true
+        enabled: false
         body_copy:
           -
             type: heading
@@ -187,7 +204,7 @@ sections:
         slide_type: image
         image: projects/ridley-scott-associates/06/06a.jpg
         type: slides
-        enabled: true
+        enabled: false
       -
         id: lt4wses9
         slug: ridley-scott-associates-5c
@@ -196,7 +213,7 @@ sections:
         slide_type: image
         image: projects/ridley-scott-associates/06/06b.jpg
         type: slides
-        enabled: true
+        enabled: false
     type: section
     enabled: true
   -
@@ -234,26 +251,39 @@ sections:
         slide_type: image
         type: slides
         enabled: true
-        image: projects/ridley-scott-associates/02/02a.jpg
+        image: projects/ridley-scott-associates/2025/01.jpg
         background_color: '#000000'
+        title: 'RSA Films'
       -
         id: lsc3xkeb
         slug: ridley-scott-associates-6b
         type_color: '#FFFFFF'
         slide_type: image
-        image: projects/ridley-scott-associates/02/02f.jpg
+        image: projects/ridley-scott-associates/2025/03.jpg
         type: slides
         enabled: true
         background_color: '#000000'
+        title: 'Darling Films'
       -
         id: lsc3y2bo
         slug: ridley-scott-associates-6c
         type_color: '#FFFFFF'
         slide_type: image
-        image: projects/ridley-scott-associates/test10.jpg
+        image: projects/ridley-scott-associates/2025/04.jpg
         type: slides
         enabled: true
         background_color: '#000000'
+        title: 'RSA Photo & Art'
+      -
+        id: m6qe84er
+        title: 'Black Dog Films'
+        slug: ridley-scott-associates-6d
+        type_color: '#FFFFFF'
+        background_color: '#000000'
+        slide_type: image
+        image: projects/ridley-scott-associates/2025/06.jpg
+        type: slides
+        enabled: true
   -
     id: lsov7ptm
     slug: ridley-scott-associates-4
@@ -264,7 +294,7 @@ sections:
         type_color: '#555254'
         background_color: '#000000'
         slide_type: image
-        image: projects/ridley-scott-associates/test9.jpg
+        image: projects/ridley-scott-associates/2025/07.jpg
         type: slides
         enabled: true
       -
@@ -273,9 +303,9 @@ sections:
         type_color: '#EEEDE8'
         background_color: '#3B3838'
         slide_type: image
-        image: projects/ridley-scott-associates/03/03a.jpg
+        image: projects/ridley-scott-associates/2025/08.jpg
         type: slides
-        enabled: true
+        enabled: false
     type: section
     enabled: true
 seo_noindex: false
@@ -284,5 +314,5 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2d06efa7-b339-4b01-be90-009f00ed13d0
-updated_at: 1718890103
+updated_at: 1738703808
 ---

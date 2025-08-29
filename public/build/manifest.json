@@ -1,0 +1,37 @@
+{
+  "resources/css/site.css": {
+    "file": "assets/site-CEmfsXvk.css",
+    "src": "resources/css/site.css",
+    "isEntry": true
+  },
+  "resources/fonts/NewRailAlphabet-BoldWEB.eot": {
+    "file": "assets/NewRailAlphabet-BoldWEB-BCXHE4Wn.eot",
+    "src": "resources/fonts/NewRailAlphabet-BoldWEB.eot"
+  },
+  "resources/fonts/NewRailAlphabet-BoldWEB.woff": {
+    "file": "assets/NewRailAlphabet-BoldWEB-CsojrAmg.woff",
+    "src": "resources/fonts/NewRailAlphabet-BoldWEB.woff"
+  },
+  "resources/fonts/NewRailAlphabet-BoldWEB.woff2": {
+    "file": "assets/NewRailAlphabet-BoldWEB-DQaoou3E.woff2",
+    "src": "resources/fonts/NewRailAlphabet-BoldWEB.woff2"
+  },
+  "resources/fonts/NewRailAlphabet-LightWEB.eot": {
+    "file": "assets/NewRailAlphabet-LightWEB-CkrZmg53.eot",
+    "src": "resources/fonts/NewRailAlphabet-LightWEB.eot"
+  },
+  "resources/fonts/NewRailAlphabet-LightWEB.woff": {
+    "file": "assets/NewRailAlphabet-LightWEB-Cgb_8MIR.woff",
+    "src": "resources/fonts/NewRailAlphabet-LightWEB.woff"
+  },
+  "resources/fonts/NewRailAlphabet-LightWEB.woff2": {
+    "file": "assets/NewRailAlphabet-LightWEB-Bj23n_3Y.woff2",
+    "src": "resources/fonts/NewRailAlphabet-LightWEB.woff2"
+  },
+  "resources/js/site.js": {
+    "file": "assets/site-CMOzaU2i.js",
+    "name": "site",
+    "src": "resources/js/site.js",
+    "isEntry": true
+  }
+}

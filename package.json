@@ -1,26 +1,36 @@
 {
-    "private": true,
-    "scripts": {
-        "dev": "mix",
-        "watch": "mix watch",
-        "watch-poll": "mix watch -- --watch-options-poll=1000",
-        "hot": "mix watch --hot",
-        "prod": "mix --production"
-    },
-    "devDependencies": {
-        "autoprefixer": "^9.7.6",
-        "cross-env": "^5.1",
-        "laravel-mix": "^6.0.11",
-        "postcss-import": "^12.0.1",
-        "postcss-nested": "^4.2.1",
-        "postcss-preset-env": "^6.7.0",
-        "resolve-url-loader": "^3.1.2",
-        "sass": "^1.32.8",
-        "sass-loader": "^8.0.2",
-        "tailwindcss": "^1.8.0",
-        "vue-template-compiler": "^2.6.12"
-    },
-    "dependencies": {
-        "alpinejs": "^1.9.2"
-    }
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "watch": "vite",
+    "build": "vite build",
+    "production": "vite build"
+  },
+  "type": "module",
+  "author": "Studio 1902",
+  "license": "MIT",
+  "dependencies": {
+    "@alpinejs/collapse": "^3.10.3",
+    "@alpinejs/focus": "^3.10.3",
+    "@alpinejs/persist": "^3.10.3",
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+    "alpinejs": "^3.10.3",
+    "focus-visible": "^5.2.0"
+  },
+  "devDependencies": {
+    "@csstools/postcss-oklab-function": "^3.0.16",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.7",
+    "autoprefixer": "^10.4.12",
+    "glob-all": "^3.3.0",
+    "laravel-vite-plugin": "^1.0.4",
+    "postcss": "^8.4.16",
+    "postcss-focus-visible": "^9.0.0",
+    "postcss-import": "^16.1.0",
+    "postcss-nesting": "^12.0.1",
+    "resolve-url-loader": "^5.0.0",
+    "tailwindcss": "^3.1.8",
+    "vite": "^5.3.1"
+  }
 }

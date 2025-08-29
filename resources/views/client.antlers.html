@@ -6,14 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title }} :: {{ config:app:name }}</title>
         {{ partial:partials/favicons }}
-        <link rel="stylesheet" href="{{ mix src='css/site.css' }}">
+        {{ vite src="resources/css/site.css|resources/js/site.js" }}
 
     </head>
     <body id="client">
 
         {{ template_content }}
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="{{ mix src='/js/site.js' }}"></script>
     </body>
 </html>
